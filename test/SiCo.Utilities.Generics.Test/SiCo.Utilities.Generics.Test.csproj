@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Common Utilities Generics XUnit Testing</Description>
+    <Authors>Silver Connection</Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>SiCo.Utilities.Generics.Test</AssemblyName>
+    <PackageId>SiCo.Utilities.Generics.Test</PackageId>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <PackageTags>Silver Connection;Utilities;Generics;Test</PackageTags>
+    <PackageIconUrl>http://si-co.net/imgs/sico/sico-256px.png</PackageIconUrl>
+    <PackageProjectUrl>http://www.si-co.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>
+    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <Version>2.0.0</Version>
+    <RepositoryUrl>https://github.com/Silver-Connection/sico-net-utilities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\File1.txt;Resources\File2.txt" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SiCo.Utilities.Generics\SiCo.Utilities.Generics.csproj" />
+    <!--<ProjectReference Include="..\..\src\SiCo.Utilities.I18n\SiCo.Utilities.I18n.csproj" />
+    <ProjectReference Include="..\..\src\SiCo.Utilities.Log\SiCo.Utilities.Log.csproj" />-->
+    <ProjectReference Include="..\..\src\xunit.netcore.extensions\xunit.netcore.extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.core" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Resource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
