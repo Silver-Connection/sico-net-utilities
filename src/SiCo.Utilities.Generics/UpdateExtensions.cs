@@ -8,7 +8,6 @@
     ///</Summary>
     public static class UpdateExtensions
     {
-
         #region String
 
         /// <summary>
@@ -104,7 +103,7 @@
             return value;
         }
 
-        #endregion DateTime
+        #endregion DateTimeOffset
 
         #region DateTime
 
@@ -253,6 +252,5 @@
         }
 
         #endregion Object
-
     }
 }

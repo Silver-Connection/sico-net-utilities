@@ -1,0 +1,1440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="accounts" xml:space="preserve">
+    <value>Kontos</value>
+  </data>
+  <data name="account_create" xml:space="preserve">
+    <value>Konto Erstellen</value>
+  </data>
+  <data name="account_deleted" xml:space="preserve">
+    <value>Konto gelöscht</value>
+  </data>
+  <data name="account_enable" xml:space="preserve">
+    <value>Konto freischalten</value>
+  </data>
+  <data name="account_information" xml:space="preserve">
+    <value>Konto Details</value>
+  </data>
+  <data name="account_manager" xml:space="preserve">
+    <value>Account Manager</value>
+  </data>
+  <data name="account_my" xml:space="preserve">
+    <value>Mein Konto</value>
+  </data>
+  <data name="acquisition_status" xml:space="preserve">
+    <value>Erfassungsstatus</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Aktive</value>
+  </data>
+  <data name="active_since" xml:space="preserve">
+    <value>Aktive Seit</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="addresses" xml:space="preserve">
+    <value>Adressen</value>
+  </data>
+  <data name="add_entry" xml:space="preserve">
+    <value>Eintrag Hinzufügen</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="admins" xml:space="preserve">
+    <value>Administratoren</value>
+  </data>
+  <data name="aliases" xml:space="preserve">
+    <value>Aliase</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="amount" xml:space="preserve">
+    <value>Betrag</value>
+  </data>
+  <data name="answer" xml:space="preserve">
+    <value>Antwort</value>
+  </data>
+  <data name="approved" xml:space="preserve">
+    <value>Bestätigt</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="available" xml:space="preserve">
+    <value>Verfügbar</value>
+  </data>
+  <data name="average" xml:space="preserve">
+    <value>Durchschnitt</value>
+  </data>
+  <data name="awaiting" xml:space="preserve">
+    <value>Ausstehend</value>
+  </data>
+  <data name="batch" xml:space="preserve">
+    <value>Stapel</value>
+  </data>
+  <data name="birthday" xml:space="preserve">
+    <value>Geburtstag</value>
+  </data>
+  <data name="blacklist" xml:space="preserve">
+    <value>auf Sperrliste setzen</value>
+  </data>
+  <data name="blocked" xml:space="preserve">
+    <value>Gesperrt</value>
+  </data>
+  <data name="branchoffice" xml:space="preserve">
+    <value>Geschäftstelle</value>
+  </data>
+  <data name="cancelled" xml:space="preserve">
+    <value>Abgebrochen</value>
+  </data>
+  <data name="cancelled_on" xml:space="preserve">
+    <value>Abgebrochen am</value>
+  </data>
+  <data name="cancelled_reason" xml:space="preserve">
+    <value>Abbruch Grund</value>
+  </data>
+  <data name="case_sensitive" xml:space="preserve">
+    <value>Groß- / Kleinschreibung-unterscheidend</value>
+  </data>
+  <data name="catalogue" xml:space="preserve">
+    <value>Katalog</value>
+  </data>
+  <data name="catalogues" xml:space="preserve">
+    <value>Kataloge</value>
+  </data>
+  <data name="categories" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="category_choose" xml:space="preserve">
+    <value>Wähle eine Kategorie</value>
+  </data>
+  <data name="changes" xml:space="preserve">
+    <value>Änderungen</value>
+  </data>
+  <data name="change_nothing" xml:space="preserve">
+    <value>Es wurde nichts geändert</value>
+  </data>
+  <data name="channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="channels" xml:space="preserve">
+    <value>Kanäle</value>
+  </data>
+  <data name="cities" xml:space="preserve">
+    <value>Städte</value>
+  </data>
+  <data name="cities_mange" xml:space="preserve">
+    <value>Städte verwalten</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+  <data name="claims" xml:space="preserve">
+    <value>Claims</value>
+  </data>
+  <data name="claims_manage" xml:space="preserve">
+    <value>Claims verwalten</value>
+  </data>
+  <data name="claims_my" xml:space="preserve">
+    <value>Meine Claims</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="command" xml:space="preserve">
+    <value>Befehl</value>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="commission" xml:space="preserve">
+    <value>Kommission</value>
+  </data>
+  <data name="companies" xml:space="preserve">
+    <value>Firmen</value>
+  </data>
+  <data name="company" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="completed" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="connected" xml:space="preserve">
+    <value>Verbunden</value>
+  </data>
+  <data name="console" xml:space="preserve">
+    <value>Konsole</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Kontakte</value>
+  </data>
+  <data name="contact_address" xml:space="preserve">
+    <value>Kontaktadresse</value>
+  </data>
+  <data name="contact_email" xml:space="preserve">
+    <value>Kontakt-E-Mail</value>
+  </data>
+  <data name="contact_fax" xml:space="preserve">
+    <value>Kontakt-Fax</value>
+  </data>
+  <data name="contact_info" xml:space="preserve">
+    <value>Kontakte Informationen</value>
+  </data>
+  <data name="contact_name" xml:space="preserve">
+    <value>Name des Kontakts</value>
+  </data>
+  <data name="contact_phone" xml:space="preserve">
+    <value>Kontakt-Telefon</value>
+  </data>
+  <data name="contains" xml:space="preserve">
+    <value>Enthält</value>
+  </data>
+  <data name="context" xml:space="preserve">
+    <value>Kontext</value>
+  </data>
+  <data name="contexts" xml:space="preserve">
+    <value>Kontexte</value>
+  </data>
+  <data name="copyright" xml:space="preserve">
+    <value>Urheberrecht</value>
+  </data>
+  <data name="cost" xml:space="preserve">
+    <value>Kosten</value>
+  </data>
+  <data name="countries" xml:space="preserve">
+    <value>Länder</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="country_name" xml:space="preserve">
+    <value>Ländername</value>
+  </data>
+  <data name="created" xml:space="preserve">
+    <value>Erstellt</value>
+  </data>
+  <data name="created_on" xml:space="preserve">
+    <value>Erstellt am</value>
+  </data>
+  <data name="currency" xml:space="preserve">
+    <value>Währung</value>
+  </data>
+  <data name="custom" xml:space="preserve">
+    <value>Benutzerdefiniert</value>
+  </data>
+  <data name="customer" xml:space="preserve">
+    <value>Kunde</value>
+  </data>
+  <data name="customers" xml:space="preserve">
+    <value>Kunden</value>
+  </data>
+  <data name="customer_id" xml:space="preserve">
+    <value>Kundennumer</value>
+  </data>
+  <data name="data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="date_modified" xml:space="preserve">
+    <value>Geändert am</value>
+  </data>
+  <data name="date_publish" xml:space="preserve">
+    <value>Veröffentlichungsdatum</value>
+  </data>
+  <data name="debug" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="deleted" xml:space="preserve">
+    <value>Gelöscht</value>
+  </data>
+  <data name="delete_requested_by" xml:space="preserve">
+    <value>Löschen angeforderten von</value>
+  </data>
+  <data name="delete_requested_on" xml:space="preserve">
+    <value>Löschen angefordert am</value>
+  </data>
+  <data name="dependencies" xml:space="preserve">
+    <value>Abhängigkeiten</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="direction" xml:space="preserve">
+    <value>Richtung</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Abgeschaltet</value>
+  </data>
+  <data name="disproved" xml:space="preserve">
+    <value>Widerlegt</value>
+  </data>
+  <data name="document" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="documentation" xml:space="preserve">
+    <value>Dokumentation</value>
+  </data>
+  <data name="documents" xml:space="preserve">
+    <value>Dokumente</value>
+  </data>
+  <data name="done" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>Herunterladen</value>
+  </data>
+  <data name="downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="duration" xml:space="preserve">
+    <value>Dauer</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="email_new" xml:space="preserve">
+    <value>Neue E-Mail</value>
+  </data>
+  <data name="empty" xml:space="preserve">
+    <value>Leer</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
+  <data name="ended" xml:space="preserve">
+    <value>Beendet</value>
+  </data>
+  <data name="end_user" xml:space="preserve">
+    <value>End User</value>
+  </data>
+  <data name="end_users" xml:space="preserve">
+    <value>End User</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="entries" xml:space="preserve">
+    <value>Einträge</value>
+  </data>
+  <data name="entry" xml:space="preserve">
+    <value>Eintrag</value>
+  </data>
+  <data name="episod" xml:space="preserve">
+    <value>Episod!</value>
+  </data>
+  <data name="episodes" xml:space="preserve">
+    <value>Folgen:</value>
+  </data>
+  <data name="expired" xml:space="preserve">
+    <value>Abgelaufen</value>
+  </data>
+  <data name="expires_on" xml:space="preserve">
+    <value>Gültig bis</value>
+  </data>
+  <data name="externally" xml:space="preserve">
+    <value>Externe</value>
+  </data>
+  <data name="external_id" xml:space="preserve">
+    <value>Externe ID</value>
+  </data>
+  <data name="factories" xml:space="preserve">
+    <value>Fabriken</value>
+  </data>
+  <data name="factory" xml:space="preserve">
+    <value>Fabrik</value>
+  </data>
+  <data name="failed" xml:space="preserve">
+    <value>Gescheitert</value>
+  </data>
+  <data name="failrate" xml:space="preserve">
+    <value>Fehlerrate</value>
+  </data>
+  <data name="faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="farsi" xml:space="preserve">
+    <value>Farsi</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>Frau</value>
+  </data>
+  <data name="file" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="filename" xml:space="preserve">
+    <value>Dateiname</value>
+  </data>
+  <data name="files" xml:space="preserve">
+    <value>Dateien</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="first" xml:space="preserve">
+    <value>Erste</value>
+  </data>
+  <data name="flag" xml:space="preserve">
+    <value>Flagge</value>
+  </data>
+  <data name="flags" xml:space="preserve">
+    <value>Flaggen</value>
+  </data>
+  <data name="flexible" xml:space="preserve">
+    <value>Flexibel</value>
+  </data>
+  <data name="forbidden" xml:space="preserve">
+    <value>Verbieten</value>
+  </data>
+  <data name="format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="formats" xml:space="preserve">
+    <value>Formate</value>
+  </data>
+  <data name="free" xml:space="preserve">
+    <value>Frei</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>Formular</value>
+  </data>
+  <data name="from_nodes" xml:space="preserve">
+    <value>Von Nodes</value>
+  </data>
+  <data name="fullname" xml:space="preserve">
+    <value>Vollständiger Name</value>
+  </data>
+  <data name="future" xml:space="preserve">
+    <value>Zukunft</value>
+  </data>
+  <data name="gateway" xml:space="preserve">
+    <value>Gateway</value>
+  </data>
+  <data name="gateways" xml:space="preserve">
+    <value>Gateways</value>
+  </data>
+  <data name="gender" xml:space="preserve">
+    <value>Anrede</value>
+  </data>
+  <data name="general" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="german" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="gid" xml:space="preserve">
+    <value>GID</value>
+  </data>
+  <data name="google_hangout" xml:space="preserve">
+    <value>Google Hangout</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="headquarter" xml:space="preserve">
+    <value>Hauptquatier</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="history" xml:space="preserve">
+    <value>Archiv</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="hub" xml:space="preserve">
+    <value>Hub</value>
+  </data>
+  <data name="icq" xml:space="preserve">
+    <value>ICQ</value>
+  </data>
+  <data name="identifier" xml:space="preserve">
+    <value>Kennzeichnung</value>
+  </data>
+  <data name="identifiers" xml:space="preserve">
+    <value>Identifiers</value>
+  </data>
+  <data name="identifier_id" xml:space="preserve">
+    <value>Identifier ID</value>
+  </data>
+  <data name="image" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="images" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="immediately" xml:space="preserve">
+    <value>Sofort</value>
+  </data>
+  <data name="inactive" xml:space="preserve">
+    <value>Inaktive</value>
+  </data>
+  <data name="incoming" xml:space="preserve">
+    <value>Eingehend</value>
+  </data>
+  <data name="indicator" xml:space="preserve">
+    <value>Indikator</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="input" xml:space="preserve">
+    <value>Eingabe</value>
+  </data>
+  <data name="interconnection" xml:space="preserve">
+    <value>Interconnection</value>
+  </data>
+  <data name="interconnections" xml:space="preserve">
+    <value>Interconnections</value>
+  </data>
+  <data name="interest" xml:space="preserve">
+    <value>Interesse</value>
+  </data>
+  <data name="interest_no" xml:space="preserve">
+    <value>Ohne Zinsen</value>
+  </data>
+  <data name="internally" xml:space="preserve">
+    <value>Interne</value>
+  </data>
+  <data name="interval" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="invalid" xml:space="preserve">
+    <value>Ungültig!</value>
+  </data>
+  <data name="invoice" xml:space="preserve">
+    <value>Rechnung</value>
+  </data>
+  <data name="invoices" xml:space="preserve">
+    <value>Rechnungen</value>
+  </data>
+  <data name="invoice_number" xml:space="preserve">
+    <value>Rechnungs Nummer</value>
+  </data>
+  <data name="ip" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="ips" xml:space="preserve">
+    <value>IPs</value>
+  </data>
+  <data name="ips_in" xml:space="preserve">
+    <value>Eingehende IP's</value>
+  </data>
+  <data name="ips_inout" xml:space="preserve">
+    <value>Ein- und Ausgehende IP's</value>
+  </data>
+  <data name="ips_out" xml:space="preserve">
+    <value>Ausgehende IP's</value>
+  </data>
+  <data name="ip_address" xml:space="preserve">
+    <value>IP Adresse</value>
+  </data>
+  <data name="irc" xml:space="preserve">
+    <value>IRC</value>
+  </data>
+  <data name="irc_name" xml:space="preserve">
+    <value>IRC Nick</value>
+  </data>
+  <data name="irc_server" xml:space="preserve">
+    <value>IRC Server</value>
+  </data>
+  <data name="issuer" xml:space="preserve">
+    <value>Aussteller</value>
+  </data>
+  <data name="ivr" xml:space="preserve">
+    <value>IVR</value>
+  </data>
+  <data name="jabber" xml:space="preserve">
+    <value>Jabber</value>
+  </data>
+  <data name="jabber_name" xml:space="preserve">
+    <value>Jabber Name</value>
+  </data>
+  <data name="jabber_server" xml:space="preserve">
+    <value>Jabber Server</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>Schlüssel</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="languages" xml:space="preserve">
+    <value>Sprachen</value>
+  </data>
+  <data name="last" xml:space="preserve">
+    <value>Letzte</value>
+  </data>
+  <data name="leader" xml:space="preserve">
+    <value>Leader</value>
+  </data>
+  <data name="legals" xml:space="preserve">
+    <value>Rechtliches</value>
+  </data>
+  <data name="legal_term" xml:space="preserve">
+    <value>Impressum</value>
+  </data>
+  <data name="lifespan" xml:space="preserve">
+    <value>Lebensdauer</value>
+  </data>
+  <data name="limit" xml:space="preserve">
+    <value>Grenze</value>
+  </data>
+  <data name="limits" xml:space="preserve">
+    <value>Grenzen</value>
+  </data>
+  <data name="link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="list" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="lists" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="local" xml:space="preserve">
+    <value>Lokal</value>
+  </data>
+  <data name="locality" xml:space="preserve">
+    <value>Ortschaft</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="locked" xml:space="preserve">
+    <value>Gesperrt</value>
+  </data>
+  <data name="log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="logs" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="main" xml:space="preserve">
+    <value>Haupt</value>
+  </data>
+  <data name="maintenance_mode" xml:space="preserve">
+    <value>Wartungsmodus</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Herr</value>
+  </data>
+  <data name="manual" xml:space="preserve">
+    <value>Anleitung</value>
+  </data>
+  <data name="manuals" xml:space="preserve">
+    <value>Anleitungen</value>
+  </data>
+  <data name="media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="memo" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Nachricht</value>
+  </data>
+  <data name="messages" xml:space="preserve">
+    <value>Nachrichten</value>
+  </data>
+  <data name="methode" xml:space="preserve">
+    <value>Methode</value>
+  </data>
+  <data name="model" xml:space="preserve">
+    <value>Modell</value>
+  </data>
+  <data name="modified" xml:space="preserve">
+    <value>Geändert</value>
+  </data>
+  <data name="monitoring" xml:space="preserve">
+    <value>Überwachung</value>
+  </data>
+  <data name="msn" xml:space="preserve">
+    <value>MSN</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="name_given" xml:space="preserve">
+    <value>Vorname</value>
+  </data>
+  <data name="name_sur" xml:space="preserve">
+    <value>Nachname</value>
+  </data>
+  <data name="network" xml:space="preserve">
+    <value>Netzwerk</value>
+  </data>
+  <data name="networks" xml:space="preserve">
+    <value>Netzwerke</value>
+  </data>
+  <data name="news" xml:space="preserve">
+    <value>Neuigkeiten</value>
+  </data>
+  <data name="news_archive" xml:space="preserve">
+    <value>News Archiv</value>
+  </data>
+  <data name="new_entry" xml:space="preserve">
+    <value>Neuer Eintrag</value>
+  </data>
+  <data name="new_feed_url" xml:space="preserve">
+    <value>Neuer Feed</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Nächste</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="node" xml:space="preserve">
+    <value>Knoten</value>
+  </data>
+  <data name="nodes" xml:space="preserve">
+    <value>Nodes</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>keine</value>
+  </data>
+  <data name="notes" xml:space="preserve">
+    <value>Bemerkung</value>
+  </data>
+  <data name="notice_email" xml:space="preserve">
+    <value>Benachrichtigungs E-Mail</value>
+  </data>
+  <data name="notification" xml:space="preserve">
+    <value>Benachrichtigung</value>
+  </data>
+  <data name="now" xml:space="preserve">
+    <value>Jetzt</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="numbers" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="numbers_all" xml:space="preserve">
+    <value>Alle Nummer</value>
+  </data>
+  <data name="numbers_serial" xml:space="preserve">
+    <value>Seriennummern</value>
+  </data>
+  <data name="number_serial" xml:space="preserve">
+    <value>Seriennummer</value>
+  </data>
+  <data name="number_tax" xml:space="preserve">
+    <value>USt-ID</value>
+  </data>
+  <data name="number_vat" xml:space="preserve">
+    <value>VAT Nummer</value>
+  </data>
+  <data name="off" xml:space="preserve">
+    <value>Aus</value>
+  </data>
+  <data name="offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="offline_last" xml:space="preserve">
+    <value>Letztes Mal offline!</value>
+  </data>
+  <data name="offline_since" xml:space="preserve">
+    <value>Offline seit</value>
+  </data>
+  <data name="old" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="on" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="online_last" xml:space="preserve">
+    <value>Letzter Kontakt</value>
+  </data>
+  <data name="online_since" xml:space="preserve">
+    <value>Online seit</value>
+  </data>
+  <data name="operators" xml:space="preserve">
+    <value>Operators</value>
+  </data>
+  <data name="option" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="origin" xml:space="preserve">
+    <value>Herkunft</value>
+  </data>
+  <data name="other" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="outdated" xml:space="preserve">
+    <value>Veraltet</value>
+  </data>
+  <data name="outgoing" xml:space="preserve">
+    <value>Ausgehend</value>
+  </data>
+  <data name="overlap" xml:space="preserve">
+    <value>Überschneidung</value>
+  </data>
+  <data name="overview" xml:space="preserve">
+    <value>Übersicht</value>
+  </data>
+  <data name="overview_country" xml:space="preserve">
+    <value>Länder Übersicht</value>
+  </data>
+  <data name="overview_for" xml:space="preserve">
+    <value>Übersicht für</value>
+  </data>
+  <data name="overview_workload" xml:space="preserve">
+    <value>Last Übersicht</value>
+  </data>
+  <data name="package" xml:space="preserve">
+    <value>Packung</value>
+  </data>
+  <data name="packages" xml:space="preserve">
+    <value>Packungen</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="path" xml:space="preserve">
+    <value>Pfad</value>
+  </data>
+  <data name="pattern" xml:space="preserve">
+    <value>Muster</value>
+  </data>
+  <data name="payed_on" xml:space="preserve">
+    <value>Bezahlt Am</value>
+  </data>
+  <data name="period" xml:space="preserve">
+    <value>Zeitabschnitt</value>
+  </data>
+  <data name="periods" xml:space="preserve">
+    <value>Zeitabschnitte</value>
+  </data>
+  <data name="person" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="persons" xml:space="preserve">
+    <value>Personen</value>
+  </data>
+  <data name="pin" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="ping" xml:space="preserve">
+    <value>Ping</value>
+  </data>
+  <data name="ping_progress" xml:space="preserve">
+    <value>Ping abgeschickt</value>
+  </data>
+  <data name="pins" xml:space="preserve">
+    <value>PINs</value>
+  </data>
+  <data name="pin_last_4" xml:space="preserve">
+    <value>PIN (letzen 4 Ziffern)</value>
+  </data>
+  <data name="port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="portal" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="portal_password" xml:space="preserve">
+    <value>Portal Passwort</value>
+  </data>
+  <data name="portal_url" xml:space="preserve">
+    <value>Portal URL</value>
+  </data>
+  <data name="portal_user" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="postal" xml:space="preserve">
+    <value>Postadresse</value>
+  </data>
+  <data name="post_box" xml:space="preserve">
+    <value>Postfach</value>
+  </data>
+  <data name="potential" xml:space="preserve">
+    <value>Potenzielle</value>
+  </data>
+  <data name="prefix" xml:space="preserve">
+    <value>Präfix</value>
+  </data>
+  <data name="prefix_add" xml:space="preserve">
+    <value>Präfix hinzufügen</value>
+  </data>
+  <data name="prefix_remove" xml:space="preserve">
+    <value>Präfix entfernen</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>Vorherige</value>
+  </data>
+  <data name="pricelist" xml:space="preserve">
+    <value>Preisliste</value>
+  </data>
+  <data name="privacy" xml:space="preserve">
+    <value>Datenschutz</value>
+  </data>
+  <data name="privacy_terms" xml:space="preserve">
+    <value>Datenschutz</value>
+  </data>
+  <data name="processing" xml:space="preserve">
+    <value>Verarbeite</value>
+  </data>
+  <data name="product" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="products" xml:space="preserve">
+    <value>Produkte</value>
+  </data>
+  <data name="progress" xml:space="preserve">
+    <value>Fortschritt</value>
+  </data>
+  <data name="project" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="projects" xml:space="preserve">
+    <value>Projekte</value>
+  </data>
+  <data name="protocol" xml:space="preserve">
+    <value>Protokoll</value>
+  </data>
+  <data name="protocols" xml:space="preserve">
+    <value>Protokolle</value>
+  </data>
+  <data name="provider" xml:space="preserve">
+    <value>Anbieter</value>
+  </data>
+  <data name="providers" xml:space="preserve">
+    <value>Anbieter</value>
+  </data>
+  <data name="p_public" xml:space="preserve">
+    <value>Öffentlich</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Frage</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>Fragen</value>
+  </data>
+  <data name="range" xml:space="preserve">
+    <value>Bereich</value>
+  </data>
+  <data name="reason" xml:space="preserve">
+    <value>Grund</value>
+  </data>
+  <data name="received" xml:space="preserve">
+    <value>Empfangen</value>
+  </data>
+  <data name="received_on" xml:space="preserve">
+    <value>Empfangen am</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>Registrieren</value>
+  </data>
+  <data name="registered" xml:space="preserve">
+    <value>Registriert</value>
+  </data>
+  <data name="registered_ips" xml:space="preserve">
+    <value>Regestierte IP's</value>
+  </data>
+  <data name="replies" xml:space="preserve">
+    <value>Antworten</value>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value>Benötigt</value>
+  </data>
+  <data name="reseller" xml:space="preserve">
+    <value>Wiederverkäufer</value>
+  </data>
+  <data name="result" xml:space="preserve">
+    <value>Ergebnis</value>
+  </data>
+  <data name="retail" xml:space="preserve">
+    <value>Einzelhandel</value>
+  </data>
+  <data name="revert_change" xml:space="preserve">
+    <value>Änderung Verwerfen</value>
+  </data>
+  <data name="route" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="routes" xml:space="preserve">
+    <value>Routen</value>
+  </data>
+  <data name="routing" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="saved" xml:space="preserve">
+    <value>Gespeicherte</value>
+  </data>
+  <data name="scaling" xml:space="preserve">
+    <value>Skalierung</value>
+  </data>
+  <data name="score" xml:space="preserve">
+    <value>Bewertung</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="section" xml:space="preserve">
+    <value>Abschnitt</value>
+  </data>
+  <data name="sections" xml:space="preserve">
+    <value>Abschnitte</value>
+  </data>
+  <data name="selfService" xml:space="preserve">
+    <value>Wartung</value>
+  </data>
+  <data name="serial" xml:space="preserve">
+    <value>Seriennummer</value>
+  </data>
+  <data name="serials" xml:space="preserve">
+    <value>Seriennummern</value>
+  </data>
+  <data name="series" xml:space="preserve">
+    <value>Serien</value>
+  </data>
+  <data name="server_time" xml:space="preserve">
+    <value>Server Zeit</value>
+  </data>
+  <data name="service_terms" xml:space="preserve">
+    <value>AGB</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="settings_account" xml:space="preserve">
+    <value>Kontoeinstellungen</value>
+  </data>
+  <data name="settings_personal" xml:space="preserve">
+    <value>Persönliche Daten</value>
+  </data>
+  <data name="settings_saved" xml:space="preserve">
+    <value>Einstellungen wurde erfolgreich gespeichert</value>
+  </data>
+  <data name="settings_user" xml:space="preserve">
+    <value>Meine Einstellungen</value>
+  </data>
+  <data name="shipped" xml:space="preserve">
+    <value>Versandt</value>
+  </data>
+  <data name="shipped_on" xml:space="preserve">
+    <value>Versandt am</value>
+  </data>
+  <data name="short_s" xml:space="preserve">
+    <value>Kurz</value>
+  </data>
+  <data name="show_full_message" xml:space="preserve">
+    <value>Gesamte Nachricht anzeigen</value>
+  </data>
+  <data name="signaling" xml:space="preserve">
+    <value>Signaling</value>
+  </data>
+  <data name="sign_in" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="sign_in_allow" xml:space="preserve">
+    <value>Anmelden erlauben</value>
+  </data>
+  <data name="sign_in_stay" xml:space="preserve">
+    <value>Angemeldet bleiben</value>
+  </data>
+  <data name="sign_out" xml:space="preserve">
+    <value>Abmelden</value>
+  </data>
+  <data name="sign_up" xml:space="preserve">
+    <value>Neues Konto erstellen</value>
+  </data>
+  <data name="skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="source_ip" xml:space="preserve">
+    <value>Herkunft IP</value>
+  </data>
+  <data name="standalone" xml:space="preserve">
+    <value>Einzelsoftware</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="start_last" xml:space="preserve">
+    <value>Letztes Jahr starten</value>
+  </data>
+  <data name="start_since" xml:space="preserve">
+    <value>Seit gestartet!</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>Stand</value>
+  </data>
+  <data name="state_or_province" xml:space="preserve">
+    <value>Bundesland</value>
+  </data>
+  <data name="statistics" xml:space="preserve">
+    <value>Statistiken</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="street" xml:space="preserve">
+    <value>Straße</value>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+  <data name="subnet" xml:space="preserve">
+    <value>Subnertz</value>
+  </data>
+  <data name="subtitle" xml:space="preserve">
+    <value>Untertitel</value>
+  </data>
+  <data name="success" xml:space="preserve">
+    <value>Erfolgreich</value>
+  </data>
+  <data name="sum" xml:space="preserve">
+    <value>Summe</value>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="supernet" xml:space="preserve">
+    <value>Supernetz</value>
+  </data>
+  <data name="support" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="tag" xml:space="preserve">
+    <value>Schlagwort</value>
+  </data>
+  <data name="tags" xml:space="preserve">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="target" xml:space="preserve">
+    <value>Ziel</value>
+  </data>
+  <data name="tasks_all" xml:space="preserve">
+    <value>Einträge aktualisiert.</value>
+  </data>
+  <data name="tasks_partial_count" xml:space="preserve">
+    <value>{0} Einträge aktualisiert</value>
+  </data>
+  <data name="temporary" xml:space="preserve">
+    <value>Temporär</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="tickets_closed" xml:space="preserve">
+    <value>Ticket schließen</value>
+  </data>
+  <data name="tickets_open" xml:space="preserve">
+    <value>Offene Tickets</value>
+  </data>
+  <data name="tickets_total" xml:space="preserve">
+    <value>Alle Tickets</value>
+  </data>
+  <data name="ticket_details" xml:space="preserve">
+    <value>Ticket Eigenschaften</value>
+  </data>
+  <data name="ticket_id" xml:space="preserve">
+    <value>Ticket ID</value>
+  </data>
+  <data name="ticket_new" xml:space="preserve">
+    <value>Neues Ticket erstellen</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>Bis</value>
+  </data>
+  <data name="todays_call_history" xml:space="preserve">
+    <value>Gespächsverlauf von Heute</value>
+  </data>
+  <data name="todays_workload_per_hour" xml:space="preserve">
+    <value>Last von Heute</value>
+  </data>
+  <data name="top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="to_nodes" xml:space="preserve">
+    <value>An Nodes</value>
+  </data>
+  <data name="traffic" xml:space="preserve">
+    <value>Traffic</value>
+  </data>
+  <data name="transaction" xml:space="preserve">
+    <value>Transaktion</value>
+  </data>
+  <data name="transactions" xml:space="preserve">
+    <value>Transaktionen</value>
+  </data>
+  <data name="triggered_by" xml:space="preserve">
+    <value>Ausgelöst durch</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="types" xml:space="preserve">
+    <value>Typen</value>
+  </data>
+  <data name="unapproved" xml:space="preserve">
+    <value>Nicht genehmigt</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="unset" xml:space="preserve">
+    <value>Nicht gesetzt</value>
+  </data>
+  <data name="url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="usable" xml:space="preserve">
+    <value>Nutzbar</value>
+  </data>
+  <data name="used" xml:space="preserve">
+    <value>benutzt</value>
+  </data>
+  <data name="used_by" xml:space="preserve">
+    <value>Benutzt von</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>Nutzer</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="username_or_email" xml:space="preserve">
+    <value>Benutzername oder E-Mail</value>
+  </data>
+  <data name="users" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="user_lang" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="utilities" xml:space="preserve">
+    <value>Werkzeuge</value>
+  </data>
+  <data name="valid" xml:space="preserve">
+    <value>Gültig</value>
+  </data>
+  <data name="validated" xml:space="preserve">
+    <value>Bestätigt</value>
+  </data>
+  <data name="validation_request" xml:space="preserve">
+    <value>Prüfungsanforderung</value>
+  </data>
+  <data name="valid_from" xml:space="preserve">
+    <value>Gültig ab</value>
+  </data>
+  <data name="valid_till" xml:space="preserve">
+    <value>Gültig bis</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="values" xml:space="preserve">
+    <value>Werte</value>
+  </data>
+  <data name="variants" xml:space="preserve">
+    <value>Varianten</value>
+  </data>
+  <data name="vendor" xml:space="preserve">
+    <value>Verkäufer</value>
+  </data>
+  <data name="vendors" xml:space="preserve">
+    <value>Verkäufer</value>
+  </data>
+  <data name="visible_to_customer" xml:space="preserve">
+    <value>Sichtbar für den Kunden</value>
+  </data>
+  <data name="voice" xml:space="preserve">
+    <value>Voice</value>
+  </data>
+  <data name="voices" xml:space="preserve">
+    <value>Voices</value>
+  </data>
+  <data name="voice_file" xml:space="preserve">
+    <value>Voice-Datei</value>
+  </data>
+  <data name="voice_files" xml:space="preserve">
+    <value>Voice-Dateien</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="webpage" xml:space="preserve">
+    <value>Webpage</value>
+  </data>
+  <data name="working" xml:space="preserve">
+    <value>Moment</value>
+  </data>
+  <data name="worldwide" xml:space="preserve">
+    <value>Weltweit</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="zip_code" xml:space="preserve">
+    <value>PLZ</value>
+  </data>
+  <data name="end" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="lock_a" xml:space="preserve">
+    <value>Sperre</value>
+  </data>
+</root>

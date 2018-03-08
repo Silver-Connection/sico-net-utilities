@@ -10,6 +10,7 @@
     public class ResourcesExtensions
     {
 #if NETSTANDARD1_6 || NETSTANDARD2_0
+
         /// <summary>
         /// Concatenate file content
         /// </summary>
@@ -21,6 +22,7 @@
             Assembly assemblyDB = assembly.GetTypeInfo().Assembly;
             return ConcatFileBase(assemblyDB, args);
         }
+
 #else
 
         /// <summary>

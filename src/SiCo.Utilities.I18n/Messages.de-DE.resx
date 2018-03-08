@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="account_update" xml:space="preserve">
+    <value>Konto Infotmationen aktualisieren</value>
+  </data>
+  <data name="account_update_error" xml:space="preserve">
+    <value>Konto Einstellungen konnten nicht aktualisiert werden</value>
+  </data>
+  <data name="account_update_success" xml:space="preserve">
+    <value>Konto Einstellungen erfolgreich aktualisiert</value>
+  </data>
+  <data name="activation_key_send" xml:space="preserve">
+    <value>Ein neuer Aktivierungsschlüssel wurde so eben versendet.</value>
+  </data>
+  <data name="email_activated_already" xml:space="preserve">
+    <value>E-Mail Adresse ist schon aktiviert.</value>
+  </data>
+  <data name="email_activated_success" xml:space="preserve">
+    <value>E-Mail Adresse wurde erfolgreich aktiviert.</value>
+  </data>
+  <data name="email_activation_send" xml:space="preserve">
+    <value>E-Mail Adresse wurde erfolgreich geändert. Ein neuer Aktivierungsschlüssel wurde so eben versendet.</value>
+  </data>
+  <data name="email_new_confirmation_key" xml:space="preserve">
+    <value>Bestätigsungsschlüssel der neuen E-Mail Adresse</value>
+  </data>
+  <data name="email_new_validate_desc" xml:space="preserve">
+    <value>Um deine neue E-Mail Adresse endgültig freizuschalten</value>
+  </data>
+  <data name="email_send" xml:space="preserve">
+    <value>E-Mail erfolgreich versendet</value>
+  </data>
+  <data name="email_update_revert" xml:space="preserve">
+    <value>E-Mail Änderung erfolgreich Rückgängig gemacht.</value>
+  </data>
+  <data name="email_used_by_other" xml:space="preserve">
+    <value>Die angegebene E-Mail Adresse wird von einem anderen Konto genutzt. Bitte geben Sie eine neue E-Mail Adresse an.</value>
+  </data>
+  <data name="email_validate" xml:space="preserve">
+    <value>E-Mail Adresse Bestätigen</value>
+  </data>
+  <data name="email_validate_desc" xml:space="preserve">
+    <value>Ihr E-Mail Adresse ist noch nicht bestätigt</value>
+  </data>
+  <data name="generate_captcha" xml:space="preserve">
+    <value>Neues Bild generieren</value>
+  </data>
+  <data name="has_general_business_terms_accepted" xml:space="preserve">
+    <value>Hat AGB Akzeptiert</value>
+  </data>
+  <data name="ietm_restore_success" xml:space="preserve">
+    <value>Element erfolgreich wiederhergestellt</value>
+  </data>
+  <data name="item_activate_done" xml:space="preserve">
+    <value>Eintrag erfolgreich aktiviert</value>
+  </data>
+  <data name="item_activate_error" xml:space="preserve">
+    <value>Konnte diesen Eintrag nicht aktivieren</value>
+  </data>
+  <data name="item_add_success" xml:space="preserve">
+    <value>Artikel erfolgreich hinzugefügt</value>
+  </data>
+  <data name="item_delete_ask" xml:space="preserve">
+    <value>Möchten Sie diesen Eintrag wirklich löschen?</value>
+  </data>
+  <data name="item_delete_done" xml:space="preserve">
+    <value>Eintrag erfolgreich gelöscht</value>
+  </data>
+  <data name="item_disable_success" xml:space="preserve">
+    <value>Element erfolgreich deaktiviert</value>
+  </data>
+  <data name="item_enabled_success" xml:space="preserve">
+    <value>Element erfolgreich aktiviert</value>
+  </data>
+  <data name="item_update_success" xml:space="preserve">
+    <value>Element erfolgreich aktualisiert</value>
+  </data>
+  <data name="mark_active_ask" xml:space="preserve">
+    <value>Möchten Sie diesen Eintrag aktivieren</value>
+  </data>
+  <data name="mark_active_done" xml:space="preserve">
+    <value>Eintrag erfolgreich als aktive markiert</value>
+  </data>
+  <data name="mark_active_error" xml:space="preserve">
+    <value>Kann diesen Eintrag nicht als aktive markieren</value>
+  </data>
+  <data name="mark_delete_ask" xml:space="preserve">
+    <value>Möchten Sie wirklich diesen Eintrag deakivieren</value>
+  </data>
+  <data name="mark_delete_done" xml:space="preserve">
+    <value>Eintrag erfolgreich als gelöscht markiert</value>
+  </data>
+  <data name="mark_delete_error" xml:space="preserve">
+    <value>Kann diesen Eintrag nicht als gelöscht merkieren</value>
+  </data>
+  <data name="ping_ask" xml:space="preserve">
+    <value>Möchen Sie die IP pingen</value>
+  </data>
+  <data name="ping_done" xml:space="preserve">
+    <value>Ping erfolgreich</value>
+  </data>
+  <data name="ping_error_timeout" xml:space="preserve">
+    <value>Ping antwortet nicht vielleicht werden ICMP Packte von einer Firewall blockiert</value>
+  </data>
+  <data name="processing_your_login" xml:space="preserve">
+    <value>Sie werden angemeldet</value>
+  </data>
+  <data name="request_send_error" xml:space="preserve">
+    <value>Könnte die Anfrage nicht übermitteln</value>
+  </data>
+  <data name="sign_in_failed" xml:space="preserve">
+    <value>Anmeldung fehlgeschlagen</value>
+  </data>
+  <data name="terms_acceppt_question" xml:space="preserve">
+    <value>Ich habe die &lt;a href="{0}" target="_blank"&gt;AGB&lt;/a&gt; gelesen und akzeptiere diese</value>
+  </data>
+  <data name="ticket_notes_help" xml:space="preserve">
+    <value>Hinterlassen Sie eine Nachricht für den Fall eines Ausfalles</value>
+  </data>
+  <data name="ticket_send_done" xml:space="preserve">
+    <value>Ticket wurde erfolgreich übermittelt</value>
+  </data>
+  <data name="ticket_send_fail" xml:space="preserve">
+    <value>Ticket konnte nicht übertragen werden</value>
+  </data>
+</root>

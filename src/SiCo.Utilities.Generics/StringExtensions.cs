@@ -134,7 +134,6 @@
 
                 yield return index;
             }
-
         }
 
         /// <summary>

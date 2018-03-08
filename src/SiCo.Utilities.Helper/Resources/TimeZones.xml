@@ -1,0 +1,542 @@
+<TimeZones>
+  <!-- (UTC-12:00) International Date Line West -->
+  <MapZone Other="Dateline Standard Time" Territory="001" Type="Etc/GMT+12" />
+  <MapZone Other="Dateline Standard Time" Territory="ZZ" Type="Etc/GMT+12" />
+  <!-- (UTC-11:00) Coordinated Universal Time-11 -->
+  <MapZone Other="UTC-11" Territory="001" Type="Etc/GMT+11" />
+  <MapZone Other="UTC-11" Territory="AS" Type="Pacific/Pago_Pago" />
+  <MapZone Other="UTC-11" Territory="NU" Type="Pacific/Niue" />
+  <MapZone Other="UTC-11" Territory="UM" Type="Pacific/Midway" />
+  <MapZone Other="UTC-11" Territory="ZZ" Type="Etc/GMT+11" />
+  <!-- (UTC-10:00) Hawaii -->
+  <MapZone Other="Hawaiian Standard Time" Territory="001" Type="Pacific/Honolulu" />
+  <MapZone Other="Hawaiian Standard Time" Territory="CK" Type="Pacific/Rarotonga" />
+  <MapZone Other="Hawaiian Standard Time" Territory="PF" Type="Pacific/Tahiti" />
+  <MapZone Other="Hawaiian Standard Time" Territory="UM" Type="Pacific/Johnston" />
+  <MapZone Other="Hawaiian Standard Time" Territory="US" Type="Pacific/Honolulu" />
+  <MapZone Other="Hawaiian Standard Time" Territory="ZZ" Type="Etc/GMT+10" />
+  <!-- (UTC-09:00) Alaska -->
+  <MapZone Other="Alaskan Standard Time" Territory="001" Type="America/Anchorage" />
+  <MapZone Other="Alaskan Standard Time" Territory="US" Type="America/Anchorage America/Juneau America/Nome America/Sitka America/Yakutat" />
+  <!-- (UTC-08:00) Baja California -->
+  <MapZone Other="Pacific Standard Time (Mexico)" Territory="001" Type="America/Santa_Isabel" />
+  <MapZone Other="Pacific Standard Time (Mexico)" Territory="MX" Type="America/Santa_Isabel" />
+  <!-- (UTC-08:00) Pacific Time (US & Canada) -->
+  <MapZone Other="Pacific Standard Time" Territory="001" Type="America/Los_Angeles" />
+  <MapZone Other="Pacific Standard Time" Territory="CA" Type="America/Vancouver America/Dawson America/Whitehorse" />
+  <MapZone Other="Pacific Standard Time" Territory="MX" Type="America/Tijuana" />
+  <MapZone Other="Pacific Standard Time" Territory="US" Type="America/Los_Angeles" />
+  <MapZone Other="Pacific Standard Time" Territory="ZZ" Type="PST8PDT" />
+  <!-- (UTC-07:00) Arizona -->
+  <MapZone Other="US Mountain Standard Time" Territory="001" Type="America/Phoenix" />
+  <MapZone Other="US Mountain Standard Time" Territory="CA" Type="America/Dawson_Creek America/Creston" />
+  <MapZone Other="US Mountain Standard Time" Territory="MX" Type="America/Hermosillo" />
+  <MapZone Other="US Mountain Standard Time" Territory="US" Type="America/Phoenix" />
+  <MapZone Other="US Mountain Standard Time" Territory="ZZ" Type="Etc/GMT+7" />
+  <!-- (UTC-07:00) Chihuahua, La Paz, Mazatlan -->
+  <MapZone Other="Mountain Standard Time (Mexico)" Territory="001" Type="America/Chihuahua" />
+  <MapZone Other="Mountain Standard Time (Mexico)" Territory="MX" Type="America/Chihuahua America/Mazatlan" />
+  <!-- (UTC-07:00) Mountain Time (US & Canada) -->
+  <MapZone Other="Mountain Standard Time" Territory="001" Type="America/Denver" />
+  <MapZone Other="Mountain Standard Time" Territory="CA" Type="America/Edmonton America/Cambridge_Bay America/Inuvik America/Yellowknife" />
+  <MapZone Other="Mountain Standard Time" Territory="MX" Type="America/Ojinaga" />
+  <MapZone Other="Mountain Standard Time" Territory="US" Type="America/Denver America/Boise America/Shiprock" />
+  <MapZone Other="Mountain Standard Time" Territory="ZZ" Type="MST7MDT" />
+  <!-- (UTC-06:00) Central America -->
+  <MapZone Other="Central America Standard Time" Territory="001" Type="America/Guatemala" />
+  <MapZone Other="Central America Standard Time" Territory="BZ" Type="America/Belize" />
+  <MapZone Other="Central America Standard Time" Territory="CR" Type="America/Costa_Rica" />
+  <MapZone Other="Central America Standard Time" Territory="EC" Type="Pacific/Galapagos" />
+  <MapZone Other="Central America Standard Time" Territory="GT" Type="America/Guatemala" />
+  <MapZone Other="Central America Standard Time" Territory="HN" Type="America/Tegucigalpa" />
+  <MapZone Other="Central America Standard Time" Territory="NI" Type="America/Managua" />
+  <MapZone Other="Central America Standard Time" Territory="SV" Type="America/El_Salvador" />
+  <MapZone Other="Central America Standard Time" Territory="ZZ" Type="Etc/GMT+6" />
+  <!-- (UTC-06:00) Central Time (US & Canada) -->
+  <MapZone Other="Central Standard Time" Territory="001" Type="America/Chicago" />
+  <MapZone Other="Central Standard Time" Territory="CA" Type="America/Winnipeg America/Rainy_River America/Rankin_Inlet America/Resolute" />
+  <MapZone Other="Central Standard Time" Territory="MX" Type="America/Matamoros" />
+  <MapZone Other="Central Standard Time" Territory="US" Type="America/Chicago America/Indiana/Knox America/Indiana/Tell_City America/Menominee America/North_Dakota/Beulah America/North_Dakota/Center America/North_Dakota/New_Salem" />
+  <MapZone Other="Central Standard Time" Territory="ZZ" Type="CST6CDT" />
+  <!-- (UTC-06:00) Guadalajara, Mexico City, Monterrey -->
+  <MapZone Other="Central Standard Time (Mexico)" Territory="001" Type="America/Mexico_City" />
+  <MapZone Other="Central Standard Time (Mexico)" Territory="MX" Type="America/Mexico_City America/Bahia_Banderas America/Cancun America/Merida America/Monterrey" />
+  <!-- (UTC-06:00) Saskatchewan -->
+  <MapZone Other="Canada Central Standard Time" Territory="001" Type="America/Regina" />
+  <MapZone Other="Canada Central Standard Time" Territory="CA" Type="America/Regina America/Swift_Current" />
+  <!-- (UTC-05:00) Bogota, Lima, Quito -->
+  <MapZone Other="SA Pacific Standard Time" Territory="001" Type="America/Bogota" />
+  <MapZone Other="SA Pacific Standard Time" Territory="CA" Type="America/Coral_Harbour" />
+  <MapZone Other="SA Pacific Standard Time" Territory="CO" Type="America/Bogota" />
+  <MapZone Other="SA Pacific Standard Time" Territory="EC" Type="America/Guayaquil" />
+  <MapZone Other="SA Pacific Standard Time" Territory="HT" Type="America/Port-au-Prince" />
+  <MapZone Other="SA Pacific Standard Time" Territory="JM" Type="America/Jamaica" />
+  <MapZone Other="SA Pacific Standard Time" Territory="KY" Type="America/Cayman" />
+  <MapZone Other="SA Pacific Standard Time" Territory="PA" Type="America/Panama" />
+  <MapZone Other="SA Pacific Standard Time" Territory="PE" Type="America/Lima" />
+  <MapZone Other="SA Pacific Standard Time" Territory="ZZ" Type="Etc/GMT+5" />
+  <!-- (UTC-05:00) Eastern Time (US & Canada) -->
+  <MapZone Other="Eastern Standard Time" Territory="001" Type="America/New_York" />
+  <MapZone Other="Eastern Standard Time" Territory="BS" Type="America/Nassau" />
+  <MapZone Other="Eastern Standard Time" Territory="CA" Type="America/Toronto America/Iqaluit America/Montreal America/Nipigon America/Pangnirtung America/Thunder_Bay" />
+  <MapZone Other="Eastern Standard Time" Territory="TC" Type="America/Grand_Turk" />
+  <MapZone Other="Eastern Standard Time" Territory="US" Type="America/New_York America/Detroit America/Indiana/Petersburg America/Indiana/Vincennes America/Indiana/Winamac America/Kentucky/Monticello America/Louisville" />
+  <MapZone Other="Eastern Standard Time" Territory="ZZ" Type="EST5EDT" />
+  <!-- (UTC-05:00) Indiana (East) -->
+  <MapZone Other="US Eastern Standard Time" Territory="001" Type="America/Indianapolis" />
+  <MapZone Other="US Eastern Standard Time" Territory="US" Type="America/Indianapolis America/Indiana/Marengo America/Indiana/Vevay" />
+  <!-- (UTC-04:30) Caracas -->
+  <MapZone Other="Venezuela Standard Time" Territory="001" Type="America/Caracas" />
+  <MapZone Other="Venezuela Standard Time" Territory="VE" Type="America/Caracas" />
+  <!-- (UTC-04:00) Asuncion -->
+  <MapZone Other="Paraguay Standard Time" Territory="001" Type="America/Asuncion" />
+  <MapZone Other="Paraguay Standard Time" Territory="PY" Type="America/Asuncion" />
+  <!-- (UTC-04:00) Atlantic Time (Canada) -->
+  <MapZone Other="Atlantic Standard Time" Territory="001" Type="America/Halifax" />
+  <MapZone Other="Atlantic Standard Time" Territory="BM" Type="Atlantic/Bermuda" />
+  <MapZone Other="Atlantic Standard Time" Territory="CA" Type="America/Halifax America/Glace_Bay America/Goose_Bay America/Moncton" />
+  <MapZone Other="Atlantic Standard Time" Territory="GL" Type="America/Thule" />
+  <!-- (UTC-04:00) Cuiaba -->
+  <MapZone Other="Central Brazilian Standard Time" Territory="001" Type="America/Cuiaba" />
+  <MapZone Other="Central Brazilian Standard Time" Territory="BR" Type="America/Cuiaba America/Campo_Grande" />
+  <!-- (UTC-04:00) Georgetown, La Paz, Manaus, San Juan -->
+  <MapZone Other="SA Western Standard Time" Territory="001" Type="America/La_Paz" />
+  <MapZone Other="SA Western Standard Time" Territory="AG" Type="America/Antigua" />
+  <MapZone Other="SA Western Standard Time" Territory="AI" Type="America/Anguilla" />
+  <MapZone Other="SA Western Standard Time" Territory="AW" Type="America/Aruba" />
+  <MapZone Other="SA Western Standard Time" Territory="BB" Type="America/Barbados" />
+  <MapZone Other="SA Western Standard Time" Territory="BL" Type="America/St_Barthelemy" />
+  <MapZone Other="SA Western Standard Time" Territory="BO" Type="America/La_Paz" />
+  <MapZone Other="SA Western Standard Time" Territory="BQ" Type="America/Kralendijk" />
+  <MapZone Other="SA Western Standard Time" Territory="BR" Type="America/Manaus America/Boa_Vista America/Eirunepe America/Porto_Velho America/Rio_Branco" />
+  <MapZone Other="SA Western Standard Time" Territory="CA" Type="America/Blanc-Sablon" />
+  <MapZone Other="SA Western Standard Time" Territory="CW" Type="America/Curacao" />
+  <MapZone Other="SA Western Standard Time" Territory="DM" Type="America/Dominica" />
+  <MapZone Other="SA Western Standard Time" Territory="DO" Type="America/Santo_Domingo" />
+  <MapZone Other="SA Western Standard Time" Territory="GD" Type="America/Grenada" />
+  <MapZone Other="SA Western Standard Time" Territory="GP" Type="America/Guadeloupe" />
+  <MapZone Other="SA Western Standard Time" Territory="GY" Type="America/Guyana" />
+  <MapZone Other="SA Western Standard Time" Territory="KN" Type="America/St_Kitts" />
+  <MapZone Other="SA Western Standard Time" Territory="LC" Type="America/St_Lucia" />
+  <MapZone Other="SA Western Standard Time" Territory="MF" Type="America/Marigot" />
+  <MapZone Other="SA Western Standard Time" Territory="MQ" Type="America/Martinique" />
+  <MapZone Other="SA Western Standard Time" Territory="MS" Type="America/Montserrat" />
+  <MapZone Other="SA Western Standard Time" Territory="PR" Type="America/Puerto_Rico" />
+  <MapZone Other="SA Western Standard Time" Territory="SX" Type="America/Lower_Princes" />
+  <MapZone Other="SA Western Standard Time" Territory="TT" Type="America/Port_of_Spain" />
+  <MapZone Other="SA Western Standard Time" Territory="VC" Type="America/St_Vincent" />
+  <MapZone Other="SA Western Standard Time" Territory="VG" Type="America/Tortola" />
+  <MapZone Other="SA Western Standard Time" Territory="VI" Type="America/St_Thomas" />
+  <MapZone Other="SA Western Standard Time" Territory="ZZ" Type="Etc/GMT+4" />
+  <!-- (UTC-04:00) Santiago -->
+  <MapZone Other="Pacific SA Standard Time" Territory="001" Type="America/Santiago" />
+  <MapZone Other="Pacific SA Standard Time" Territory="AQ" Type="Antarctica/Palmer" />
+  <MapZone Other="Pacific SA Standard Time" Territory="CL" Type="America/Santiago" />
+  <!-- (UTC-03:30) Newfoundland -->
+  <MapZone Other="Newfoundland Standard Time" Territory="001" Type="America/St_Johns" />
+  <MapZone Other="Newfoundland Standard Time" Territory="CA" Type="America/St_Johns" />
+  <!-- (UTC-03:00) Brasilia -->
+  <MapZone Other="E. South America Standard Time" Territory="001" Type="America/Sao_Paulo" />
+  <MapZone Other="E. South America Standard Time" Territory="BR" Type="America/Sao_Paulo" />
+  <!-- (UTC-03:00) Buenos Aires -->
+  <MapZone Other="Argentina Standard Time" Territory="001" Type="America/Buenos_Aires" />
+  <MapZone Other="Argentina Standard Time" Territory="AR" Type="America/Buenos_Aires America/Argentina/La_Rioja America/Argentina/Rio_Gallegos America/Argentina/Salta America/Argentina/San_Juan America/Argentina/San_Luis America/Argentina/Tucuman America/Argentina/Ushuaia America/Catamarca America/Cordoba America/Jujuy America/Mendoza" />
+  <!-- (UTC-03:00) Cayenne, Fortaleza -->
+  <MapZone Other="SA Eastern Standard Time" Territory="001" Type="America/Cayenne" />
+  <MapZone Other="SA Eastern Standard Time" Territory="AQ" Type="Antarctica/ROthera" />
+  <MapZone Other="SA Eastern Standard Time" Territory="BR" Type="America/Fortaleza America/Araguaina America/Belem America/Maceio America/Recife America/Santarem" />
+  <MapZone Other="SA Eastern Standard Time" Territory="FK" Type="Atlantic/Stanley" />
+  <MapZone Other="SA Eastern Standard Time" Territory="GF" Type="America/Cayenne" />
+  <MapZone Other="SA Eastern Standard Time" Territory="SR" Type="America/Paramaribo" />
+  <MapZone Other="SA Eastern Standard Time" Territory="ZZ" Type="Etc/GMT+3" />
+  <!-- (UTC-03:00) Greenland -->
+  <MapZone Other="Greenland Standard Time" Territory="001" Type="America/Godthab" />
+  <MapZone Other="Greenland Standard Time" Territory="GL" Type="America/Godthab" />
+  <!-- (UTC-03:00) Montevideo -->
+  <MapZone Other="Montevideo Standard Time" Territory="001" Type="America/Montevideo" />
+  <MapZone Other="Montevideo Standard Time" Territory="UY" Type="America/Montevideo" />
+  <!-- (UTC-03:00) Salvador -->
+  <MapZone Other="Bahia Standard Time" Territory="001" Type="America/Bahia" />
+  <MapZone Other="Bahia Standard Time" Territory="BR" Type="America/Bahia" />
+  <!-- (UTC-02:00) Coordinated Universal Time-02 -->
+  <MapZone Other="UTC-02" Territory="001" Type="Etc/GMT+2" />
+  <MapZone Other="UTC-02" Territory="BR" Type="America/Noronha" />
+  <MapZone Other="UTC-02" Territory="GS" Type="Atlantic/South_Georgia" />
+  <MapZone Other="UTC-02" Territory="ZZ" Type="Etc/GMT+2" />
+  <!-- (UTC-02:00) Mid-Atlantic -->
+  <!-- Unmappable -->
+  <!-- (UTC-01:00) Azores -->
+  <MapZone Other="Azores Standard Time" Territory="001" Type="Atlantic/Azores" />
+  <MapZone Other="Azores Standard Time" Territory="GL" Type="America/Scoresbysund" />
+  <MapZone Other="Azores Standard Time" Territory="PT" Type="Atlantic/Azores" />
+  <!-- (UTC-01:00) Cape Verde Is. -->
+  <MapZone Other="Cape Verde Standard Time" Territory="001" Type="Atlantic/Cape_Verde" />
+  <MapZone Other="Cape Verde Standard Time" Territory="CV" Type="Atlantic/Cape_Verde" />
+  <MapZone Other="Cape Verde Standard Time" Territory="ZZ" Type="Etc/GMT+1" />
+  <!-- (UTC) Casablanca -->
+  <MapZone Other="Morocco Standard Time" Territory="001" Type="Africa/Casablanca" />
+  <MapZone Other="Morocco Standard Time" Territory="MA" Type="Africa/Casablanca" />
+  <!-- (UTC) Coordinated Universal Time -->
+  <MapZone Other="UTC" Territory="001" Type="Etc/GMT" />
+  <MapZone Other="UTC" Territory="GL" Type="America/Danmarkshavn" />
+  <MapZone Other="UTC" Territory="ZZ" Type="Etc/GMT" />
+  <!-- (UTC) Dublin, Edinburgh, Lisbon, London -->
+  <MapZone Other="GMT Standard Time" Territory="001" Type="Europe/London" />
+  <MapZone Other="GMT Standard Time" Territory="ES" Type="Atlantic/Canary" />
+  <MapZone Other="GMT Standard Time" Territory="FO" Type="Atlantic/Faeroe" />
+  <MapZone Other="GMT Standard Time" Territory="GB" Type="Europe/London" />
+  <MapZone Other="GMT Standard Time" Territory="GG" Type="Europe/Guernsey" />
+  <MapZone Other="GMT Standard Time" Territory="IE" Type="Europe/Dublin" />
+  <MapZone Other="GMT Standard Time" Territory="IM" Type="Europe/Isle_of_Man" />
+  <MapZone Other="GMT Standard Time" Territory="JE" Type="Europe/Jersey" />
+  <MapZone Other="GMT Standard Time" Territory="PT" Type="Europe/Lisbon Atlantic/Madeira" />
+  <!-- (UTC) Monrovia, Reykjavik -->
+  <MapZone Other="Greenwich Standard Time" Territory="001" Type="Atlantic/Reykjavik" />
+  <MapZone Other="Greenwich Standard Time" Territory="BF" Type="Africa/Ouagadougou" />
+  <MapZone Other="Greenwich Standard Time" Territory="CI" Type="Africa/Abidjan" />
+  <MapZone Other="Greenwich Standard Time" Territory="EH" Type="Africa/El_Aaiun" />
+  <MapZone Other="Greenwich Standard Time" Territory="GH" Type="Africa/Accra" />
+  <MapZone Other="Greenwich Standard Time" Territory="GM" Type="Africa/Banjul" />
+  <MapZone Other="Greenwich Standard Time" Territory="GN" Type="Africa/Conakry" />
+  <MapZone Other="Greenwich Standard Time" Territory="GW" Type="Africa/Bissau" />
+  <MapZone Other="Greenwich Standard Time" Territory="IS" Type="Atlantic/Reykjavik" />
+  <MapZone Other="Greenwich Standard Time" Territory="LR" Type="Africa/Monrovia" />
+  <MapZone Other="Greenwich Standard Time" Territory="ML" Type="Africa/Bamako" />
+  <MapZone Other="Greenwich Standard Time" Territory="MR" Type="Africa/Nouakchott" />
+  <MapZone Other="Greenwich Standard Time" Territory="SH" Type="Atlantic/St_Helena" />
+  <MapZone Other="Greenwich Standard Time" Territory="SL" Type="Africa/Freetown" />
+  <MapZone Other="Greenwich Standard Time" Territory="SN" Type="Africa/Dakar" />
+  <MapZone Other="Greenwich Standard Time" Territory="ST" Type="Africa/Sao_Tome" />
+  <MapZone Other="Greenwich Standard Time" Territory="TG" Type="Africa/Lome" />
+  <!--
+(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+-->
+  <MapZone Other="W. Europe Standard Time" Territory="001" Type="Europe/Berlin" />
+  <MapZone Other="W. Europe Standard Time" Territory="AD" Type="Europe/Andorra" />
+  <MapZone Other="W. Europe Standard Time" Territory="AT" Type="Europe/Vienna" />
+  <MapZone Other="W. Europe Standard Time" Territory="CH" Type="Europe/Zurich" />
+  <MapZone Other="W. Europe Standard Time" Territory="DE" Type="Europe/Berlin" />
+  <MapZone Other="W. Europe Standard Time" Territory="GI" Type="Europe/Gibraltar" />
+  <MapZone Other="W. Europe Standard Time" Territory="IT" Type="Europe/Rome" />
+  <MapZone Other="W. Europe Standard Time" Territory="LI" Type="Europe/Vaduz" />
+  <MapZone Other="W. Europe Standard Time" Territory="LU" Type="Europe/Luxembourg" />
+  <MapZone Other="W. Europe Standard Time" Territory="MC" Type="Europe/Monaco" />
+  <MapZone Other="W. Europe Standard Time" Territory="MT" Type="Europe/Malta" />
+  <MapZone Other="W. Europe Standard Time" Territory="NL" Type="Europe/Amsterdam" />
+  <MapZone Other="W. Europe Standard Time" Territory="NO" Type="Europe/Oslo" />
+  <MapZone Other="W. Europe Standard Time" Territory="SE" Type="Europe/Stockholm" />
+  <MapZone Other="W. Europe Standard Time" Territory="SJ" Type="Arctic/Longyearbyen" />
+  <MapZone Other="W. Europe Standard Time" Territory="SM" Type="Europe/San_Marino" />
+  <MapZone Other="W. Europe Standard Time" Territory="VA" Type="Europe/Vatican" />
+  <!--
+(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+-->
+  <MapZone Other="Central Europe Standard Time" Territory="001" Type="Europe/Budapest" />
+  <MapZone Other="Central Europe Standard Time" Territory="AL" Type="Europe/Tirane" />
+  <MapZone Other="Central Europe Standard Time" Territory="CZ" Type="Europe/Prague" />
+  <MapZone Other="Central Europe Standard Time" Territory="HU" Type="Europe/Budapest" />
+  <MapZone Other="Central Europe Standard Time" Territory="ME" Type="Europe/Podgorica" />
+  <MapZone Other="Central Europe Standard Time" Territory="RS" Type="Europe/Belgrade" />
+  <MapZone Other="Central Europe Standard Time" Territory="SI" Type="Europe/Ljubljana" />
+  <MapZone Other="Central Europe Standard Time" Territory="SK" Type="Europe/Bratislava" />
+  <!-- (UTC+01:00) Brussels, Copenhagen, Madrid, Paris -->
+  <MapZone Other="Romance Standard Time" Territory="001" Type="Europe/Paris" />
+  <MapZone Other="Romance Standard Time" Territory="BE" Type="Europe/Brussels" />
+  <MapZone Other="Romance Standard Time" Territory="DK" Type="Europe/Copenhagen" />
+  <MapZone Other="Romance Standard Time" Territory="ES" Type="Europe/Madrid Africa/Ceuta" />
+  <MapZone Other="Romance Standard Time" Territory="FR" Type="Europe/Paris" />
+  <!-- (UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb -->
+  <MapZone Other="Central European Standard Time" Territory="001" Type="Europe/Warsaw" />
+  <MapZone Other="Central European Standard Time" Territory="BA" Type="Europe/Sarajevo" />
+  <MapZone Other="Central European Standard Time" Territory="HR" Type="Europe/Zagreb" />
+  <MapZone Other="Central European Standard Time" Territory="MK" Type="Europe/Skopje" />
+  <MapZone Other="Central European Standard Time" Territory="PL" Type="Europe/Warsaw" />
+  <!-- (UTC+01:00) West Central Africa -->
+  <MapZone Other="W. Central Africa Standard Time" Territory="001" Type="Africa/Lagos" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="AO" Type="Africa/Luanda" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="BJ" Type="Africa/Porto-Novo" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="CD" Type="Africa/Kinshasa" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="CF" Type="Africa/Bangui" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="CG" Type="Africa/Brazzaville" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="CM" Type="Africa/Douala" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="DZ" Type="Africa/Algiers" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="GA" Type="Africa/Libreville" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="GQ" Type="Africa/Malabo" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="NE" Type="Africa/Niamey" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="NG" Type="Africa/Lagos" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="TD" Type="Africa/Ndjamena" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="TN" Type="Africa/Tunis" />
+  <MapZone Other="W. Central Africa Standard Time" Territory="ZZ" Type="Etc/GMT-1" />
+  <!-- (UTC+01:00) Windhoek -->
+  <MapZone Other="Namibia Standard Time" Territory="001" Type="Africa/Windhoek" />
+  <MapZone Other="Namibia Standard Time" Territory="NA" Type="Africa/Windhoek" />
+  <!-- (UTC+02:00) Amman -->
+  <MapZone Other="Jordan Standard Time" Territory="001" Type="Asia/Amman" />
+  <MapZone Other="Jordan Standard Time" Territory="JO" Type="Asia/Amman" />
+  <!-- (UTC+02:00) Athens, Bucharest -->
+  <MapZone Other="GTB Standard Time" Territory="001" Type="Europe/Bucharest" />
+  <MapZone Other="GTB Standard Time" Territory="GR" Type="Europe/Athens" />
+  <MapZone Other="GTB Standard Time" Territory="MD" Type="Europe/Chisinau" />
+  <MapZone Other="GTB Standard Time" Territory="RO" Type="Europe/Bucharest" />
+  <!-- (UTC+02:00) Beirut -->
+  <MapZone Other="Middle East Standard Time" Territory="001" Type="Asia/Beirut" />
+  <MapZone Other="Middle East Standard Time" Territory="LB" Type="Asia/Beirut" />
+  <!-- (UTC+02:00) Cairo -->
+  <MapZone Other="Egypt Standard Time" Territory="001" Type="Africa/Cairo" />
+  <MapZone Other="Egypt Standard Time" Territory="EG" Type="Africa/Cairo" />
+  <MapZone Other="Egypt Standard Time" Territory="PS" Type="Asia/Gaza Asia/Hebron" />
+  <!-- (UTC+02:00) Damascus -->
+  <MapZone Other="Syria Standard Time" Territory="001" Type="Asia/Damascus" />
+  <MapZone Other="Syria Standard Time" Territory="SY" Type="Asia/Damascus" />
+  <!-- (UTC+02:00) Harare, Pretoria -->
+  <MapZone Other="South Africa Standard Time" Territory="001" Type="Africa/Johannesburg" />
+  <MapZone Other="South Africa Standard Time" Territory="BI" Type="Africa/Bujumbura" />
+  <MapZone Other="South Africa Standard Time" Territory="BW" Type="Africa/Gaborone" />
+  <MapZone Other="South Africa Standard Time" Territory="CD" Type="Africa/Lubumbashi" />
+  <MapZone Other="South Africa Standard Time" Territory="LS" Type="Africa/Maseru" />
+  <MapZone Other="South Africa Standard Time" Territory="LY" Type="Africa/Tripoli" />
+  <MapZone Other="South Africa Standard Time" Territory="MW" Type="Africa/Blantyre" />
+  <MapZone Other="South Africa Standard Time" Territory="MZ" Type="Africa/Maputo" />
+  <MapZone Other="South Africa Standard Time" Territory="RW" Type="Africa/Kigali" />
+  <MapZone Other="South Africa Standard Time" Territory="SZ" Type="Africa/Mbabane" />
+  <MapZone Other="South Africa Standard Time" Territory="ZA" Type="Africa/Johannesburg" />
+  <MapZone Other="South Africa Standard Time" Territory="ZM" Type="Africa/Lusaka" />
+  <MapZone Other="South Africa Standard Time" Territory="ZW" Type="Africa/Harare" />
+  <MapZone Other="South Africa Standard Time" Territory="ZZ" Type="Etc/GMT-2" />
+  <!--
+(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius
+-->
+  <MapZone Other="FLE Standard Time" Territory="001" Type="Europe/Kiev" />
+  <MapZone Other="FLE Standard Time" Territory="AX" Type="Europe/Mariehamn" />
+  <MapZone Other="FLE Standard Time" Territory="BG" Type="Europe/Sofia" />
+  <MapZone Other="FLE Standard Time" Territory="EE" Type="Europe/Tallinn" />
+  <MapZone Other="FLE Standard Time" Territory="FI" Type="Europe/Helsinki" />
+  <MapZone Other="FLE Standard Time" Territory="LT" Type="Europe/Vilnius" />
+  <MapZone Other="FLE Standard Time" Territory="LV" Type="Europe/Riga" />
+  <MapZone Other="FLE Standard Time" Territory="UA" Type="Europe/Kiev Europe/Simferopol Europe/Uzhgorod Europe/Zaporozhye" />
+  <!-- (UTC+02:00) Istanbul -->
+  <MapZone Other="Turkey Standard Time" Territory="001" Type="Europe/Istanbul" />
+  <MapZone Other="Turkey Standard Time" Territory="TR" Type="Europe/Istanbul" />
+  <!-- (UTC+02:00) Jerusalem -->
+  <MapZone Other="Israel Standard Time" Territory="001" Type="Asia/Jerusalem" />
+  <MapZone Other="Israel Standard Time" Territory="IL" Type="Asia/Jerusalem" />
+  <!-- (UTC+02:00) Nicosia -->
+  <MapZone Other="E. Europe Standard Time" Territory="001" Type="Asia/Nicosia" />
+  <MapZone Other="E. Europe Standard Time" Territory="CY" Type="Asia/Nicosia" />
+  <!-- (UTC+03:00) Baghdad -->
+  <MapZone Other="Arabic Standard Time" Territory="001" Type="Asia/Baghdad" />
+  <MapZone Other="Arabic Standard Time" Territory="IQ" Type="Asia/Baghdad" />
+  <!-- (UTC+03:00) Kaliningrad, Minsk -->
+  <MapZone Other="Kaliningrad Standard Time" Territory="001" Type="Europe/Kaliningrad" />
+  <MapZone Other="Kaliningrad Standard Time" Territory="BY" Type="Europe/Minsk" />
+  <MapZone Other="Kaliningrad Standard Time" Territory="RU" Type="Europe/Kaliningrad" />
+  <!-- (UTC+03:00) Kuwait, Riyadh -->
+  <MapZone Other="Arab Standard Time" Territory="001" Type="Asia/Riyadh" />
+  <MapZone Other="Arab Standard Time" Territory="BH" Type="Asia/Bahrain" />
+  <MapZone Other="Arab Standard Time" Territory="KW" Type="Asia/Kuwait" />
+  <MapZone Other="Arab Standard Time" Territory="QA" Type="Asia/Qatar" />
+  <MapZone Other="Arab Standard Time" Territory="SA" Type="Asia/Riyadh" />
+  <MapZone Other="Arab Standard Time" Territory="YE" Type="Asia/Aden" />
+  <!-- (UTC+03:00) Nairobi -->
+  <MapZone Other="E. Africa Standard Time" Territory="001" Type="Africa/Nairobi" />
+  <MapZone Other="E. Africa Standard Time" Territory="AQ" Type="Antarctica/Syowa" />
+  <MapZone Other="E. Africa Standard Time" Territory="DJ" Type="Africa/Djibouti" />
+  <MapZone Other="E. Africa Standard Time" Territory="ER" Type="Africa/Asmera" />
+  <MapZone Other="E. Africa Standard Time" Territory="ET" Type="Africa/Addis_Ababa" />
+  <MapZone Other="E. Africa Standard Time" Territory="KE" Type="Africa/Nairobi" />
+  <MapZone Other="E. Africa Standard Time" Territory="KM" Type="Indian/Comoro" />
+  <MapZone Other="E. Africa Standard Time" Territory="MG" Type="Indian/Antananarivo" />
+  <MapZone Other="E. Africa Standard Time" Territory="SD" Type="Africa/Khartoum" />
+  <MapZone Other="E. Africa Standard Time" Territory="SO" Type="Africa/Mogadishu" />
+  <MapZone Other="E. Africa Standard Time" Territory="SS" Type="Africa/Juba" />
+  <MapZone Other="E. Africa Standard Time" Territory="TZ" Type="Africa/Dar_es_Salaam" />
+  <MapZone Other="E. Africa Standard Time" Territory="UG" Type="Africa/Kampala" />
+  <MapZone Other="E. Africa Standard Time" Territory="YT" Type="Indian/Mayotte" />
+  <MapZone Other="E. Africa Standard Time" Territory="ZZ" Type="Etc/GMT-3" />
+  <!-- (UTC+03:30) Tehran -->
+  <MapZone Other="Iran Standard Time" Territory="001" Type="Asia/Tehran" />
+  <MapZone Other="Iran Standard Time" Territory="IR" Type="Asia/Tehran" />
+  <!-- (UTC+04:00) Abu Dhabi, Muscat -->
+  <MapZone Other="Arabian Standard Time" Territory="001" Type="Asia/Dubai" />
+  <MapZone Other="Arabian Standard Time" Territory="AE" Type="Asia/Dubai" />
+  <MapZone Other="Arabian Standard Time" Territory="OM" Type="Asia/Muscat" />
+  <MapZone Other="Arabian Standard Time" Territory="ZZ" Type="Etc/GMT-4" />
+  <!-- (UTC+04:00) Baku -->
+  <MapZone Other="Azerbaijan Standard Time" Territory="001" Type="Asia/Baku" />
+  <MapZone Other="Azerbaijan Standard Time" Territory="AZ" Type="Asia/Baku" />
+  <!-- (UTC+04:00) Moscow, St. Petersburg, Volgograd -->
+  <MapZone Other="Russian Standard Time" Territory="001" Type="Europe/Moscow" />
+  <MapZone Other="Russian Standard Time" Territory="RU" Type="Europe/Moscow Europe/Samara Europe/Volgograd" />
+  <!-- (UTC+04:00) Port Louis -->
+  <MapZone Other="Mauritius Standard Time" Territory="001" Type="Indian/Mauritius" />
+  <MapZone Other="Mauritius Standard Time" Territory="MU" Type="Indian/Mauritius" />
+  <MapZone Other="Mauritius Standard Time" Territory="RE" Type="Indian/Reunion" />
+  <MapZone Other="Mauritius Standard Time" Territory="SC" Type="Indian/Mahe" />
+  <!-- (UTC+04:00) Tbilisi -->
+  <MapZone Other="Georgian Standard Time" Territory="001" Type="Asia/Tbilisi" />
+  <MapZone Other="Georgian Standard Time" Territory="GE" Type="Asia/Tbilisi" />
+  <!-- (UTC+04:00) Yerevan -->
+  <MapZone Other="Caucasus Standard Time" Territory="001" Type="Asia/Yerevan" />
+  <MapZone Other="Caucasus Standard Time" Territory="AM" Type="Asia/Yerevan" />
+  <!-- (UTC+04:30) Kabul -->
+  <MapZone Other="Afghanistan Standard Time" Territory="001" Type="Asia/Kabul" />
+  <MapZone Other="Afghanistan Standard Time" Territory="AF" Type="Asia/Kabul" />
+  <!-- (UTC+05:00) Islamabad, Karachi -->
+  <MapZone Other="Pakistan Standard Time" Territory="001" Type="Asia/Karachi" />
+  <MapZone Other="Pakistan Standard Time" Territory="PK" Type="Asia/Karachi" />
+  <!-- (UTC+05:00) Tashkent -->
+  <MapZone Other="West Asia Standard Time" Territory="001" Type="Asia/Tashkent" />
+  <MapZone Other="West Asia Standard Time" Territory="AQ" Type="Antarctica/Mawson" />
+  <MapZone Other="West Asia Standard Time" Territory="KZ" Type="Asia/Oral Asia/Aqtau Asia/Aqtobe" />
+  <MapZone Other="West Asia Standard Time" Territory="MV" Type="Indian/Maldives" />
+  <MapZone Other="West Asia Standard Time" Territory="TF" Type="Indian/Kerguelen" />
+  <MapZone Other="West Asia Standard Time" Territory="TJ" Type="Asia/Dushanbe" />
+  <MapZone Other="West Asia Standard Time" Territory="TM" Type="Asia/Ashgabat" />
+  <MapZone Other="West Asia Standard Time" Territory="UZ" Type="Asia/Tashkent Asia/Samarkand" />
+  <MapZone Other="West Asia Standard Time" Territory="ZZ" Type="Etc/GMT-5" />
+  <!-- (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi -->
+  <MapZone Other="India Standard Time" Territory="001" Type="Asia/Calcutta" />
+  <MapZone Other="India Standard Time" Territory="IN" Type="Asia/Calcutta" />
+  <!-- (UTC+05:30) Sri Jayawardenepura -->
+  <MapZone Other="Sri Lanka Standard Time" Territory="001" Type="Asia/Colombo" />
+  <MapZone Other="Sri Lanka Standard Time" Territory="LK" Type="Asia/Colombo" />
+  <!-- (UTC+05:45) Kathmandu -->
+  <MapZone Other="Nepal Standard Time" Territory="001" Type="Asia/Katmandu" />
+  <MapZone Other="Nepal Standard Time" Territory="NP" Type="Asia/Katmandu" />
+  <!-- (UTC+06:00) Astana -->
+  <MapZone Other="Central Asia Standard Time" Territory="001" Type="Asia/Almaty" />
+  <MapZone Other="Central Asia Standard Time" Territory="AQ" Type="Antarctica/Vostok" />
+  <MapZone Other="Central Asia Standard Time" Territory="IO" Type="Indian/Chagos" />
+  <MapZone Other="Central Asia Standard Time" Territory="KG" Type="Asia/Bishkek" />
+  <MapZone Other="Central Asia Standard Time" Territory="KZ" Type="Asia/Almaty Asia/Qyzylorda" />
+  <MapZone Other="Central Asia Standard Time" Territory="ZZ" Type="Etc/GMT-6" />
+  <!-- (UTC+06:00) Dhaka -->
+  <MapZone Other="Bangladesh Standard Time" Territory="001" Type="Asia/Dhaka" />
+  <MapZone Other="Bangladesh Standard Time" Territory="BD" Type="Asia/Dhaka" />
+  <MapZone Other="Bangladesh Standard Time" Territory="BT" Type="Asia/Thimphu" />
+  <!-- (UTC+06:00) Ekaterinburg -->
+  <MapZone Other="Ekaterinburg Standard Time" Territory="001" Type="Asia/Yekaterinburg" />
+  <MapZone Other="Ekaterinburg Standard Time" Territory="RU" Type="Asia/Yekaterinburg" />
+  <!-- (UTC+06:30) Yangon (Rangoon) -->
+  <MapZone Other="Myanmar Standard Time" Territory="001" Type="Asia/Rangoon" />
+  <MapZone Other="Myanmar Standard Time" Territory="CC" Type="Indian/Cocos" />
+  <MapZone Other="Myanmar Standard Time" Territory="MM" Type="Asia/Rangoon" />
+  <!-- (UTC+07:00) Bangkok, Hanoi, Jakarta -->
+  <MapZone Other="SE Asia Standard Time" Territory="001" Type="Asia/Bangkok" />
+  <MapZone Other="SE Asia Standard Time" Territory="AQ" Type="Antarctica/Davis" />
+  <MapZone Other="SE Asia Standard Time" Territory="CX" Type="Indian/Christmas" />
+  <MapZone Other="SE Asia Standard Time" Territory="ID" Type="Asia/Jakarta Asia/Pontianak" />
+  <MapZone Other="SE Asia Standard Time" Territory="KH" Type="Asia/Phnom_Penh" />
+  <MapZone Other="SE Asia Standard Time" Territory="LA" Type="Asia/Vientiane" />
+  <MapZone Other="SE Asia Standard Time" Territory="MN" Type="Asia/Hovd" />
+  <MapZone Other="SE Asia Standard Time" Territory="TH" Type="Asia/Bangkok" />
+  <MapZone Other="SE Asia Standard Time" Territory="VN" Type="Asia/Saigon" />
+  <MapZone Other="SE Asia Standard Time" Territory="ZZ" Type="Etc/GMT-7" />
+  <!-- (UTC+07:00) Novosibirsk -->
+  <MapZone Other="N. Central Asia Standard Time" Territory="001" Type="Asia/Novosibirsk" />
+  <MapZone Other="N. Central Asia Standard Time" Territory="RU" Type="Asia/Novosibirsk Asia/Novokuznetsk Asia/Omsk" />
+  <!-- (UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi -->
+  <MapZone Other="China Standard Time" Territory="001" Type="Asia/Shanghai" />
+  <MapZone Other="China Standard Time" Territory="CN" Type="Asia/Shanghai Asia/Chongqing Asia/Harbin Asia/Kashgar Asia/Urumqi" />
+  <MapZone Other="China Standard Time" Territory="HK" Type="Asia/Hong_Kong" />
+  <MapZone Other="China Standard Time" Territory="MO" Type="Asia/Macau" />
+  <!-- (UTC+08:00) Krasnoyarsk -->
+  <MapZone Other="North Asia Standard Time" Territory="001" Type="Asia/Krasnoyarsk" />
+  <MapZone Other="North Asia Standard Time" Territory="RU" Type="Asia/Krasnoyarsk" />
+  <!-- (UTC+08:00) Kuala Lumpur, Singapore -->
+  <MapZone Other="Singapore Standard Time" Territory="001" Type="Asia/Singapore" />
+  <MapZone Other="Singapore Standard Time" Territory="BN" Type="Asia/Brunei" />
+  <MapZone Other="Singapore Standard Time" Territory="ID" Type="Asia/Makassar" />
+  <MapZone Other="Singapore Standard Time" Territory="MY" Type="Asia/Kuala_Lumpur Asia/Kuching" />
+  <MapZone Other="Singapore Standard Time" Territory="PH" Type="Asia/Manila" />
+  <MapZone Other="Singapore Standard Time" Territory="SG" Type="Asia/Singapore" />
+  <MapZone Other="Singapore Standard Time" Territory="ZZ" Type="Etc/GMT-8" />
+  <!-- (UTC+08:00) Perth -->
+  <MapZone Other="W. Australia Standard Time" Territory="001" Type="Australia/Perth" />
+  <MapZone Other="W. Australia Standard Time" Territory="AQ" Type="Antarctica/Casey" />
+  <MapZone Other="W. Australia Standard Time" Territory="AU" Type="Australia/Perth" />
+  <!-- (UTC+08:00) Taipei -->
+  <MapZone Other="Taipei Standard Time" Territory="001" Type="Asia/Taipei" />
+  <MapZone Other="Taipei Standard Time" Territory="TW" Type="Asia/Taipei" />
+  <!-- (UTC+08:00) Ulaanbaatar -->
+  <MapZone Other="Ulaanbaatar Standard Time" Territory="001" Type="Asia/Ulaanbaatar" />
+  <MapZone Other="Ulaanbaatar Standard Time" Territory="MN" Type="Asia/Ulaanbaatar Asia/Choibalsan" />
+  <!-- (UTC+09:00) Irkutsk -->
+  <MapZone Other="North Asia East Standard Time" Territory="001" Type="Asia/Irkutsk" />
+  <MapZone Other="North Asia East Standard Time" Territory="RU" Type="Asia/Irkutsk" />
+  <!-- (UTC+09:00) Osaka, Sapporo, Tokyo -->
+  <MapZone Other="Tokyo Standard Time" Territory="001" Type="Asia/Tokyo" />
+  <MapZone Other="Tokyo Standard Time" Territory="ID" Type="Asia/Jayapura" />
+  <MapZone Other="Tokyo Standard Time" Territory="JP" Type="Asia/Tokyo" />
+  <MapZone Other="Tokyo Standard Time" Territory="PW" Type="Pacific/Palau" />
+  <MapZone Other="Tokyo Standard Time" Territory="TL" Type="Asia/Dili" />
+  <MapZone Other="Tokyo Standard Time" Territory="ZZ" Type="Etc/GMT-9" />
+  <!-- (UTC+09:00) Seoul -->
+  <MapZone Other="Korea Standard Time" Territory="001" Type="Asia/Seoul" />
+  <MapZone Other="Korea Standard Time" Territory="KP" Type="Asia/Pyongyang" />
+  <MapZone Other="Korea Standard Time" Territory="KR" Type="Asia/Seoul" />
+  <!-- (UTC+09:30) Adelaide -->
+  <MapZone Other="Cen. Australia Standard Time" Territory="001" Type="Australia/Adelaide" />
+  <MapZone Other="Cen. Australia Standard Time" Territory="AU" Type="Australia/Adelaide Australia/Broken_Hill" />
+  <!-- (UTC+09:30) Darwin -->
+  <MapZone Other="AUS Central Standard Time" Territory="001" Type="Australia/Darwin" />
+  <MapZone Other="AUS Central Standard Time" Territory="AU" Type="Australia/Darwin" />
+  <!-- (UTC+10:00) Brisbane -->
+  <MapZone Other="E. Australia Standard Time" Territory="001" Type="Australia/Brisbane" />
+  <MapZone Other="E. Australia Standard Time" Territory="AU" Type="Australia/Brisbane Australia/Lindeman" />
+  <!-- (UTC+10:00) Canberra, Melbourne, Sydney -->
+  <MapZone Other="AUS Eastern Standard Time" Territory="001" Type="Australia/Sydney" />
+  <MapZone Other="AUS Eastern Standard Time" Territory="AU" Type="Australia/Sydney Australia/Melbourne" />
+  <!-- (UTC+10:00) Guam, Port Moresby -->
+  <MapZone Other="West Pacific Standard Time" Territory="001" Type="Pacific/Port_Moresby" />
+  <MapZone Other="West Pacific Standard Time" Territory="AQ" Type="Antarctica/DumontDUrville" />
+  <MapZone Other="West Pacific Standard Time" Territory="FM" Type="Pacific/Truk" />
+  <MapZone Other="West Pacific Standard Time" Territory="GU" Type="Pacific/Guam" />
+  <MapZone Other="West Pacific Standard Time" Territory="MP" Type="Pacific/Saipan" />
+  <MapZone Other="West Pacific Standard Time" Territory="PG" Type="Pacific/Port_Moresby" />
+  <MapZone Other="West Pacific Standard Time" Territory="ZZ" Type="Etc/GMT-10" />
+  <!-- (UTC+10:00) Hobart -->
+  <MapZone Other="Tasmania Standard Time" Territory="001" Type="Australia/Hobart" />
+  <MapZone Other="Tasmania Standard Time" Territory="AU" Type="Australia/Hobart Australia/Currie" />
+  <!-- (UTC+10:00) Yakutsk -->
+  <MapZone Other="Yakutsk Standard Time" Territory="001" Type="Asia/Yakutsk" />
+  <MapZone Other="Yakutsk Standard Time" Territory="RU" Type="Asia/Yakutsk" />
+  <!-- (UTC+11:00) Solomon Is., New Caledonia -->
+  <MapZone Other="Central Pacific Standard Time" Territory="001" Type="Pacific/Guadalcanal" />
+  <MapZone Other="Central Pacific Standard Time" Territory="AQ" Type="Antarctica/Macquarie" />
+  <MapZone Other="Central Pacific Standard Time" Territory="FM" Type="Pacific/Ponape Pacific/Kosrae" />
+  <MapZone Other="Central Pacific Standard Time" Territory="NC" Type="Pacific/Noumea" />
+  <MapZone Other="Central Pacific Standard Time" Territory="SB" Type="Pacific/Guadalcanal" />
+  <MapZone Other="Central Pacific Standard Time" Territory="VU" Type="Pacific/Efate" />
+  <MapZone Other="Central Pacific Standard Time" Territory="ZZ" Type="Etc/GMT-11" />
+  <!-- (UTC+11:00) Vladivostok -->
+  <MapZone Other="Vladivostok Standard Time" Territory="001" Type="Asia/Vladivostok" />
+  <MapZone Other="Vladivostok Standard Time" Territory="RU" Type="Asia/Vladivostok Asia/Sakhalin" />
+  <!-- (UTC+12:00) Auckland, Wellington -->
+  <MapZone Other="New Zealand Standard Time" Territory="001" Type="Pacific/Auckland" />
+  <MapZone Other="New Zealand Standard Time" Territory="AQ" Type="Antarctica/South_Pole Antarctica/McMurdo" />
+  <MapZone Other="New Zealand Standard Time" Territory="NZ" Type="Pacific/Auckland" />
+  <!-- (UTC+12:00) Coordinated Universal Time+12 -->
+  <MapZone Other="UTC+12" Territory="001" Type="Etc/GMT-12" />
+  <MapZone Other="UTC+12" Territory="KI" Type="Pacific/Tarawa" />
+  <MapZone Other="UTC+12" Territory="MH" Type="Pacific/Majuro Pacific/Kwajalein" />
+  <MapZone Other="UTC+12" Territory="NR" Type="Pacific/Nauru" />
+  <MapZone Other="UTC+12" Territory="TV" Type="Pacific/Funafuti" />
+  <MapZone Other="UTC+12" Territory="UM" Type="Pacific/Wake" />
+  <MapZone Other="UTC+12" Territory="WF" Type="Pacific/Wallis" />
+  <MapZone Other="UTC+12" Territory="ZZ" Type="Etc/GMT-12" />
+  <!-- (UTC+12:00) Fiji -->
+  <MapZone Other="Fiji Standard Time" Territory="001" Type="Pacific/Fiji" />
+  <MapZone Other="Fiji Standard Time" Territory="FJ" Type="Pacific/Fiji" />
+  <!-- (UTC+12:00) Magadan -->
+  <MapZone Other="Magadan Standard Time" Territory="001" Type="Asia/Magadan" />
+  <MapZone Other="Magadan Standard Time" Territory="RU" Type="Asia/Magadan Asia/Anadyr Asia/Kamchatka" />
+  <!-- (UTC+13:00) Nuku'alofa -->
+  <MapZone Other="Tonga Standard Time" Territory="001" Type="Pacific/Tongatapu" />
+  <MapZone Other="Tonga Standard Time" Territory="KI" Type="Pacific/Enderbury" />
+  <MapZone Other="Tonga Standard Time" Territory="TO" Type="Pacific/Tongatapu" />
+  <MapZone Other="Tonga Standard Time" Territory="ZZ" Type="Etc/GMT-13" />
+  <!-- (UTC+13:00) Samoa -->
+  <MapZone Other="Samoa Standard Time" Territory="001" Type="Pacific/Apia" />
+  <MapZone Other="Samoa Standard Time" Territory="WS" Type="Pacific/Apia" />
+</TimeZones>

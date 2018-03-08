@@ -2,6 +2,7 @@
 {
     using System;
     using System.Net;
+
     public class UpdateModel
     {
         public UpdateModel()

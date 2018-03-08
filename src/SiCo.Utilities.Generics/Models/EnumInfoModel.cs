@@ -1,7 +1,7 @@
 ﻿namespace SiCo.Utilities.Generics.Models
 {
     /// <summary>
-    /// Model for Enum Informations 
+    /// Model for Enum Informations
     /// </summary>
     public class EnumInfoModel
     {

@@ -18,8 +18,5 @@
 
         [Display(Name = "Alpha Version")]
         Alpha = 4,
-
-        [Display(Name = "name", ResourceType = typeof(Resources.Resource))]
-        Dev = 5,
     }
 }

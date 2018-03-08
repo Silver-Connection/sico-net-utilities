@@ -15,7 +15,7 @@
         /// <param name="val">The enum value</param>
         /// <returns>The attribute of type T that exists on the enum value</returns>
         public static string ToClassDisplayString<T>(this T val)
-            where T: class, new()
+            where T : class, new()
         {
             DisplayClassAttribute[] attributes = (DisplayClassAttribute[])val
                 .GetType()

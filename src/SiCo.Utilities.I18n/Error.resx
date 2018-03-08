@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="access_denied" xml:space="preserve">
+    <value>Access Denied</value>
+  </data>
+  <data name="account_active_already" xml:space="preserve">
+    <value>This account is already activated</value>
+  </data>
+  <data name="account_locked" xml:space="preserve">
+    <value>Your account was locked, please contact our support team.</value>
+  </data>
+  <data name="amount_big" xml:space="preserve">
+    <value>Given amount is to high</value>
+  </data>
+  <data name="amount_small" xml:space="preserve">
+    <value>Given amount is to small</value>
+  </data>
+  <data name="balance_left" xml:space="preserve">
+    <value>There is unbooked balance for this account. Balance:</value>
+  </data>
+  <data name="cancel_reason_empty" xml:space="preserve">
+    <value>Please enter a cancel reason</value>
+  </data>
+  <data name="card_expired" xml:space="preserve">
+    <value>Card is expired</value>
+  </data>
+  <data name="chart_loading" xml:space="preserve">
+    <value>Could not load chart.</value>
+  </data>
+  <data name="check_form" xml:space="preserve">
+    <value>Please check the form.</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>Error Code</value>
+  </data>
+  <data name="country_not_found" xml:space="preserve">
+    <value>Could not find country</value>
+  </data>
+  <data name="country_not_set" xml:space="preserve">
+    <value>No country set</value>
+  </data>
+  <data name="dailcode_not_found" xml:space="preserve">
+    <value>Dailcode could not be find</value>
+  </data>
+  <data name="database_connect" xml:space="preserve">
+    <value>Could not connect to database</value>
+  </data>
+  <data name="data_is_not_sync" xml:space="preserve">
+    <value>Input data is outdated, syncing data.</value>
+  </data>
+  <data name="date_end" xml:space="preserve">
+    <value>End date cannot be earlier start date</value>
+  </data>
+  <data name="date_start" xml:space="preserve">
+    <value>Start date cannot be later then end date</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Could not delete item</value>
+  </data>
+  <data name="denied" xml:space="preserve">
+    <value>Denied</value>
+  </data>
+  <data name="deny" xml:space="preserve">
+    <value>Deny</value>
+  </data>
+  <data name="dependency" xml:space="preserve">
+    <value>Dependency:</value>
+  </data>
+  <data name="dependency_account" xml:space="preserve">
+    <value>Dependency with account:</value>
+  </data>
+  <data name="dependency_context" xml:space="preserve">
+    <value>Dependency with context:</value>
+  </data>
+  <data name="dependency_ip" xml:space="preserve">
+    <value>Dependency with ip:</value>
+  </data>
+  <data name="dependency_node" xml:space="preserve">
+    <value>Dependency with node:</value>
+  </data>
+  <data name="dependency_phonebook" xml:space="preserve">
+    <value>Dependency with phonebook:</value>
+  </data>
+  <data name="dependency_registeredNumber" xml:space="preserve">
+    <value>Dependency with Registered Numbers:</value>
+  </data>
+  <data name="dependency_route" xml:space="preserve">
+    <value>Dependency with route:</value>
+  </data>
+  <data name="domain_blacklisted" xml:space="preserve">
+    <value>This domain is blacklisted!</value>
+  </data>
+  <data name="duplicate_item" xml:space="preserve">
+    <value>Item already exists, could not create same item again.</value>
+  </data>
+  <data name="email_activation_send_fail" xml:space="preserve">
+    <value>On error occurred. Could not send confirmation key.</value>
+  </data>
+  <data name="email_send" xml:space="preserve">
+    <value>Could not send E-Mail</value>
+  </data>
+  <data name="enum_not_found" xml:space="preserve">
+    <value>Enum type not found</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="error_list" xml:space="preserve">
+    <value>Error list</value>
+  </data>
+  <data name="exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="goto_log" xml:space="preserve">
+    <value>Visit logs for more information</value>
+  </data>
+  <data name="http_4xx" xml:space="preserve">
+    <value>The requested resource could not be found.</value>
+  </data>
+  <data name="http_5xx" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+  </data>
+  <data name="info_empty" xml:space="preserve">
+    <value>Please enter some information</value>
+  </data>
+  <data name="input_invalid" xml:space="preserve">
+    <value>Input is not valid, please edit</value>
+  </data>
+  <data name="internal_db_save_error" xml:space="preserve">
+    <value>Could not save changes</value>
+  </data>
+  <data name="ip_blocked" xml:space="preserve">
+    <value>Your have been blocked</value>
+  </data>
+  <data name="ip_invalid" xml:space="preserve">
+    <value>Given IP address is wrong</value>
+  </data>
+  <data name="ip_network_big" xml:space="preserve">
+    <value>The given network is too big</value>
+  </data>
+  <data name="ip_no_network" xml:space="preserve">
+    <value>Only a single IP address is valid, not a network</value>
+  </data>
+  <data name="ip_unset" xml:space="preserve">
+    <value>IP Address must be set</value>
+  </data>
+  <data name="key_max_request" xml:space="preserve">
+    <value>You have reached the maximum number of activation requests. If you need more activation request please contact our support.</value>
+  </data>
+  <data name="key_wrong" xml:space="preserve">
+    <value>The given activation key is wrong</value>
+  </data>
+  <data name="language_missing" xml:space="preserve">
+    <value>No language set</value>
+  </data>
+  <data name="not_found" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="not_found_item_name" xml:space="preserve">
+    <value>{0} not found</value>
+  </data>
+  <data name="number_blacklisted" xml:space="preserve">
+    <value>This phone number is blacklisted!</value>
+  </data>
+  <data name="number_phone" xml:space="preserve">
+    <value>Given value is not a valid phone number.</value>
+  </data>
+  <data name="parameter_empty" xml:space="preserve">
+    <value>Parameter is missing or empty</value>
+  </data>
+  <data name="pin_wrong" xml:space="preserve">
+    <value>Entered PIN is wrong</value>
+  </data>
+  <data name="prefix_voip" xml:space="preserve">
+    <value>Prefix must start with digits and may end with '#', e.g. 1234#</value>
+  </data>
+  <data name="reason_empty" xml:space="preserve">
+    <value>Please enter a reason</value>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value>This item is required</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Settings could not be saved.</value>
+  </data>
+  <data name="sorry" xml:space="preserve">
+    <value>Sorry an error occurred. We are informed about that.</value>
+  </data>
+  <data name="tasks_all" xml:space="preserve">
+    <value>All updates have failed</value>
+  </data>
+  <data name="tasks_partial" xml:space="preserve">
+    <value>Some updates have failed</value>
+  </data>
+  <data name="tasks_partial_count" xml:space="preserve">
+    <value>{0} out of {1} updates failed</value>
+  </data>
+  <data name="timed_out" xml:space="preserve">
+    <value>Session timed out</value>
+  </data>
+  <data name="transaction_cancelled" xml:space="preserve">
+    <value>Transaction cancelled</value>
+  </data>
+  <data name="transaction_not_found" xml:space="preserve">
+    <value>Could not find transaction</value>
+  </data>
+  <data name="unknow" xml:space="preserve">
+    <value>An error occurred.</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="validation" xml:space="preserve">
+    <value>Validation failed</value>
+  </data>
+  <data name="value_out_range" xml:space="preserve">
+    <value>Value is out of range</value>
+  </data>
+  <data name="wran_smaller_limit" xml:space="preserve">
+    <value>The warning limit will never be reached, because the main limit is smaller.</value>
+  </data>
+</root>

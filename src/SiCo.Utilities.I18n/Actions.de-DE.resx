@@ -1,0 +1,2016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accept" xml:space="preserve">
+    <value>Akzeptieren</value>
+  </data>
+  <data name="access" xml:space="preserve">
+    <value>Zugriff</value>
+  </data>
+  <data name="action" xml:space="preserve">
+    <value>Aktion</value>
+  </data>
+  <data name="activate" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="admire" xml:space="preserve">
+    <value>Bewundern</value>
+  </data>
+  <data name="admit" xml:space="preserve">
+    <value>Zulassen</value>
+  </data>
+  <data name="advise" xml:space="preserve">
+    <value>Beraten</value>
+  </data>
+  <data name="afford" xml:space="preserve">
+    <value>Leisten</value>
+  </data>
+  <data name="agree" xml:space="preserve">
+    <value>Zustimmen</value>
+  </data>
+  <data name="alert" xml:space="preserve">
+    <value>Alarmieren</value>
+  </data>
+  <data name="allow" xml:space="preserve">
+    <value>Erlauben</value>
+  </data>
+  <data name="amuse" xml:space="preserve">
+    <value>Amüsieren</value>
+  </data>
+  <data name="analyze" xml:space="preserve">
+    <value>Analyse</value>
+  </data>
+  <data name="announce" xml:space="preserve">
+    <value>Ansagen</value>
+  </data>
+  <data name="annoy" xml:space="preserve">
+    <value>Ärgern</value>
+  </data>
+  <data name="anonymise" xml:space="preserve">
+    <value>Anonymisieren</value>
+  </data>
+  <data name="answer" xml:space="preserve">
+    <value>Antworten</value>
+  </data>
+  <data name="apologise" xml:space="preserve">
+    <value>Entschuldigen</value>
+  </data>
+  <data name="appear" xml:space="preserve">
+    <value>Erscheinen</value>
+  </data>
+  <data name="applaud" xml:space="preserve">
+    <value>Applaudieren</value>
+  </data>
+  <data name="appreciate" xml:space="preserve">
+    <value>Anerkennen</value>
+  </data>
+  <data name="approve" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="argue" xml:space="preserve">
+    <value>Argumentieren</value>
+  </data>
+  <data name="arrange" xml:space="preserve">
+    <value>Anordnen</value>
+  </data>
+  <data name="arrest" xml:space="preserve">
+    <value>Festnahmen</value>
+  </data>
+  <data name="arrive" xml:space="preserve">
+    <value>Anreisen</value>
+  </data>
+  <data name="ask" xml:space="preserve">
+    <value>Fragen</value>
+  </data>
+  <data name="attach" xml:space="preserve">
+    <value>Zuordnen</value>
+  </data>
+  <data name="attack" xml:space="preserve">
+    <value>Angreifen</value>
+  </data>
+  <data name="attempt" xml:space="preserve">
+    <value>Versuchen</value>
+  </data>
+  <data name="attract" xml:space="preserve">
+    <value>Anziehen</value>
+  </data>
+  <data name="avoid" xml:space="preserve">
+    <value>Vermeiden</value>
+  </data>
+  <data name="awake" xml:space="preserve">
+    <value>Wach</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="bake" xml:space="preserve">
+    <value>Backen</value>
+  </data>
+  <data name="balance" xml:space="preserve">
+    <value>Ausgleichen</value>
+  </data>
+  <data name="ban" xml:space="preserve">
+    <value>Sperren</value>
+  </data>
+  <data name="bang" xml:space="preserve">
+    <value>Klopfen</value>
+  </data>
+  <data name="bare" xml:space="preserve">
+    <value>Freimachen</value>
+  </data>
+  <data name="bat" xml:space="preserve">
+    <value>Schlagen</value>
+  </data>
+  <data name="bathe" xml:space="preserve">
+    <value>Bathe</value>
+  </data>
+  <data name="battle" xml:space="preserve">
+    <value>Baden</value>
+  </data>
+  <data name="be" xml:space="preserve">
+    <value>Sein</value>
+  </data>
+  <data name="beam" xml:space="preserve">
+    <value>Strahlen</value>
+  </data>
+  <data name="beat" xml:space="preserve">
+    <value>Schlagen</value>
+  </data>
+  <data name="become" xml:space="preserve">
+    <value>Werden</value>
+  </data>
+  <data name="beg" xml:space="preserve">
+    <value>Bitten</value>
+  </data>
+  <data name="begin" xml:space="preserve">
+    <value>Starten</value>
+  </data>
+  <data name="behave" xml:space="preserve">
+    <value>Benehmen</value>
+  </data>
+  <data name="belong" xml:space="preserve">
+    <value>Zuhören</value>
+  </data>
+  <data name="bend" xml:space="preserve">
+    <value>Knicken</value>
+  </data>
+  <data name="bent" xml:space="preserve">
+    <value>Biegen</value>
+  </data>
+  <data name="bet" xml:space="preserve">
+    <value>Wetten</value>
+  </data>
+  <data name="bid" xml:space="preserve">
+    <value>Bieten</value>
+  </data>
+  <data name="bit" xml:space="preserve">
+    <value>Beißen</value>
+  </data>
+  <data name="bleach" xml:space="preserve">
+    <value>Bleichen</value>
+  </data>
+  <data name="bless" xml:space="preserve">
+    <value>Segnen</value>
+  </data>
+  <data name="blind" xml:space="preserve">
+    <value>Blenden</value>
+  </data>
+  <data name="blink" xml:space="preserve">
+    <value>Blinken</value>
+  </data>
+  <data name="blot" xml:space="preserve">
+    <value>Klecksen</value>
+  </data>
+  <data name="blow" xml:space="preserve">
+    <value>Wehen</value>
+  </data>
+  <data name="blush" xml:space="preserve">
+    <value>Erröten</value>
+  </data>
+  <data name="boast" xml:space="preserve">
+    <value>Prahlen</value>
+  </data>
+  <data name="boil" xml:space="preserve">
+    <value>Kochen</value>
+  </data>
+  <data name="bolt" xml:space="preserve">
+    <value>Blitzen</value>
+  </data>
+  <data name="bomb" xml:space="preserve">
+    <value>Bomben</value>
+  </data>
+  <data name="book" xml:space="preserve">
+    <value>Buchen</value>
+  </data>
+  <data name="borrow" xml:space="preserve">
+    <value>Leihen</value>
+  </data>
+  <data name="bounce" xml:space="preserve">
+    <value>Hüpfen</value>
+  </data>
+  <data name="bow" xml:space="preserve">
+    <value>Biegen</value>
+  </data>
+  <data name="box" xml:space="preserve">
+    <value>Boxen</value>
+  </data>
+  <data name="brake" xml:space="preserve">
+    <value>Bremsen</value>
+  </data>
+  <data name="branch" xml:space="preserve">
+    <value>Abzweigen</value>
+  </data>
+  <data name="break_a" xml:space="preserve">
+    <value>Pausieren</value>
+  </data>
+  <data name="breathe" xml:space="preserve">
+    <value>Atmen</value>
+  </data>
+  <data name="bring" xml:space="preserve">
+    <value>Bringen</value>
+  </data>
+  <data name="broadcast" xml:space="preserve">
+    <value>Übertragen</value>
+  </data>
+  <data name="broke" xml:space="preserve">
+    <value>Brächen</value>
+  </data>
+  <data name="bruise" xml:space="preserve">
+    <value>Prellen</value>
+  </data>
+  <data name="brush" xml:space="preserve">
+    <value>Bürsten</value>
+  </data>
+  <data name="bubble" xml:space="preserve">
+    <value>Blubbern</value>
+  </data>
+  <data name="build" xml:space="preserve">
+    <value>Bauen</value>
+  </data>
+  <data name="bump" xml:space="preserve">
+    <value>Anstoßen</value>
+  </data>
+  <data name="burn" xml:space="preserve">
+    <value>Brennen</value>
+  </data>
+  <data name="bury" xml:space="preserve">
+    <value>Verbergen</value>
+  </data>
+  <data name="buy" xml:space="preserve">
+    <value>Kaufen</value>
+  </data>
+  <data name="buzz" xml:space="preserve">
+    <value>Schwirren</value>
+  </data>
+  <data name="calculate" xml:space="preserve">
+    <value>Berechnen</value>
+  </data>
+  <data name="call" xml:space="preserve">
+    <value>Anrufe</value>
+  </data>
+  <data name="camp" xml:space="preserve">
+    <value>Campen</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="care" xml:space="preserve">
+    <value>Sorgen</value>
+  </data>
+  <data name="carry" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="carve" xml:space="preserve">
+    <value>Einritzen</value>
+  </data>
+  <data name="catch_a" xml:space="preserve">
+    <value>Fangen</value>
+  </data>
+  <data name="cause" xml:space="preserve">
+    <value>Auslösen</value>
+  </data>
+  <data name="challenge" xml:space="preserve">
+    <value>Herausfordern</value>
+  </data>
+  <data name="change" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="charge" xml:space="preserve">
+    <value>Aufladen</value>
+  </data>
+  <data name="chase" xml:space="preserve">
+    <value>Rasen</value>
+  </data>
+  <data name="cheat" xml:space="preserve">
+    <value>Betrügen</value>
+  </data>
+  <data name="check" xml:space="preserve">
+    <value>Prüfen</value>
+  </data>
+  <data name="cheer" xml:space="preserve">
+    <value>Jubeln</value>
+  </data>
+  <data name="chew" xml:space="preserve">
+    <value>Kauen</value>
+  </data>
+  <data name="choke" xml:space="preserve">
+    <value>Drosseln</value>
+  </data>
+  <data name="choose" xml:space="preserve">
+    <value>Wählen</value>
+  </data>
+  <data name="chop" xml:space="preserve">
+    <value>Hacken</value>
+  </data>
+  <data name="claim" xml:space="preserve">
+    <value>Beanspruchen</value>
+  </data>
+  <data name="clap" xml:space="preserve">
+    <value>Klatschen</value>
+  </data>
+  <data name="clean" xml:space="preserve">
+    <value>Säubern</value>
+  </data>
+  <data name="clear" xml:space="preserve">
+    <value>Leeren</value>
+  </data>
+  <data name="clip" xml:space="preserve">
+    <value>Klemmen</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="coach" xml:space="preserve">
+    <value>Trainieren</value>
+  </data>
+  <data name="coil" xml:space="preserve">
+    <value>Aufwickeln</value>
+  </data>
+  <data name="collect" xml:space="preserve">
+    <value>Sammeln</value>
+  </data>
+  <data name="comb" xml:space="preserve">
+    <value>Klemmen</value>
+  </data>
+  <data name="come" xml:space="preserve">
+    <value>Kommen</value>
+  </data>
+  <data name="command" xml:space="preserve">
+    <value>Anordnen</value>
+  </data>
+  <data name="communicate" xml:space="preserve">
+    <value>Kommunizieren</value>
+  </data>
+  <data name="compare" xml:space="preserve">
+    <value>Vergleichen</value>
+  </data>
+  <data name="complain" xml:space="preserve">
+    <value>Jammern</value>
+  </data>
+  <data name="complete" xml:space="preserve">
+    <value>Abschließen</value>
+  </data>
+  <data name="concentrate" xml:space="preserve">
+    <value>Konzentrieren</value>
+  </data>
+  <data name="concern" xml:space="preserve">
+    <value>Bedenken</value>
+  </data>
+  <data name="confess" xml:space="preserve">
+    <value>Beichten</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="confuse" xml:space="preserve">
+    <value>Verwechseln</value>
+  </data>
+  <data name="connect" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="consider" xml:space="preserve">
+    <value>Überlegen</value>
+  </data>
+  <data name="consist" xml:space="preserve">
+    <value>Beruhen</value>
+  </data>
+  <data name="contain" xml:space="preserve">
+    <value>Enthalten</value>
+  </data>
+  <data name="continue_a" xml:space="preserve">
+    <value>Fortsetzen</value>
+  </data>
+  <data name="convert" xml:space="preserve">
+    <value>Umwandeln</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="correct" xml:space="preserve">
+    <value>Korrigieren</value>
+  </data>
+  <data name="cost" xml:space="preserve">
+    <value>Kosten</value>
+  </data>
+  <data name="cough" xml:space="preserve">
+    <value>Husten</value>
+  </data>
+  <data name="count" xml:space="preserve">
+    <value>Zählen</value>
+  </data>
+  <data name="cover" xml:space="preserve">
+    <value>Abdecken</value>
+  </data>
+  <data name="crack" xml:space="preserve">
+    <value>Brechen</value>
+  </data>
+  <data name="crash" xml:space="preserve">
+    <value>Zerstören</value>
+  </data>
+  <data name="crawl" xml:space="preserve">
+    <value>Krabbeln</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="cross" xml:space="preserve">
+    <value>Kreuzen</value>
+  </data>
+  <data name="crush" xml:space="preserve">
+    <value>Zerquetschen</value>
+  </data>
+  <data name="cry" xml:space="preserve">
+    <value>Weinen</value>
+  </data>
+  <data name="cure" xml:space="preserve">
+    <value>Heilen</value>
+  </data>
+  <data name="curl" xml:space="preserve">
+    <value>Drehen</value>
+  </data>
+  <data name="curve" xml:space="preserve">
+    <value>Kurven</value>
+  </data>
+  <data name="cut" xml:space="preserve">
+    <value>Schneiden</value>
+  </data>
+  <data name="cycle" xml:space="preserve">
+    <value>Zyklus</value>
+  </data>
+  <data name="dam" xml:space="preserve">
+    <value>Mutter</value>
+  </data>
+  <data name="damage" xml:space="preserve">
+    <value>Beschädigen</value>
+  </data>
+  <data name="dance" xml:space="preserve">
+    <value>Tanzen</value>
+  </data>
+  <data name="dare" xml:space="preserve">
+    <value>Dürfen</value>
+  </data>
+  <data name="deactivate" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="decay" xml:space="preserve">
+    <value>Zerfallen</value>
+  </data>
+  <data name="deceive" xml:space="preserve">
+    <value>Belügen</value>
+  </data>
+  <data name="decide" xml:space="preserve">
+    <value>Entscheiden</value>
+  </data>
+  <data name="decorate" xml:space="preserve">
+    <value>Dekorieren</value>
+  </data>
+  <data name="decrease" xml:space="preserve">
+    <value>Verringern</value>
+  </data>
+  <data name="decrypt" xml:space="preserve">
+    <value>Verschlüsselung</value>
+  </data>
+  <data name="delay" xml:space="preserve">
+    <value>Verzögern</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="delight" xml:space="preserve">
+    <value>Freuen</value>
+  </data>
+  <data name="deliver" xml:space="preserve">
+    <value>Liefern</value>
+  </data>
+  <data name="depend" xml:space="preserve">
+    <value>Abhängen</value>
+  </data>
+  <data name="describe" xml:space="preserve">
+    <value>Beschreiben</value>
+  </data>
+  <data name="desert" xml:space="preserve">
+    <value>Desertieren</value>
+  </data>
+  <data name="deserve" xml:space="preserve">
+    <value>Verdienen</value>
+  </data>
+  <data name="destroy" xml:space="preserve">
+    <value>Zerstören</value>
+  </data>
+  <data name="detect" xml:space="preserve">
+    <value>Erkennen</value>
+  </data>
+  <data name="develop" xml:space="preserve">
+    <value>Entwickeln</value>
+  </data>
+  <data name="dig" xml:space="preserve">
+    <value>Graben</value>
+  </data>
+  <data name="disable" xml:space="preserve">
+    <value>Abschalten</value>
+  </data>
+  <data name="disagree" xml:space="preserve">
+    <value>Ablehnen</value>
+  </data>
+  <data name="disappear" xml:space="preserve">
+    <value>Verschwinden!</value>
+  </data>
+  <data name="disapprove" xml:space="preserve">
+    <value>Missbilligen</value>
+  </data>
+  <data name="disarm" xml:space="preserve">
+    <value>Alarm ausschalten</value>
+  </data>
+  <data name="discover" xml:space="preserve">
+    <value>Entdecken</value>
+  </data>
+  <data name="dislike" xml:space="preserve">
+    <value>Ablehnen</value>
+  </data>
+  <data name="disprove" xml:space="preserve">
+    <value>Aberkennen</value>
+  </data>
+  <data name="divide" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="double_a" xml:space="preserve">
+    <value>Verdoppeln</value>
+  </data>
+  <data name="doubt" xml:space="preserve">
+    <value>Misstrauen</value>
+  </data>
+  <data name="do_a" xml:space="preserve">
+    <value>Tu es</value>
+  </data>
+  <data name="drag" xml:space="preserve">
+    <value>Schleifen</value>
+  </data>
+  <data name="drain" xml:space="preserve">
+    <value>Ableiten</value>
+  </data>
+  <data name="draw" xml:space="preserve">
+    <value>Zeichnen</value>
+  </data>
+  <data name="dream" xml:space="preserve">
+    <value>Träumen</value>
+  </data>
+  <data name="dress" xml:space="preserve">
+    <value>Kleiden</value>
+  </data>
+  <data name="drink" xml:space="preserve">
+    <value>Getränk</value>
+  </data>
+  <data name="drip" xml:space="preserve">
+    <value>Drip</value>
+  </data>
+  <data name="drive" xml:space="preserve">
+    <value>Antrieb</value>
+  </data>
+  <data name="drop" xml:space="preserve">
+    <value>Tropfen</value>
+  </data>
+  <data name="drum" xml:space="preserve">
+    <value>Trommel</value>
+  </data>
+  <data name="dry" xml:space="preserve">
+    <value>Trocken</value>
+  </data>
+  <data name="earn" xml:space="preserve">
+    <value>Erhalten Sie</value>
+  </data>
+  <data name="eat" xml:space="preserve">
+    <value>Essen</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="educate" xml:space="preserve">
+    <value>Educate</value>
+  </data>
+  <data name="embarrass" xml:space="preserve">
+    <value>In Verlegenheit zu bringen!</value>
+  </data>
+  <data name="employ" xml:space="preserve">
+    <value>Erwerbstätigkeit</value>
+  </data>
+  <data name="empty" xml:space="preserve">
+    <value>Leer</value>
+  </data>
+  <data name="enable" xml:space="preserve">
+    <value>Anschalten</value>
+  </data>
+  <data name="encourage" xml:space="preserve">
+    <value>Fordern Sie</value>
+  </data>
+  <data name="encrypt" xml:space="preserve">
+    <value>Verschlüsseln</value>
+  </data>
+  <data name="end" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="enjoy" xml:space="preserve">
+    <value>Guten Appetit!</value>
+  </data>
+  <data name="enter" xml:space="preserve">
+    <value>Eingeben</value>
+  </data>
+  <data name="entertain" xml:space="preserve">
+    <value>Unterhaltung</value>
+  </data>
+  <data name="escape" xml:space="preserve">
+    <value>Escape!</value>
+  </data>
+  <data name="examine" xml:space="preserve">
+    <value>Einsehen</value>
+  </data>
+  <data name="excite" xml:space="preserve">
+    <value>Excite</value>
+  </data>
+  <data name="excuse" xml:space="preserve">
+    <value>Entschuldigung</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="expand" xml:space="preserve">
+    <value>Erweitern</value>
+  </data>
+  <data name="expect" xml:space="preserve">
+    <value>Erwarten</value>
+  </data>
+  <data name="explain" xml:space="preserve">
+    <value>Bitte erläutern</value>
+  </data>
+  <data name="explode" xml:space="preserve">
+    <value>Explodieren</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="extend" xml:space="preserve">
+    <value>Ausfahren</value>
+  </data>
+  <data name="face" xml:space="preserve">
+    <value>Gesicht</value>
+  </data>
+  <data name="fade" xml:space="preserve">
+    <value>Überblenden</value>
+  </data>
+  <data name="fail" xml:space="preserve">
+    <value>Fehlschlagen</value>
+  </data>
+  <data name="fancy" xml:space="preserve">
+    <value>Fancy</value>
+  </data>
+  <data name="fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="fear" xml:space="preserve">
+    <value>Angst</value>
+  </data>
+  <data name="feel" xml:space="preserve">
+    <value>Feel!</value>
+  </data>
+  <data name="fence" xml:space="preserve">
+    <value>Zaun</value>
+  </data>
+  <data name="fetch" xml:space="preserve">
+    <value>Abrufen</value>
+  </data>
+  <data name="fight" xml:space="preserve">
+    <value>Kämpft!</value>
+  </data>
+  <data name="file" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="fill" xml:space="preserve">
+    <value>Ausfüllen</value>
+  </data>
+  <data name="film" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="find" xml:space="preserve">
+    <value>Finde!</value>
+  </data>
+  <data name="fire" xml:space="preserve">
+    <value>Feuer</value>
+  </data>
+  <data name="fit" xml:space="preserve">
+    <value>Passform</value>
+  </data>
+  <data name="fix" xml:space="preserve">
+    <value>Fest</value>
+  </data>
+  <data name="flap" xml:space="preserve">
+    <value>Klappe</value>
+  </data>
+  <data name="flash" xml:space="preserve">
+    <value>Blitz</value>
+  </data>
+  <data name="float_a" xml:space="preserve">
+    <value>Gleiten</value>
+  </data>
+  <data name="flood" xml:space="preserve">
+    <value>Fluten</value>
+  </data>
+  <data name="flow" xml:space="preserve">
+    <value>Fuss</value>
+  </data>
+  <data name="fly" xml:space="preserve">
+    <value>Fly!</value>
+  </data>
+  <data name="fold" xml:space="preserve">
+    <value>Einklappen</value>
+  </data>
+  <data name="follow" xml:space="preserve">
+    <value>Folgen</value>
+  </data>
+  <data name="fool" xml:space="preserve">
+    <value>Täuschen</value>
+  </data>
+  <data name="forbid" xml:space="preserve">
+    <value>Verbieten</value>
+  </data>
+  <data name="force" xml:space="preserve">
+    <value>Stärke</value>
+  </data>
+  <data name="forget" xml:space="preserve">
+    <value>Vergessen!</value>
+  </data>
+  <data name="forgive" xml:space="preserve">
+    <value>Vergebung</value>
+  </data>
+  <data name="form" xml:space="preserve">
+    <value>Formular</value>
+  </data>
+  <data name="forward" xml:space="preserve">
+    <value>Vorwärts</value>
+  </data>
+  <data name="found" xml:space="preserve">
+    <value>Gefunden</value>
+  </data>
+  <data name="frame" xml:space="preserve">
+    <value>Rahmen</value>
+  </data>
+  <data name="freeze" xml:space="preserve">
+    <value>Freeze</value>
+  </data>
+  <data name="fry" xml:space="preserve">
+    <value>Fry</value>
+  </data>
+  <data name="gather" xml:space="preserve">
+    <value>Sammeln</value>
+  </data>
+  <data name="gaze" xml:space="preserve">
+    <value>Blick</value>
+  </data>
+  <data name="generate" xml:space="preserve">
+    <value>Generieren</value>
+  </data>
+  <data name="get" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="give" xml:space="preserve">
+    <value>Give</value>
+  </data>
+  <data name="glow" xml:space="preserve">
+    <value>Glow</value>
+  </data>
+  <data name="glue" xml:space="preserve">
+    <value>Klebstoff</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>Los!</value>
+  </data>
+  <data name="go_to" xml:space="preserve">
+    <value>Gehe auf</value>
+  </data>
+  <data name="grab" xml:space="preserve">
+    <value>GRAB</value>
+  </data>
+  <data name="grate" xml:space="preserve">
+    <value>Rost</value>
+  </data>
+  <data name="grease" xml:space="preserve">
+    <value>Fett</value>
+  </data>
+  <data name="greet" xml:space="preserve">
+    <value>Grüßen</value>
+  </data>
+  <data name="grin" xml:space="preserve">
+    <value>Grin</value>
+  </data>
+  <data name="grip" xml:space="preserve">
+    <value>Griff</value>
+  </data>
+  <data name="groan" xml:space="preserve">
+    <value>Stöhnen!</value>
+  </data>
+  <data name="grow" xml:space="preserve">
+    <value>Wachsen</value>
+  </data>
+  <data name="guarantee" xml:space="preserve">
+    <value>Garantie</value>
+  </data>
+  <data name="guard" xml:space="preserve">
+    <value>Wache</value>
+  </data>
+  <data name="guess" xml:space="preserve">
+    <value>Guess</value>
+  </data>
+  <data name="guide" xml:space="preserve">
+    <value>Leitfaden</value>
+  </data>
+  <data name="hammer" xml:space="preserve">
+    <value>Hammer</value>
+  </data>
+  <data name="hand" xml:space="preserve">
+    <value>Hand</value>
+  </data>
+  <data name="handle" xml:space="preserve">
+    <value>Griff</value>
+  </data>
+  <data name="hang" xml:space="preserve">
+    <value>Erhängen</value>
+  </data>
+  <data name="happen" xml:space="preserve">
+    <value>VERWIRKLICHEN</value>
+  </data>
+  <data name="harass" xml:space="preserve">
+    <value>Belästigen!</value>
+  </data>
+  <data name="harm" xml:space="preserve">
+    <value>Harm</value>
+  </data>
+  <data name="hate" xml:space="preserve">
+    <value>Hass</value>
+  </data>
+  <data name="haunt" xml:space="preserve">
+    <value>Spuken!</value>
+  </data>
+  <data name="have" xml:space="preserve">
+    <value>Haben</value>
+  </data>
+  <data name="heal" xml:space="preserve">
+    <value>Heilen</value>
+  </data>
+  <data name="heap" xml:space="preserve">
+    <value>Heap</value>
+  </data>
+  <data name="hear" xml:space="preserve">
+    <value>Hören</value>
+  </data>
+  <data name="heat" xml:space="preserve">
+    <value>Wärme</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Helfen</value>
+  </data>
+  <data name="hide" xml:space="preserve">
+    <value>Verbergen</value>
+  </data>
+  <data name="hit" xml:space="preserve">
+    <value>Hit</value>
+  </data>
+  <data name="hold" xml:space="preserve">
+    <value>Halten</value>
+  </data>
+  <data name="hook" xml:space="preserve">
+    <value>Haken</value>
+  </data>
+  <data name="hop" xml:space="preserve">
+    <value>Hop</value>
+  </data>
+  <data name="hope" xml:space="preserve">
+    <value>Hoffnung</value>
+  </data>
+  <data name="hover" xml:space="preserve">
+    <value>Hover</value>
+  </data>
+  <data name="hug" xml:space="preserve">
+    <value>Umarmung</value>
+  </data>
+  <data name="hum" xml:space="preserve">
+    <value>Hum</value>
+  </data>
+  <data name="hunt" xml:space="preserve">
+    <value>Hunt-Jagd</value>
+  </data>
+  <data name="hurry" xml:space="preserve">
+    <value>Schnell!</value>
+  </data>
+  <data name="hurt" xml:space="preserve">
+    <value>Verletzt</value>
+  </data>
+  <data name="identify" xml:space="preserve">
+    <value>Erkennung von</value>
+  </data>
+  <data name="ignore" xml:space="preserve">
+    <value>Ignorieren</value>
+  </data>
+  <data name="imagine" xml:space="preserve">
+    <value>Vorstellen</value>
+  </data>
+  <data name="import" xml:space="preserve">
+    <value>Importieren</value>
+  </data>
+  <data name="impress" xml:space="preserve">
+    <value>Fest aufdrücken!</value>
+  </data>
+  <data name="improve" xml:space="preserve">
+    <value>Verbessern</value>
+  </data>
+  <data name="include" xml:space="preserve">
+    <value>Einschließen</value>
+  </data>
+  <data name="increase" xml:space="preserve">
+    <value>Erhöhen</value>
+  </data>
+  <data name="influence" xml:space="preserve">
+    <value>Beeinflussung</value>
+  </data>
+  <data name="inform" xml:space="preserve">
+    <value>Informieren</value>
+  </data>
+  <data name="inject" xml:space="preserve">
+    <value>HTML injizieren</value>
+  </data>
+  <data name="injure" xml:space="preserve">
+    <value>Trauma</value>
+  </data>
+  <data name="instruct" xml:space="preserve">
+    <value>Anweisen</value>
+  </data>
+  <data name="intend" xml:space="preserve">
+    <value>Beabsichtigen</value>
+  </data>
+  <data name="interest" xml:space="preserve">
+    <value>Zinsen</value>
+  </data>
+  <data name="interfere" xml:space="preserve">
+    <value>Interferenz</value>
+  </data>
+  <data name="interrupt" xml:space="preserve">
+    <value>unterbr.</value>
+  </data>
+  <data name="introduce" xml:space="preserve">
+    <value>Vorstellen</value>
+  </data>
+  <data name="pedal" xml:space="preserve">
+    <value>Pedal</value>
+  </data>
+  <data name="peel" xml:space="preserve">
+    <value>Schale</value>
+  </data>
+  <data name="peep" xml:space="preserve">
+    <value>PEEP</value>
+  </data>
+  <data name="perform" xml:space="preserve">
+    <value>Ausführen</value>
+  </data>
+  <data name="permit" xml:space="preserve">
+    <value>Erlaubnis</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="pick" xml:space="preserve">
+    <value>Aussuchen</value>
+  </data>
+  <data name="pinch" xml:space="preserve">
+    <value>Pinch</value>
+  </data>
+  <data name="pine" xml:space="preserve">
+    <value>Pine</value>
+  </data>
+  <data name="place" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="plant" xml:space="preserve">
+    <value>Werk</value>
+  </data>
+  <data name="play" xml:space="preserve">
+    <value>Abspielen</value>
+  </data>
+  <data name="please" xml:space="preserve">
+    <value>Bitte!</value>
+  </data>
+  <data name="plug" xml:space="preserve">
+    <value>Stecker</value>
+  </data>
+  <data name="point" xml:space="preserve">
+    <value>Punkt</value>
+  </data>
+  <data name="poke" xml:space="preserve">
+    <value>Highfive anbieten</value>
+  </data>
+  <data name="polish" xml:space="preserve">
+    <value>Polnisch</value>
+  </data>
+  <data name="pop" xml:space="preserve">
+    <value>Pop!</value>
+  </data>
+  <data name="possess" xml:space="preserve">
+    <value>Besitzen</value>
+  </data>
+  <data name="post" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="pour" xml:space="preserve">
+    <value>Gießen</value>
+  </data>
+  <data name="practice" xml:space="preserve">
+    <value>Praxis!</value>
+  </data>
+  <data name="pray" xml:space="preserve">
+    <value>Beten</value>
+  </data>
+  <data name="preach" xml:space="preserve">
+    <value>Predigt</value>
+  </data>
+  <data name="precede" xml:space="preserve">
+    <value>Vorausgehen!</value>
+  </data>
+  <data name="prefer" xml:space="preserve">
+    <value>Präferenz</value>
+  </data>
+  <data name="prepare" xml:space="preserve">
+    <value>Bereite dich vor!</value>
+  </data>
+  <data name="present" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="preserve" xml:space="preserve">
+    <value>Erhalten</value>
+  </data>
+  <data name="press" xml:space="preserve">
+    <value>Drücken Sie</value>
+  </data>
+  <data name="pretend" xml:space="preserve">
+    <value>Vorgeben.</value>
+  </data>
+  <data name="prevent" xml:space="preserve">
+    <value>Verhindern</value>
+  </data>
+  <data name="prick" xml:space="preserve">
+    <value>strechen</value>
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="produce" xml:space="preserve">
+    <value>Frischprodukte</value>
+  </data>
+  <data name="program" xml:space="preserve">
+    <value>Programm</value>
+  </data>
+  <data name="promise" xml:space="preserve">
+    <value>Versprechen!</value>
+  </data>
+  <data name="protect" xml:space="preserve">
+    <value>Schützen</value>
+  </data>
+  <data name="provide" xml:space="preserve">
+    <value>Sorgen Sie</value>
+  </data>
+  <data name="pull" xml:space="preserve">
+    <value>Pull</value>
+  </data>
+  <data name="pump" xml:space="preserve">
+    <value>Pumpe</value>
+  </data>
+  <data name="punch" xml:space="preserve">
+    <value>Punch!</value>
+  </data>
+  <data name="puncture" xml:space="preserve">
+    <value>Durchstichfestigkeit</value>
+  </data>
+  <data name="punish" xml:space="preserve">
+    <value>Bestrafen</value>
+  </data>
+  <data name="push" xml:space="preserve">
+    <value>Push!</value>
+  </data>
+  <data name="put" xml:space="preserve">
+    <value>Bringen Sie</value>
+  </data>
+  <data name="queue" xml:space="preserve">
+    <value>キュー</value>
+  </data>
+  <data name="race" xml:space="preserve">
+    <value>Rennen</value>
+  </data>
+  <data name="radiate" xml:space="preserve">
+    <value>Strahlen</value>
+  </data>
+  <data name="rain" xml:space="preserve">
+    <value>Regen</value>
+  </data>
+  <data name="raise" xml:space="preserve">
+    <value>Anheben</value>
+  </data>
+  <data name="range" xml:space="preserve">
+    <value>Bereich</value>
+  </data>
+  <data name="range_change" xml:space="preserve">
+    <value>Intervall Ändern</value>
+  </data>
+  <data name="reach" xml:space="preserve">
+    <value>Reichweite</value>
+  </data>
+  <data name="reactivate" xml:space="preserve">
+    <value>Reaktivieren</value>
+  </data>
+  <data name="read" xml:space="preserve">
+    <value>Lesen</value>
+  </data>
+  <data name="realise" xml:space="preserve">
+    <value>Realisierung</value>
+  </data>
+  <data name="receive" xml:space="preserve">
+    <value>Erhalten</value>
+  </data>
+  <data name="recognise" xml:space="preserve">
+    <value>Erkennen</value>
+  </data>
+  <data name="record" xml:space="preserve">
+    <value>Datensatz</value>
+  </data>
+  <data name="redirect" xml:space="preserve">
+    <value>Weiterleiten</value>
+  </data>
+  <data name="reduce" xml:space="preserve">
+    <value>Reduzieren</value>
+  </data>
+  <data name="reflect" xml:space="preserve">
+    <value>Nachdenken</value>
+  </data>
+  <data name="refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="refuse" xml:space="preserve">
+    <value>Ablehnen</value>
+  </data>
+  <data name="regret" xml:space="preserve">
+    <value>Bedauern</value>
+  </data>
+  <data name="reject" xml:space="preserve">
+    <value>Ablehnen</value>
+  </data>
+  <data name="rejoice" xml:space="preserve">
+    <value>Rejoice</value>
+  </data>
+  <data name="relax" xml:space="preserve">
+    <value>Entspannen Sie sich!</value>
+  </data>
+  <data name="release" xml:space="preserve">
+    <value>Mitteilung</value>
+  </data>
+  <data name="reload" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="rely" xml:space="preserve">
+    <value>vertrauen  darf</value>
+  </data>
+  <data name="remain" xml:space="preserve">
+    <value>Restbetrag</value>
+  </data>
+  <data name="remember" xml:space="preserve">
+    <value>Vergessen Sie nicht!</value>
+  </data>
+  <data name="remind" xml:space="preserve">
+    <value>Erinnern</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="repair" xml:space="preserve">
+    <value>Reparatur</value>
+  </data>
+  <data name="repeat" xml:space="preserve">
+    <value>Wiederholen!</value>
+  </data>
+  <data name="replace" xml:space="preserve">
+    <value>Ersetzen</value>
+  </data>
+  <data name="reply" xml:space="preserve">
+    <value>Antworten</value>
+  </data>
+  <data name="report" xml:space="preserve">
+    <value>Bericht</value>
+  </data>
+  <data name="reproduce" xml:space="preserve">
+    <value>Fortpflanzung</value>
+  </data>
+  <data name="request" xml:space="preserve">
+    <value>Anforderung</value>
+  </data>
+  <data name="rescue" xml:space="preserve">
+    <value>Rettung</value>
+  </data>
+  <data name="resend" xml:space="preserve">
+    <value>Erneut senden</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+  </data>
+  <data name="restore" xml:space="preserve">
+    <value>Wiederherstellen</value>
+  </data>
+  <data name="retire" xml:space="preserve">
+    <value>In Ruhestand gehen</value>
+  </data>
+  <data name="return_a" xml:space="preserve">
+    <value>Rückreise</value>
+  </data>
+  <data name="revert" xml:space="preserve">
+    <value>Zurücksetzten</value>
+  </data>
+  <data name="rhyme" xml:space="preserve">
+    <value>Reim</value>
+  </data>
+  <data name="ride" xml:space="preserve">
+    <value>Fahrt</value>
+  </data>
+  <data name="rise" xml:space="preserve">
+    <value>Rise</value>
+  </data>
+  <data name="risk" xml:space="preserve">
+    <value>Risiko</value>
+  </data>
+  <data name="rob" xml:space="preserve">
+    <value>ROB</value>
+  </data>
+  <data name="rock" xml:space="preserve">
+    <value>Gestein</value>
+  </data>
+  <data name="roll" xml:space="preserve">
+    <value>Würfeln!</value>
+  </data>
+  <data name="rot" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="rub" xml:space="preserve">
+    <value>RUB</value>
+  </data>
+  <data name="ruin" xml:space="preserve">
+    <value>Ruine</value>
+  </data>
+  <data name="rule" xml:space="preserve">
+    <value>Regel</value>
+  </data>
+  <data name="run" xml:space="preserve">
+    <value>Rennt!</value>
+  </data>
+  <data name="rush" xml:space="preserve">
+    <value>beeilen</value>
+  </data>
+  <data name="sack" xml:space="preserve">
+    <value>Spender</value>
+  </data>
+  <data name="sail" xml:space="preserve">
+    <value>Segel</value>
+  </data>
+  <data name="satisfy" xml:space="preserve">
+    <value>Gerecht zu werden!</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="saw" xml:space="preserve">
+    <value>Säge</value>
+  </data>
+  <data name="say" xml:space="preserve">
+    <value>Sagen:</value>
+  </data>
+  <data name="scare" xml:space="preserve">
+    <value>Jump-Scare</value>
+  </data>
+  <data name="scatter" xml:space="preserve">
+    <value>Scatter</value>
+  </data>
+  <data name="scold" xml:space="preserve">
+    <value>Schimpfen!</value>
+  </data>
+  <data name="scorch" xml:space="preserve">
+    <value>BRANDFLECK</value>
+  </data>
+  <data name="scrape" xml:space="preserve">
+    <value>Schaben</value>
+  </data>
+  <data name="scratch" xml:space="preserve">
+    <value>Kratzer</value>
+  </data>
+  <data name="scream" xml:space="preserve">
+    <value>Zu schreien</value>
+  </data>
+  <data name="screw" xml:space="preserve">
+    <value>Schraube</value>
+  </data>
+  <data name="scribble" xml:space="preserve">
+    <value>Scribble</value>
+  </data>
+  <data name="scrub" xml:space="preserve">
+    <value>Peeling</value>
+  </data>
+  <data name="seal" xml:space="preserve">
+    <value>Robbe</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="see" xml:space="preserve">
+    <value>Siehe</value>
+  </data>
+  <data name="sell" xml:space="preserve">
+    <value>Verkaufen</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="separate" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="serve" xml:space="preserve">
+    <value>Nutzen</value>
+  </data>
+  <data name="set" xml:space="preserve">
+    <value>Setzten</value>
+  </data>
+  <data name="settle" xml:space="preserve">
+    <value>Erledigen</value>
+  </data>
+  <data name="shade" xml:space="preserve">
+    <value>Farbton</value>
+  </data>
+  <data name="share" xml:space="preserve">
+    <value>Teilt das!</value>
+  </data>
+  <data name="shave" xml:space="preserve">
+    <value>Rasiergel</value>
+  </data>
+  <data name="shock" xml:space="preserve">
+    <value>Schock</value>
+  </data>
+  <data name="shop" xml:space="preserve">
+    <value>Shop</value>
+  </data>
+  <data name="show" xml:space="preserve">
+    <value>Zeigen</value>
+  </data>
+  <data name="shrug" xml:space="preserve">
+    <value>Achselzucken</value>
+  </data>
+  <data name="shut" xml:space="preserve">
+    <value>Schließen.</value>
+  </data>
+  <data name="sigh" xml:space="preserve">
+    <value>Seufzer...</value>
+  </data>
+  <data name="sign" xml:space="preserve">
+    <value>Signieren</value>
+  </data>
+  <data name="signal" xml:space="preserve">
+    <value>Signal</value>
+  </data>
+  <data name="sing" xml:space="preserve">
+    <value>Sing'</value>
+  </data>
+  <data name="sink" xml:space="preserve">
+    <value>Spüle</value>
+  </data>
+  <data name="sit" xml:space="preserve">
+    <value>Sit.</value>
+  </data>
+  <data name="ski" xml:space="preserve">
+    <value>Ski</value>
+  </data>
+  <data name="skip" xml:space="preserve">
+    <value>Überspringen</value>
+  </data>
+  <data name="slap" xml:space="preserve">
+    <value>Ohrfeige</value>
+  </data>
+  <data name="sleep" xml:space="preserve">
+    <value>Schlaf</value>
+  </data>
+  <data name="slip" xml:space="preserve">
+    <value>Slip</value>
+  </data>
+  <data name="slow" xml:space="preserve">
+    <value>Langsam</value>
+  </data>
+  <data name="smash" xml:space="preserve">
+    <value>Smash</value>
+  </data>
+  <data name="smell" xml:space="preserve">
+    <value>Riechen</value>
+  </data>
+  <data name="smile" xml:space="preserve">
+    <value>Bitte lächeln!</value>
+  </data>
+  <data name="smoke" xml:space="preserve">
+    <value>Rauchen</value>
+  </data>
+  <data name="snatch" xml:space="preserve">
+    <value>Reißen</value>
+  </data>
+  <data name="sneeze" xml:space="preserve">
+    <value>Niesen</value>
+  </data>
+  <data name="sniff" xml:space="preserve">
+    <value>Sniff</value>
+  </data>
+  <data name="snore" xml:space="preserve">
+    <value>Schnarchen</value>
+  </data>
+  <data name="snow" xml:space="preserve">
+    <value>Schnee!</value>
+  </data>
+  <data name="soak" xml:space="preserve">
+    <value>Badezusatz</value>
+  </data>
+  <data name="sound" xml:space="preserve">
+    <value>schall</value>
+  </data>
+  <data name="spare" xml:space="preserve">
+    <value>Ersatz</value>
+  </data>
+  <data name="spark" xml:space="preserve">
+    <value>Spark</value>
+  </data>
+  <data name="sparkle" xml:space="preserve">
+    <value>Mr. Sparkle</value>
+  </data>
+  <data name="speak" xml:space="preserve">
+    <value>Sprich</value>
+  </data>
+  <data name="spell" xml:space="preserve">
+    <value>Zauber</value>
+  </data>
+  <data name="spend" xml:space="preserve">
+    <value>Ausgeben</value>
+  </data>
+  <data name="spill" xml:space="preserve">
+    <value>Spill</value>
+  </data>
+  <data name="spoil" xml:space="preserve">
+    <value>IMMER</value>
+  </data>
+  <data name="spot" xml:space="preserve">
+    <value>Spot</value>
+  </data>
+  <data name="spray" xml:space="preserve">
+    <value>Spray</value>
+  </data>
+  <data name="sprout" xml:space="preserve">
+    <value>Sprout</value>
+  </data>
+  <data name="squash" xml:space="preserve">
+    <value>Squash</value>
+  </data>
+  <data name="squeak" xml:space="preserve">
+    <value>Squeak</value>
+  </data>
+  <data name="squeal" xml:space="preserve">
+    <value>Spitzel</value>
+  </data>
+  <data name="squeeze" xml:space="preserve">
+    <value>Quetschen</value>
+  </data>
+  <data name="stain" xml:space="preserve">
+    <value>Fleck</value>
+  </data>
+  <data name="stamp" xml:space="preserve">
+    <value>Stempel</value>
+  </data>
+  <data name="stand" xml:space="preserve">
+    <value>Stehen!</value>
+  </data>
+  <data name="stank" xml:space="preserve">
+    <value>Stank!</value>
+  </data>
+  <data name="stare" xml:space="preserve">
+    <value>Stare</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Starten</value>
+  </data>
+  <data name="stay" xml:space="preserve">
+    <value>Stay!</value>
+  </data>
+  <data name="steer" xml:space="preserve">
+    <value>Rüde</value>
+  </data>
+  <data name="step" xml:space="preserve">
+    <value>Schritt</value>
+  </data>
+  <data name="stink" xml:space="preserve">
+    <value>Stinkt.</value>
+  </data>
+  <data name="stir" xml:space="preserve">
+    <value>Rühren</value>
+  </data>
+  <data name="stitch" xml:space="preserve">
+    <value>Yuna &amp; Stitch</value>
+  </data>
+  <data name="stop" xml:space="preserve">
+    <value>Stopen</value>
+  </data>
+  <data name="store" xml:space="preserve">
+    <value>Geschäft</value>
+  </data>
+  <data name="strap" xml:space="preserve">
+    <value>Riemen</value>
+  </data>
+  <data name="strengthen" xml:space="preserve">
+    <value>Ausbauen</value>
+  </data>
+  <data name="stretch" xml:space="preserve">
+    <value>Dehnbar</value>
+  </data>
+  <data name="strip" xml:space="preserve">
+    <value>HTML-Inhalte entfernen.</value>
+  </data>
+  <data name="stroke" xml:space="preserve">
+    <value>Schlaganfall</value>
+  </data>
+  <data name="stuff" xml:space="preserve">
+    <value>Dinge</value>
+  </data>
+  <data name="stunk" xml:space="preserve">
+    <value>Stank!</value>
+  </data>
+  <data name="subtract" xml:space="preserve">
+    <value>Subtrahieren</value>
+  </data>
+  <data name="suck" xml:space="preserve">
+    <value>saugen</value>
+  </data>
+  <data name="suffer" xml:space="preserve">
+    <value>Kranken</value>
+  </data>
+  <data name="suggest" xml:space="preserve">
+    <value>Einstellen</value>
+  </data>
+  <data name="suit" xml:space="preserve">
+    <value>Anzug</value>
+  </data>
+  <data name="supply" xml:space="preserve">
+    <value>Anschluss</value>
+  </data>
+  <data name="support" xml:space="preserve">
+    <value>Unterstützen</value>
+  </data>
+  <data name="suppose" xml:space="preserve">
+    <value>Vermuten</value>
+  </data>
+  <data name="surprise" xml:space="preserve">
+    <value>Überraschen</value>
+  </data>
+  <data name="surround" xml:space="preserve">
+    <value>Surround</value>
+  </data>
+  <data name="suspect" xml:space="preserve">
+    <value>Verdächtiger</value>
+  </data>
+  <data name="suspend" xml:space="preserve">
+    <value>Aussetzen</value>
+  </data>
+  <data name="swim" xml:space="preserve">
+    <value>Schwimmen Sie!</value>
+  </data>
+  <data name="switch_a" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="sync" xml:space="preserve">
+    <value>Synchronisieren</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Synchronisieren</value>
+  </data>
+  <data name="take" xml:space="preserve">
+    <value>Take!</value>
+  </data>
+  <data name="talk" xml:space="preserve">
+    <value>Sprechen</value>
+  </data>
+  <data name="tame" xml:space="preserve">
+    <value>Zahm</value>
+  </data>
+  <data name="tap" xml:space="preserve">
+    <value>Gewindebohren</value>
+  </data>
+  <data name="taste" xml:space="preserve">
+    <value>Schmecken</value>
+  </data>
+  <data name="teach" xml:space="preserve">
+    <value>Beibringen</value>
+  </data>
+  <data name="tear" xml:space="preserve">
+    <value>überprüfen.</value>
+  </data>
+  <data name="tease" xml:space="preserve">
+    <value>Anreißer</value>
+  </data>
+  <data name="telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="tell" xml:space="preserve">
+    <value>Tell (Archäologie)</value>
+  </data>
+  <data name="tempt" xml:space="preserve">
+    <value>Versuchung</value>
+  </data>
+  <data name="terrify" xml:space="preserve">
+    <value>Erschrecken!</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>Prüfung</value>
+  </data>
+  <data name="thank" xml:space="preserve">
+    <value>bedanken</value>
+  </data>
+  <data name="think" xml:space="preserve">
+    <value>Denk</value>
+  </data>
+  <data name="throw_a" xml:space="preserve">
+    <value>Werfen</value>
+  </data>
+  <data name="tick" xml:space="preserve">
+    <value>Ankreuzen</value>
+  </data>
+  <data name="tickle" xml:space="preserve">
+    <value>Kitzeln</value>
+  </data>
+  <data name="tie" xml:space="preserve">
+    <value>Krawatte</value>
+  </data>
+  <data name="tip" xml:space="preserve">
+    <value>Tipp!</value>
+  </data>
+  <data name="tire" xml:space="preserve">
+    <value>Reifen</value>
+  </data>
+  <data name="torn" xml:space="preserve">
+    <value>Zerrissen</value>
+  </data>
+  <data name="tow" xml:space="preserve">
+    <value>Abschleppen</value>
+  </data>
+  <data name="trace" xml:space="preserve">
+    <value>Spur</value>
+  </data>
+  <data name="trade" xml:space="preserve">
+    <value>Handel</value>
+  </data>
+  <data name="train" xml:space="preserve">
+    <value>Zug</value>
+  </data>
+  <data name="transfer" xml:space="preserve">
+    <value>Übertragen</value>
+  </data>
+  <data name="transform" xml:space="preserve">
+    <value>Transformieren</value>
+  </data>
+  <data name="transport" xml:space="preserve">
+    <value>Transport</value>
+  </data>
+  <data name="trap" xml:space="preserve">
+    <value>Trap</value>
+  </data>
+  <data name="travel" xml:space="preserve">
+    <value>Reisen</value>
+  </data>
+  <data name="treat" xml:space="preserve">
+    <value>Verwöhnen</value>
+  </data>
+  <data name="tremble" xml:space="preserve">
+    <value>Zittern!</value>
+  </data>
+  <data name="trick" xml:space="preserve">
+    <value>Trick</value>
+  </data>
+  <data name="trip" xml:space="preserve">
+    <value>Reise</value>
+  </data>
+  <data name="trot" xml:space="preserve">
+    <value>Trabung</value>
+  </data>
+  <data name="trouble" xml:space="preserve">
+    <value>Ärger</value>
+  </data>
+  <data name="trust" xml:space="preserve">
+    <value>Vertrauen</value>
+  </data>
+  <data name="try_a" xml:space="preserve">
+    <value>Probieren Sie es aus!</value>
+  </data>
+  <data name="tug" xml:space="preserve">
+    <value>TTX</value>
+  </data>
+  <data name="tumble" xml:space="preserve">
+    <value>Tumble</value>
+  </data>
+  <data name="turn" xml:space="preserve">
+    <value>Wenden!</value>
+  </data>
+  <data name="twist" xml:space="preserve">
+    <value>Twist</value>
+  </data>
+  <data name="understand" xml:space="preserve">
+    <value>Verstehe</value>
+  </data>
+  <data name="undress" xml:space="preserve">
+    <value>Entkleiden!</value>
+  </data>
+  <data name="unfasten" xml:space="preserve">
+    <value>Lösen Sie!</value>
+  </data>
+  <data name="unhide" xml:space="preserve">
+    <value>Einblenden</value>
+  </data>
+  <data name="unite" xml:space="preserve">
+    <value>Vereinen</value>
+  </data>
+  <data name="unload" xml:space="preserve">
+    <value>Entladen</value>
+  </data>
+  <data name="unlock" xml:space="preserve">
+    <value>Entsperren</value>
+  </data>
+  <data name="unpack" xml:space="preserve">
+    <value>Auspacken</value>
+  </data>
+  <data name="untidy" xml:space="preserve">
+    <value>unordentlich</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="use" xml:space="preserve">
+    <value>Nutzen</value>
+  </data>
+  <data name="validate" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="vanish" xml:space="preserve">
+    <value>Grau-Vanish</value>
+  </data>
+  <data name="visible" xml:space="preserve">
+    <value>Sichtbar</value>
+  </data>
+  <data name="visit" xml:space="preserve">
+    <value>Besuchen</value>
+  </data>
+  <data name="wail" xml:space="preserve">
+    <value>Wail</value>
+  </data>
+  <data name="wait" xml:space="preserve">
+    <value>Bitte warten!</value>
+  </data>
+  <data name="wake" xml:space="preserve">
+    <value>Wake</value>
+  </data>
+  <data name="walk" xml:space="preserve">
+    <value>Laufen</value>
+  </data>
+  <data name="wander" xml:space="preserve">
+    <value>Jitter</value>
+  </data>
+  <data name="want" xml:space="preserve">
+    <value>Wollen</value>
+  </data>
+  <data name="warm" xml:space="preserve">
+    <value>Warm</value>
+  </data>
+  <data name="warn" xml:space="preserve">
+    <value>Warn</value>
+  </data>
+  <data name="wash" xml:space="preserve">
+    <value>Waschen</value>
+  </data>
+  <data name="waste" xml:space="preserve">
+    <value>Abfall</value>
+  </data>
+  <data name="watch" xml:space="preserve">
+    <value>Ansehen!</value>
+  </data>
+  <data name="wave" xml:space="preserve">
+    <value>Welle</value>
+  </data>
+  <data name="wear" xml:space="preserve">
+    <value>Verschleiß</value>
+  </data>
+  <data name="weigh" xml:space="preserve">
+    <value>Gewichtskraft</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Willkommen</value>
+  </data>
+  <data name="whip" xml:space="preserve">
+    <value>Peitsche</value>
+  </data>
+  <data name="whirl" xml:space="preserve">
+    <value>Wirbel</value>
+  </data>
+  <data name="whisper" xml:space="preserve">
+    <value>Flüstern</value>
+  </data>
+  <data name="whistle" xml:space="preserve">
+    <value>Heuler</value>
+  </data>
+  <data name="win" xml:space="preserve">
+    <value>Sieg</value>
+  </data>
+  <data name="wink" xml:space="preserve">
+    <value>Wink</value>
+  </data>
+  <data name="wipe" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="wish" xml:space="preserve">
+    <value>Wunsch</value>
+  </data>
+  <data name="wobble" xml:space="preserve">
+    <value>Wobbeln</value>
+  </data>
+  <data name="wonder" xml:space="preserve">
+    <value>Staunen</value>
+  </data>
+  <data name="work" xml:space="preserve">
+    <value>Arbeiten</value>
+  </data>
+  <data name="worry" xml:space="preserve">
+    <value>Sich Sorgen machen</value>
+  </data>
+  <data name="wrap" xml:space="preserve">
+    <value>Umbruch</value>
+  </data>
+  <data name="wreck" xml:space="preserve">
+    <value>Schrottplatz</value>
+  </data>
+  <data name="wrestle" xml:space="preserve">
+    <value>Ringen!</value>
+  </data>
+  <data name="wriggle" xml:space="preserve">
+    <value>Zappeln!</value>
+  </data>
+  <data name="write" xml:space="preserve">
+    <value>Schreiben</value>
+  </data>
+  <data name="yawn" xml:space="preserve">
+    <value>Gääähn!</value>
+  </data>
+  <data name="yell" xml:space="preserve">
+    <value>brülle ich.</value>
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>Postleitzahl</value>
+  </data>
+  <data name="zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+</root>

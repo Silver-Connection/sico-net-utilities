@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Common Utilities I18n XUnit Testing</Description>
+    <Authors>Silver Connection</Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>SiCo.Utilities.I18n.Test</AssemblyName>
+    <PackageId>SiCo.Utilities.I18n.Test</PackageId>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <PackageTags>Silver Connection;Utilities;I18n;Test</PackageTags>
+    <PackageIconUrl>http://si-co.net/imgs/sico/sico-256px.png</PackageIconUrl>
+    <PackageProjectUrl>http://www.si-co.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>
+    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <Version>2.0.0</Version>
+    <RepositoryUrl>https://github.com/Silver-Connection/sico-net-utilities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SiCo.Utilities.Generics\SiCo.Utilities.Generics.csproj" />
+    <ProjectReference Include="..\..\src\SiCo.Utilities.I18n\SiCo.Utilities.I18n.csproj" />
+    <!--<ProjectReference Include="..\..\src\SiCo.Utilities.Billing\SiCo.Utilities.Billing.csproj" />-->
+    <!--<ProjectReference Include="..\..\src\SiCo.Utilities.Log\SiCo.Utilities.Log.csproj" />-->
+    <!--<ProjectReference Include="..\..\src\SiCo.Utilities.Web\SiCo.Utilities.Web.csproj" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+</Project>

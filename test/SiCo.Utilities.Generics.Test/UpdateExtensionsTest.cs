@@ -1,10 +1,12 @@
 ﻿namespace SiCo.Utilities.Generics.Test
 {
     using System;
-    using SiCo.Utilities.Generics;
-    using Xunit;
+
     //using Helper;
     using System.Net;
+    using SiCo.Utilities.Generics;
+    using Xunit;
+
     public class UpdateExtensionsTest
     {
         [Fact]
@@ -104,7 +106,7 @@
             Assert.Equal(date.ToString(), model.Date1.ToString());
             Assert.True(save);
 
-            // No change 
+            // No change
             save = false;
             model.Date1 = model.Date1.Update(string.Empty, DateTimeExtensions.DateTime, ref save);
             Assert.Equal(date.ToString(), model.Date1.ToString());

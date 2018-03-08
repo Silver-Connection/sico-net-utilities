@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="amount" xml:space="preserve">
+    <value>Betrag</value>
+  </data>
+  <data name="amounts" xml:space="preserve">
+    <value>Beträge</value>
+  </data>
+  <data name="balance" xml:space="preserve">
+    <value>Guthaben</value>
+  </data>
+  <data name="balance_available" xml:space="preserve">
+    <value>Verfügbares Guthaben</value>
+  </data>
+  <data name="balance_check" xml:space="preserve">
+    <value>Guthaben Abfragen</value>
+  </data>
+  <data name="balance_limit_desc" xml:space="preserve">
+    <value>Wenn Dein Guthaben den Mindestguthabenstand unterschreitet, senden wir dir eine Benachrichtigungsemail. Dadurch weist Du immer, wann Du dein Guthaben wieder aufladen musst.</value>
+  </data>
+  <data name="balance_limit_send" xml:space="preserve">
+    <value>Bei geringem Guthabenstand möchte ich informiert werden</value>
+  </data>
+  <data name="balance_limit_update_success" xml:space="preserve">
+    <value>Schwellwert erfolgreich geändert.</value>
+  </data>
+  <data name="balance_limit_value" xml:space="preserve">
+    <value>Mindestguthabenstand für Benachrichtigungen</value>
+  </data>
+  <data name="balance_negative_limit" xml:space="preserve">
+    <value>Dispo Limit</value>
+  </data>
+  <data name="balance_negative_limit_update_success" xml:space="preserve">
+    <value>Dispo Limit erfolgreich geändert.</value>
+  </data>
+  <data name="balance_no" xml:space="preserve">
+    <value>Kein Guthaben vorhanden</value>
+  </data>
+  <data name="balance_transaction" xml:space="preserve">
+    <value>Zahlungsvorgang</value>
+  </data>
+  <data name="balance_transactions" xml:space="preserve">
+    <value>Konto Übersicht</value>
+  </data>
+  <data name="balance_transaction_cancell_ask" xml:space="preserve">
+    <value>Soll diese Zahlung wirklich storniert werden?</value>
+  </data>
+  <data name="balance_transaction_cancell_revert_ask" xml:space="preserve">
+    <value>Soll diese Zahlung wieder aktiviert werden?</value>
+  </data>
+  <data name="balance_transaction_exists" xml:space="preserve">
+    <value>Diese Transaktion existiert bereits.</value>
+  </data>
+  <data name="balance_updated_success" xml:space="preserve">
+    <value>Guthaben erfolgreich erhöht.</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="bank_account" xml:space="preserve">
+    <value>Bankkonto</value>
+  </data>
+  <data name="bank_accounts" xml:space="preserve">
+    <value>Bankkonten</value>
+  </data>
+  <data name="bic" xml:space="preserve">
+    <value>BIC</value>
+  </data>
+  <data name="billed_on" xml:space="preserve">
+    <value>Gebucht am</value>
+  </data>
+  <data name="billing" xml:space="preserve">
+    <value>Fakturierung</value>
+  </data>
+  <data name="billing_group" xml:space="preserve">
+    <value>Abrechnungsgruppen-Id</value>
+  </data>
+  <data name="billing_increment" xml:space="preserve">
+    <value>Abrechnung-Inkrement!</value>
+  </data>
+  <data name="billing_timezone" xml:space="preserve">
+    <value>Abrechnung-Zeitzone!</value>
+  </data>
+  <data name="bill_id" xml:space="preserve">
+    <value>Rechnungsnummer</value>
+  </data>
+  <data name="cancelled_change_balance" xml:space="preserve">
+    <value>Guthaben bei Abbruch ändern</value>
+  </data>
+  <data name="charge_balance" xml:space="preserve">
+    <value>Guthaben aufladen</value>
+  </data>
+  <data name="charge_by" xml:space="preserve">
+    <value>Guthaben aufgeladen über {0}</value>
+  </data>
+  <data name="charge_by_calling_card" xml:space="preserve">
+    <value>Guthaben übertragen von Karte: {0} auf Konto: {1}</value>
+  </data>
+  <data name="charge_by_calling_card_log" xml:space="preserve">
+    <value>Betrag {0} von Karte {1} auf Konto: {2} übertragen</value>
+  </data>
+  <data name="charge_by_log" xml:space="preserve">
+    <value>Betrag {0} von Karte {1} auf Konto: {2} übertragen</value>
+  </data>
+  <data name="charge_last" xml:space="preserve">
+    <value>Letzte Aufladung</value>
+  </data>
+  <data name="charge_revert" xml:space="preserve">
+    <value>Buchung stornieren</value>
+  </data>
+  <data name="cheap" xml:space="preserve">
+    <value>Günstig</value>
+  </data>
+  <data name="choose_methode_amount" xml:space="preserve">
+    <value>Wähle eine Zahlungsmethode und den gewünschten Betrag aus.</value>
+  </data>
+  <data name="commission" xml:space="preserve">
+    <value>Kommission</value>
+  </data>
+  <data name="commission_reseller" xml:space="preserve">
+    <value>Wiederverkäufer Kommission</value>
+  </data>
+  <data name="commission_vendor" xml:space="preserve">
+    <value>Verkäufer Kommission</value>
+  </data>
+  <data name="creadit_starting" xml:space="preserve">
+    <value>Startguthaben</value>
+  </data>
+  <data name="currencies" xml:space="preserve">
+    <value>Währungen</value>
+  </data>
+  <data name="currency" xml:space="preserve">
+    <value>Währung</value>
+  </data>
+  <data name="external_id" xml:space="preserve">
+    <value>Externe ID</value>
+  </data>
+  <data name="gateway_connection_failed" xml:space="preserve">
+    <value>Konnte keine Verbindung zum Zahlungs-Gateway aufbauen</value>
+  </data>
+  <data name="gateway_reports_error" xml:space="preserve">
+    <value>Gateway meldet ein Fehler</value>
+  </data>
+  <data name="gateway_transaction_id" xml:space="preserve">
+    <value>Gateway Buchungsnummer</value>
+  </data>
+  <data name="gatway_transaction_data" xml:space="preserve">
+    <value>Gateway Buchungsdaten</value>
+  </data>
+  <data name="holder" xml:space="preserve">
+    <value>Halter</value>
+  </data>
+  <data name="iban" xml:space="preserve">
+    <value>IBAN</value>
+  </data>
+  <data name="invoices_total" xml:space="preserve">
+    <value>Rechnungsbetrag</value>
+  </data>
+  <data name="invoice_download_filename" xml:space="preserve">
+    <value>Rechnung</value>
+  </data>
+  <data name="invoice_email" xml:space="preserve">
+    <value>Rechnung E-Mail!</value>
+  </data>
+  <data name="invoice_hide_success" xml:space="preserve">
+    <value>Rechnung ist für die Kunden nicht mehr sichtbar.</value>
+  </data>
+  <data name="invoice_not_found" xml:space="preserve">
+    <value>Rechnung nicht gefunden.</value>
+  </data>
+  <data name="invoice_reset_downloads_success" xml:space="preserve">
+    <value>Anzahl der Downloads erfolgreich geändert.</value>
+  </data>
+  <data name="invoice_show_success" xml:space="preserve">
+    <value>Rechnung ist jetzt sichtbar für den Kunden.</value>
+  </data>
+  <data name="invoice_unhide_success" xml:space="preserve">
+    <value>Rechnung ist jetzt sichtbar für den Kunden.</value>
+  </data>
+  <data name="itemized_statement_xed" xml:space="preserve">
+    <value>Anonymisierter Einzelverbindungsnachweis</value>
+  </data>
+  <data name="itemized_statement_xed_desc" xml:space="preserve">
+    <value>Wenn aktiv werden die letzten 3 Stellen der Rufnummern im Einzelverbindungsnachweis durch XXX ersetzt.</value>
+  </data>
+  <data name="paid" xml:space="preserve">
+    <value>Bezahlt!</value>
+  </data>
+  <data name="paid_on" xml:space="preserve">
+    <value>Bezahlt am</value>
+  </data>
+  <data name="payment" xml:space="preserve">
+    <value>Zahlung</value>
+  </data>
+  <data name="payments" xml:space="preserve">
+    <value>Zahlungen</value>
+  </data>
+  <data name="payment_ack_by" xml:space="preserve">
+    <value>Zahlung von anerkannt!</value>
+  </data>
+  <data name="payment_by" xml:space="preserve">
+    <value>Zahlung von</value>
+  </data>
+  <data name="payment_methode" xml:space="preserve">
+    <value>Zahlungsmethode</value>
+  </data>
+  <data name="payment_methodes" xml:space="preserve">
+    <value>Zahlungsmethoden</value>
+  </data>
+  <data name="payment_methode_not_found" xml:space="preserve">
+    <value>Zahlungsmethode konnte nicht gefunden werden.</value>
+  </data>
+  <data name="payment_success" xml:space="preserve">
+    <value>Guthaben erfolgreich aufgeladen</value>
+  </data>
+  <data name="paypal" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="paypal_email" xml:space="preserve">
+    <value>PayPal E-Mail</value>
+  </data>
+  <data name="phonecard" xml:space="preserve">
+    <value>Telefonkarte</value>
+  </data>
+  <data name="rate" xml:space="preserve">
+    <value>Preis</value>
+  </data>
+  <data name="rates" xml:space="preserve">
+    <value>Preise</value>
+  </data>
+  <data name="rates_email" xml:space="preserve">
+    <value>Preise E-Mail</value>
+  </data>
+  <data name="rate_per_min" xml:space="preserve">
+    <value>Preis / Min</value>
+  </data>
+  <data name="rate_reseller" xml:space="preserve">
+    <value>Wiederverkäufer Preis</value>
+  </data>
+  <data name="rate_sheet" xml:space="preserve">
+    <value>Preisliste</value>
+  </data>
+  <data name="rate_sheets" xml:space="preserve">
+    <value>Preislisten</value>
+  </data>
+  <data name="rate_sheet_reseller" xml:space="preserve">
+    <value>Wiederverkäufer Preisliste</value>
+  </data>
+  <data name="rate_sheet_vendor" xml:space="preserve">
+    <value>Verkäufer Preisliste</value>
+  </data>
+  <data name="rate_vendor" xml:space="preserve">
+    <value>Verkäufer Preis</value>
+  </data>
+  <data name="redirect_to" xml:space="preserve">
+    <value>Bitte haben Sie einen Moment Geduld. Sie werden zu &lt;strong&gt;{0}&lt;/strong&gt; weitergeleitet.</value>
+  </data>
+  <data name="reference" xml:space="preserve">
+    <value>Verwendungszweck</value>
+  </data>
+  <data name="registration_number" xml:space="preserve">
+    <value>Registrierungsnummer</value>
+  </data>
+  <data name="remittee" xml:space="preserve">
+    <value>Empfänger</value>
+  </data>
+  <data name="rtn" xml:space="preserve">
+    <value>RTN / ABA</value>
+  </data>
+  <data name="sofort" xml:space="preserve">
+    <value>SOFORT-Überweisung</value>
+  </data>
+  <data name="tax" xml:space="preserve">
+    <value>Steuer</value>
+  </data>
+  <data name="transaction_amount_min" xml:space="preserve">
+    <value>Mindestbetrag pro Transaktion!</value>
+  </data>
+  <data name="transaction_cancel" xml:space="preserve">
+    <value>Buchung abbrechen</value>
+  </data>
+  <data name="transaction_cancel_error_is_deleted" xml:space="preserve">
+    <value>Gelöschte Zahlungen können nicht aktiviert werden. Zahlung muss erst wiederhergestellt werden.</value>
+  </data>
+  <data name="transaction_cancel_success" xml:space="preserve">
+    <value>Zahlung erfolgreich storniert</value>
+  </data>
+  <data name="transaction_delete_ask" xml:space="preserve">
+    <value>Soll diese Zahlung gelöscht werden?</value>
+  </data>
+  <data name="transaction_delete_error_not_cancelled" xml:space="preserve">
+    <value>Zahlung muss erst storniert werden, bevor sie gelöscht werden kann.</value>
+  </data>
+  <data name="transaction_delete_success" xml:space="preserve">
+    <value>Zahlung erfolgreich gelöscht</value>
+  </data>
+  <data name="transaction_id" xml:space="preserve">
+    <value>Transactions ID</value>
+  </data>
+  <data name="transaction_reactivated_success" xml:space="preserve">
+    <value>Zahlung wieder verbucht</value>
+  </data>
+  <data name="transaction_restore_ask" xml:space="preserve">
+    <value>Soll diese Zahlung wiederhergestellt werden?</value>
+  </data>
+  <data name="transaction_restore_success" xml:space="preserve">
+    <value>Zahlung erfolgreich wiederhergestellt</value>
+  </data>
+  <data name="transaction_status_ask" xml:space="preserve">
+    <value>Soll der Status dieser Zahlung geändert werden?</value>
+  </data>
+  <data name="transaction_status_success" xml:space="preserve">
+    <value>Status der Zahlung wurde erfolgreich geändert</value>
+  </data>
+  <data name="transfer" xml:space="preserve">
+    <value>Umbuchen</value>
+  </data>
+  <data name="vendor_payments" xml:space="preserve">
+    <value>Verkäufer Zahlungen</value>
+  </data>
+  <data name="wiretransfer" xml:space="preserve">
+    <value>Überweisung</value>
+  </data>
+  <data name="wire_reference_1" xml:space="preserve">
+    <value>{0}€ Aufgeladen</value>
+  </data>
+  <data name="wire_reference_2" xml:space="preserve">
+    <value>Konto {0}</value>
+  </data>
+</root>
