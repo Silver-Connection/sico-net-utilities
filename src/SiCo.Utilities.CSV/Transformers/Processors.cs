@@ -9,7 +9,7 @@
     /// <example>
     /// // Populate processors
     /// var processors = new Processors();
-    /// processors.Transformers = new IBaseModel[] 
+    /// processors.Transformers = new IBaseModel[]
     /// {
     ///     new ITU.E1648B(),
     /// }

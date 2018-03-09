@@ -14,10 +14,9 @@
         /// <summary>
         /// Init
         /// </summary>
-        public SelectModel() 
+        public SelectModel()
             : base()
         {
-
         }
 
         /// <summary>
@@ -28,7 +27,6 @@
         public SelectModel(string schema, string table)
             : base(schema, table)
         {
-
         }
 
         /// <summary>

@@ -91,7 +91,6 @@
                     }
                     catch (System.Exception)
                     {
-
                         this.Password = string.Empty;
                     }
                 }

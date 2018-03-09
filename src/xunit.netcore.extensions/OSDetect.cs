@@ -2,7 +2,6 @@
 {
     using System;
     using System.IO;
-    using System.Runtime.InteropServices;
 
     public static class OSDetect
     {

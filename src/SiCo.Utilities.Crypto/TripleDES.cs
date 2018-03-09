@@ -1,7 +1,6 @@
 ﻿namespace SiCo.Utilities.Crypto
 {
     using System;
-    using System.Text;
     using System.IO;
     using System.Security.Cryptography;
     using Generics;
@@ -40,7 +39,7 @@
 
         /// <summary>
         /// Set Key
-        /// IMPORTANT: Please set a custom key for your application which is not public 
+        /// IMPORTANT: Please set a custom key for your application which is not public
         /// </summary>
         /// <param name="keyString"></param>
         public static void SetKey(string keyString)

@@ -346,7 +346,7 @@
         {
             object result = null;
 
-            if (Generics.StringExtensions.IsEmpty(name) 
+            if (Generics.StringExtensions.IsEmpty(name)
                 || Generics.StringExtensions.IsEmpty(connectionString)
                 || cancellationToken.IsCancellationRequested)
             {

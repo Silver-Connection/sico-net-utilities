@@ -15,7 +15,6 @@
         /// </summary>
         public FilesModel()
         {
-
         }
 
         /// <summary>
@@ -34,7 +33,7 @@
                 this.Duration = resultModel.Duartion.TotalMilliseconds;
                 if (!string.IsNullOrEmpty(resultModel.Ouput) && !string.IsNullOrWhiteSpace(resultModel.Ouput))
                 {
-                    this.Output = resultModel.Ouput; 
+                    this.Output = resultModel.Ouput;
                 }
 
                 if (!string.IsNullOrEmpty(resultModel.Error) && !string.IsNullOrWhiteSpace(resultModel.Error))

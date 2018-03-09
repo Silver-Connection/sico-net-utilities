@@ -171,7 +171,7 @@
 
             if (insert.HasId)
             {
-                var result = (int) await HelperAsync(insert.Build(), connectionString, Transformers.ConvertToIntegerAsync, cancellationToken);
+                var result = (int)await HelperAsync(insert.Build(), connectionString, Transformers.ConvertToIntegerAsync, cancellationToken);
                 return result;
             }
             else
@@ -207,8 +207,6 @@
             return (TModel)Helper(query, connectionString, Transformers.ConvertToModel<TModel>);
         }
 
-     
-
         /// <summary>
         /// Runs a query and returns a given model
         /// </summary>
@@ -223,7 +221,6 @@
             var result = await HelperAsync(query, connectionString, Transformers.ConvertToModelAsync<TModel>, cancellationToken);
             return (TModel)result;
         }
-
 
         /// <summary>
         /// Runs a query and returns a string value
@@ -248,7 +245,6 @@
             var result = await HelperAsync(query, connectionString, Transformers.ConvertToStringAsync, cancellationToken);
             return result.ToString();
         }
-
 
         /// <summary>
         /// Runs a select query and returns a list of given models
@@ -276,9 +272,8 @@
          where TModel : new()
         {
             var select = Builder.SelectModel.Create(model);
-            return Helper(select.Build().TrimEnd(';')+ " " + queryAdd.Trim(), connectionString, Transformers.ConvertToList<TModel>) as IEnumerable<TModel>;
+            return Helper(select.Build().TrimEnd(';') + " " + queryAdd.Trim(), connectionString, Transformers.ConvertToList<TModel>) as IEnumerable<TModel>;
         }
-
 
         /// <summary>
         /// Runs a select query and returns a list of given models

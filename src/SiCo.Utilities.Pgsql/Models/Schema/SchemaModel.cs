@@ -43,7 +43,7 @@
         public IEnumerable<TableModel> Tables { get; set; }
 
         /// <summary>
-        /// Read Information Schema 
+        /// Read Information Schema
         /// </summary>
         public void ReadSchema()
         {

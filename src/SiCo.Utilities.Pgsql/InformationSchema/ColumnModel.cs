@@ -1,7 +1,5 @@
 ﻿namespace SiCo.Utilities.Pgsql.InformationSchema
 {
-    using System;
-
     /// <summary>
     /// Column Information Model
     /// </summary>
@@ -26,7 +24,7 @@
         /// Init
         /// </summary>
         /// <param name="reader">Reader</param>
-        public ColumnModel(Npgsql.NpgsqlDataReader reader) 
+        public ColumnModel(Npgsql.NpgsqlDataReader reader)
             : this()
         {
             if (!reader.IsDBNull(8))

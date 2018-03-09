@@ -38,7 +38,10 @@ namespace Xunit.NetCore.Extensions
 
         public string UniqueID { get { return _testCase.UniqueID; } }
 
-        public void Deserialize(IXunitSerializationInfo info) { _testCase.Deserialize(info); }
+        public void Deserialize(IXunitSerializationInfo info)
+        {
+            _testCase.Deserialize(info);
+        }
 
         public Task<RunSummary> RunAsync(
             IMessageSink diagnosticMessageSink, IMessageBus messageBus, object[] constructorArguments,
@@ -47,6 +50,9 @@ namespace Xunit.NetCore.Extensions
             return new XunitTestCaseRunner(this, DisplayName, _skippedReason, constructorArguments, TestMethodArguments, messageBus, aggregator, cancellationTokenSource).RunAsync();
         }
 
-        public void Serialize(IXunitSerializationInfo info) { _testCase.Serialize(info); }
+        public void Serialize(IXunitSerializationInfo info)
+        {
+            _testCase.Serialize(info);
+        }
     }
 }

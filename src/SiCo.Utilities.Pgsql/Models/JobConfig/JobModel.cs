@@ -13,7 +13,6 @@
     /// </summary>
     public class JobModel
     {
-
         #region Constructor
 
         /// <summary>
@@ -21,7 +20,6 @@
         /// </summary>
         public JobModel()
         {
-
         }
 
         /// <summary>
@@ -159,7 +157,6 @@
             {
                 this.Import.LoadAppSettings(settings);
             }
-
 
             if (connect != null)
             {
@@ -518,7 +515,7 @@
                 t += FormatCli.KeyValue("Status", "Valid!");
             }
 
-            // Decompress 
+            // Decompress
             var decompress = await this.Import.DecompressAsync();
 
             // Import

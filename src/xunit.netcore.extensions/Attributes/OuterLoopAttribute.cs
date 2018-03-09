@@ -14,7 +14,12 @@ namespace Xunit
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class, AllowMultiple = true)]
     public class OuterLoopAttribute : Attribute, ITraitAttribute
     {
-        public OuterLoopAttribute() { }
-        public OuterLoopAttribute(string reason) { }
+        public OuterLoopAttribute()
+        {
+        }
+
+        public OuterLoopAttribute(string reason)
+        {
+        }
     }
 }

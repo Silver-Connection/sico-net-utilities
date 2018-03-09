@@ -64,7 +64,7 @@ namespace Xunit.NetCore.Extensions
                 MethodInfo conditionMethodInfo;
                 if ((conditionMethodInfo = LookupConditionalMethod(declaringType, conditionMemberName)) == null)
                 {
-                    return new[] 
+                    return new[]
                     {
                         new ExecutionErrorTestCase(
                             diagnosticMessageSink,
@@ -107,7 +107,7 @@ namespace Xunit.NetCore.Extensions
                 "The conditional method needs to be a static method or property on this or any ancestor type, " +
                 "of any visibility, accepting zero arguments, and having a return type of Boolean.";
         }
-        
+
         internal static MethodInfo LookupConditionalMethod(Type t, string name)
         {
             if (t == null || name == null)

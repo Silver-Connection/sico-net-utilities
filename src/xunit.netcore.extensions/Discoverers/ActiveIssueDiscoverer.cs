@@ -38,7 +38,6 @@ namespace Xunit.NetCore.Extensions
                 yield return new KeyValuePair<string, string>(XunitConstants.Category, XunitConstants.Failing);
                 yield return new KeyValuePair<string, string>(XunitConstants.ActiveIssue, issue);
             }
-
         }
     }
 }

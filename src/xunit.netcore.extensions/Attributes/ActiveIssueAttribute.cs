@@ -14,7 +14,12 @@ namespace Xunit
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
     public class ActiveIssueAttribute : Attribute, ITraitAttribute
     {
-        public ActiveIssueAttribute(int issueNumber, TestPlatforms platforms = TestPlatforms.Any) { }
-        public ActiveIssueAttribute(string issue, TestPlatforms platforms = TestPlatforms.Any) { }
+        public ActiveIssueAttribute(int issueNumber, TestPlatforms platforms = TestPlatforms.Any)
+        {
+        }
+
+        public ActiveIssueAttribute(string issue, TestPlatforms platforms = TestPlatforms.Any)
+        {
+        }
     }
 }

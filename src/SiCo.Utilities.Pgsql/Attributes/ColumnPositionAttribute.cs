@@ -13,7 +13,6 @@
         /// </summary>
         public ColumnPositionAttribute()
         {
-
         }
 
         /// <summary>
