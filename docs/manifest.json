@@ -1,0 +1,1997 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projekte/public/sico-net-utilities",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Common.html",
+          "hash": "YVffPHdehhGt6qn6KmUmTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Formats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Formats.html",
+          "hash": "+8sfTBLPuNLDNMTxRg1szA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.IResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.IResult-1.html",
+          "hash": "7C1VtClfeJb993iBx9u/ZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Options.html",
+          "hash": "oavST8KEKC3ouQ9uCWQnaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Reader.html",
+          "hash": "lttXlb1xIPewkU9S22X8TQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Result-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Result-1.html",
+          "hash": "M9dzJe0lFACDDpHydGO2ow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Transformers.BaseModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Transformers.BaseModel-1.html",
+          "hash": "qTsQTbHrqP545a9HwvU4bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Transformers.IBaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Transformers.IBaseModel.html",
+          "hash": "f1Y66r/u8khdcE5jOIOO1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Transformers.Processors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Transformers.Processors.html",
+          "hash": "ARr+V6OfNstes4SlAYr71g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.Transformers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.Transformers.html",
+          "hash": "JQD1YqQGGAnXituLKmFHkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.CSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.CSV.html",
+          "hash": "YuTsaisSd2W/MIgIy84+LQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Compression.GZip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Compression.GZip.html",
+          "hash": "kThhhMhCbTuiSBif/F2CxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Compression.Tar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Compression.Tar.html",
+          "hash": "W3vudP1uVeUg0+srzcxjjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Compression.Zip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Compression.Zip.html",
+          "hash": "aOY9nRriQmtCLGROd8LT7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Compression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Compression.html",
+          "hash": "a+qtGnipD1Jn+ELwAPAUvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Crypto.MD5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Crypto.MD5.html",
+          "hash": "IV8FDe86Jz3IlhSfuC0A+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Crypto.SHA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Crypto.SHA.html",
+          "hash": "y+3hULKeNbU5Nw9xCX3sYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Crypto.TripleDES.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Crypto.TripleDES.html",
+          "hash": "C6eyvRS+pvMwVTo1POBNQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Crypto.UpdateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Crypto.UpdateExtensions.html",
+          "hash": "DCd7Wslnp8krHPdVpJVIQQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Crypto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Crypto.html",
+          "hash": "dZHYjXtCnAXa5oi0t+5LjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.Attributes.DisplayClassAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.Attributes.DisplayClassAttribute.html",
+          "hash": "hru6g6WXVU5JGOO4ybsE1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.Attributes.html",
+          "hash": "jpV/zqbww4LUiPwl1PzIxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.BooleanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.BooleanExtensions.html",
+          "hash": "FLPga+yQobPoSJSn5auMXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.ByteExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.ByteExtensions.html",
+          "hash": "96bWuohbWtg3o/M21UmrFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.DateTimeExtensions.html",
+          "hash": "9jBJ9MQSPJAHsN8JJ2i2QQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.DirFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.DirFile.html",
+          "hash": "ROA/aeudLICPsEHwNdurPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.DisplayClassExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.DisplayClassExtensions.html",
+          "hash": "1m4F4UkpSvDv2HPjD1iwtg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.EnumExtensions.html",
+          "hash": "ONyRMfqn7Y7Z5s8byoM1UA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.GZip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.GZip.html",
+          "hash": "I0yrHyfZrqguHtpr+IcKZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.IpHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.IpHelper.html",
+          "hash": "K+OgnGkisgMvLL4K/s5nbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.LinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.LinqExtensions.html",
+          "hash": "Ug688XjNeSKXZFiIGp+log=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.Models.EnumInfoModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.Models.EnumInfoModel.html",
+          "hash": "tOIvdSxKq556tKVVHb9AOA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.Models.html",
+          "hash": "1Zfk4VV2oxQJpZkkySKWwg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.NumberExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.NumberExtensions.html",
+          "hash": "aC4zs2rzZ/2ZuDE5nHFfZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.OS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.OS.html",
+          "hash": "Q/f7TFcQoNAmhKPthCfoag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.ResourcesExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.ResourcesExtensions.html",
+          "hash": "zJ4WSyhXLgnxRYqMmdpvjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.StringExtensions.html",
+          "hash": "qEzt4maC3IZsVB/zCN3O1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.UpdateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.UpdateExtensions.html",
+          "hash": "8Hra4Iv/66b6bfP3fXOOkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Generics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Generics.html",
+          "hash": "ztuggceu1lEEzMA1zRNCcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Attributes.LogIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Attributes.LogIgnoreAttribute.html",
+          "hash": "IY/rxCuF8k5ZVcuOrtN0pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Attributes.ValidateCountryIsoAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Attributes.ValidateCountryIsoAttribute.html",
+          "hash": "impucrDlrB0MNsrkHMs5eA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Attributes.ValidatePhoneAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Attributes.ValidatePhoneAttribute.html",
+          "hash": "EPZuiariUJdOTgcmx+cP/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Attributes.html",
+          "hash": "3iUJTYlHsLpvlVfavUJN8A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Countries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Countries.html",
+          "hash": "OK9RVUUQPWdnX6KnUpL7cw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.FileLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.FileLogger.html",
+          "hash": "5R6FoR0niI+J/cxM5YfhPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Models.CountryInfoModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Models.CountryInfoModel.html",
+          "hash": "r6Toy1E0KM8sV/o1H+4LBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Models.CountryModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Models.CountryModel.html",
+          "hash": "gkRXeV3/CU1Ty7l8gxAxSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Models.TimeZoneModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Models.TimeZoneModel.html",
+          "hash": "+NeUGYdquxk8/qWrGtkweA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Models.html",
+          "hash": "W+1Axh9S9sEl59CIik7EHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.TimeSpanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.TimeSpanExtensions.html",
+          "hash": "t4/0fHpAa4ra0ZEFYIY93g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.TimeZones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.TimeZones.html",
+          "hash": "t3suGd2cElJ6IVOrggKaGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Xml.TimeZoneItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Xml.TimeZoneItem.html",
+          "hash": "zg3EOZIAJ8jKlGhO6EGBFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Xml.TimeZonesDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Xml.TimeZonesDocument.html",
+          "hash": "o8QnRVX+DnxnYtFOOqc+Bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.Xml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.Xml.html",
+          "hash": "myDRetKbSb/i1FbjpfPbDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.XmlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.XmlExtensions.html",
+          "hash": "NzrmLfJBklBNCPJ5S7oPTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Helper.html",
+          "hash": "9QMqT/W0fOTlfYAhJjK1Jg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Attributes.ColumnPositionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Attributes.ColumnPositionAttribute.html",
+          "hash": "oU4SriIPcz6hmUbJO/AqRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Attributes.html",
+          "hash": "kba34GXSFhWn/Ybt09rNEQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Builder.DeclareModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Builder.DeclareModel.html",
+          "hash": "VT+OT9F3q0Jcjo4JsD24pQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Builder.IQueryModelModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Builder.IQueryModelModel.html",
+          "hash": "W8aUTxVDpBpe3Jb8hZqUKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Builder.InsertModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Builder.InsertModel.html",
+          "hash": "GSxFptYpdmEXbGVOm+h+2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Builder.QueryModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Builder.QueryModel.html",
+          "hash": "vvJ4b3xhC/BtRx6gVD8yUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Builder.ScriptModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Builder.ScriptModel.html",
+          "hash": "VpPyTntcqwOce4kFDV6mrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Builder.SelectModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Builder.SelectModel.html",
+          "hash": "YhDe7833XscdvfHqqPV+5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Builder.html",
+          "hash": "RtB3Yu4U6MZFdh8Q3YJtXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Common.html",
+          "hash": "t0oW0HmC6pMMD/Rrj9i30w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Connectors.PgDump.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Connectors.PgDump.html",
+          "hash": "6+fwqtCvNVqf0ofFDjjz0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Connectors.PgRestore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Connectors.PgRestore.html",
+          "hash": "HSeEFmoeqgPsp3oDmEeBKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Connectors.Psql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Connectors.Psql.html",
+          "hash": "gt7j0/05E4xUw7719s5BAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Connectors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Connectors.html",
+          "hash": "kREfUqEDecbckeBAot7+wA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Function.html",
+          "hash": "mnOl8QAveVrkWrK7fPmrvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.InformationSchema.ColumnModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.InformationSchema.ColumnModel.html",
+          "hash": "+986gpcn2Y405dn6tBeH5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.InformationSchema.ConstraintModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.InformationSchema.ConstraintModel.html",
+          "hash": "ODW6ejlrdsyqpw22LYs68Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.InformationSchema.ForeignKeyModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.InformationSchema.ForeignKeyModel.html",
+          "hash": "uGAmzfAu20akmaEzJUirrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.InformationSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.InformationSchema.html",
+          "hash": "Z76A8Od5NwMzF8jRSpf+qA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.AppConfig.AppSettingsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.AppConfig.AppSettingsModel.html",
+          "hash": "2T+5cDMEROIMw40rLGG3Tg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.AppConfig.BinModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.AppConfig.BinModel.html",
+          "hash": "ePHbyAR3fADKIcejncTLpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.AppConfig.PathModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.AppConfig.PathModel.html",
+          "hash": "01EM0RSS5MmjWwdinXoldw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.AppConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.AppConfig.html",
+          "hash": "wsi4RbneVaqxk6AtZpVYwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Common.PgCommon-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Common.PgCommon-1.html",
+          "hash": "PCsuQj4eZBOKnvlTGjrSOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Common.PostgreBaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Common.PostgreBaseModel.html",
+          "hash": "PU0Q0hU1H5MiIAN6su9QYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Common.ProcessResultModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Common.ProcessResultModel.html",
+          "hash": "mOtlVkpRlSaE0QyXeVm/BQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Common.html",
+          "hash": "oaJR1YEhZgtsUBcV7fiXzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Connection.BaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Connection.BaseModel.html",
+          "hash": "QKWXEX9RB+gzoRQ9tCTxJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Connection.IBaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Connection.IBaseModel.html",
+          "hash": "Ix9YjCU1eS4aFVblKKF2Xg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Connection.html",
+          "hash": "7rGNVJOroNEf/3qC6j9Flg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.JobConfig.FilesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.JobConfig.FilesModel.html",
+          "hash": "hXOpDqa++BSmn3ijwTTk1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.JobConfig.FormatCli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.JobConfig.FormatCli.html",
+          "hash": "p3reAt1GPpl4PpebSn1+LQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.JobConfig.JobModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.JobConfig.JobModel.html",
+          "hash": "WCGNaLwFswqN7q/LoUOqvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.JobConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.JobConfig.html",
+          "hash": "NZHXgR7CerPoBaeGAnp+DQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.PgConfig.BaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.PgConfig.BaseModel.html",
+          "hash": "4Nv/QpDEhWJGogbJDJl+Tw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.PgConfig.IBaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.PgConfig.IBaseModel.html",
+          "hash": "ZhZB0XbxNw5SLgoou5/TaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.PgConfig.PgDumpModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.PgConfig.PgDumpModel.html",
+          "hash": "Gj+pI2UZMeRcIc8qkL490g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.PgConfig.PgRestoreModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.PgConfig.PgRestoreModel.html",
+          "hash": "JDer3+6Etcd4NxQyvgqbuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.PgConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.PgConfig.html",
+          "hash": "VGZDrfSCkYEmXBUi+lrCrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.BaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.BaseModel.html",
+          "hash": "iUhKPbZJVq4231zEmUxWjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.ColumModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.ColumModel.html",
+          "hash": "Scy2NssbInL/bfeLEoQFaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.ConstraintModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.ConstraintModel.html",
+          "hash": "clADwIdPjL5fVYs1DtlJ4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.ForeignKeyModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.ForeignKeyModel.html",
+          "hash": "MMkgdSyH5ERy06eYnQPhAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.IndexModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.IndexModel.html",
+          "hash": "iVj5ykchierLf3M83UXPxQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.ReferencedModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.ReferencedModel.html",
+          "hash": "O7H7MTJaH7BKtCs66TFtRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.SchemaModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.SchemaModel.html",
+          "hash": "h/9uFyPP0I1hCm8tEPrWXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.TableModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.TableModel.html",
+          "hash": "u+O7wfCwLLWPIVZL8WTQ1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.TriggerModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.TriggerModel.html",
+          "hash": "JXcnwg8rINsvR5FDUDN5hQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Models.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Models.Schema.html",
+          "hash": "BK34xwddhOjZQJZF/hCRLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Query.html",
+          "hash": "GMshZVC3RYqSeuguqaJVhg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.Transformers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.Transformers.html",
+          "hash": "e6etwAt30kUcC6cct99TNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Pgsql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Pgsql.html",
+          "hash": "84DEafKGoRuzb3v7LfOjAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Base.DataPointXYModel-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Base.DataPointXYModel-2.html",
+          "hash": "rr3x2qCcSMfEJtwFYLPmQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Base.DatasetBaseModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Base.DatasetBaseModel-1.html",
+          "hash": "sHt7KPKk11gZ1cSJWWcd7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Base.IXModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Base.IXModel.html",
+          "hash": "cPpgPaLo7xMmI85DuPu25A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Base.IXYModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Base.IXYModel.html",
+          "hash": "i6NX5eZdn+s9acfUmkfe5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Base.XModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Base.XModelBase.html",
+          "hash": "K7BN3Kv9ctvy7tZcPsBFgA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Base.XYModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Base.XYModelBase.html",
+          "hash": "n2x34yPbx/A05uC2ROHomQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Base.html",
+          "hash": "OoCK1fDKceEPpOXUc+M2xg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.ChartXModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.ChartXModel-1.html",
+          "hash": "mpa1YJeRMvoXURqqjZVY0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.ChartXYModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.ChartXYModel-1.html",
+          "hash": "HzcOwj5fETWTh5k8F6BndQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.BarXDataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.BarXDataModel.html",
+          "hash": "iosDa7X2XilKgNfPT+TIBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.BarXYDataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.BarXYDataModel.html",
+          "hash": "ggtHtmO4G3S9XDgcsMA3VQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.LineXDataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.LineXDataModel.html",
+          "hash": "vBF4LNdtT1Tb63N0HB01pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.LineXYDataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.LineXYDataModel.html",
+          "hash": "bGDeSjbyv+oF2ysCJ7wn4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.RadarDataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.RadarDataModel.html",
+          "hash": "XP78Z05w7H+N7MvVibk8cA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.Dataset.html",
+          "hash": "2TdiQXntbfH3xq4bK0d1OQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.ChartJs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.ChartJs.html",
+          "hash": "gJaV7avnb+5UKJUhQz65RA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Converter.DecimalJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Converter.DecimalJsonConverter.html",
+          "hash": "V99PuOFy5ArJQcsJAYOqdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Converter.html",
+          "hash": "XUqRU8gX0qbEneqyskqJ0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Gauge.Enums.CenterX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Gauge.Enums.CenterX.html",
+          "hash": "ieVXqJ1B8cSIXdje1FVDOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Gauge.Enums.CenterY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Gauge.Enums.CenterY.html",
+          "hash": "HP8Rp9TkEZLOXoQxnJKZqw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Gauge.Enums.LineCap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Gauge.Enums.LineCap.html",
+          "hash": "Az/pqgbkDnIeK75uHAYVdg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Gauge.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Gauge.Enums.html",
+          "hash": "EJrMFBgPgdLfT3Sam1AZVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Gauge.GaugeDataset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Gauge.GaugeDataset.html",
+          "hash": "+bMVsFmJDbnhriYqbtDJiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Gauge.GaugeModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Gauge.GaugeModel.html",
+          "hash": "5fcyyAesTvavL0CRN6AWIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Gauge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Gauge.html",
+          "hash": "rxgOwMS/aFeeFrHmdZVRGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.Helper.html",
+          "hash": "noFd2f6o2xqhm2psY+Axlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Charts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Charts.html",
+          "hash": "gZma4gtnz3yD1TqjTMdRPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Vue.Enums.TransactionCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Vue.Enums.TransactionCode.html",
+          "hash": "yo1J3RLJdIdBlgEQeh+5bQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Vue.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Vue.Enums.html",
+          "hash": "DFJmK/e8RBM7WvJ47u2slQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Vue.JsonDateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Vue.JsonDateTimeConverter.html",
+          "hash": "KJm8mHCKNWjEIHcgr7IuhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Vue.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Vue.LogLevel.html",
+          "hash": "dvTUgXvUC9XizAJAnfCbzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Vue.Model.TransactionModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Vue.Model.TransactionModel-1.html",
+          "hash": "n5c9iPksWFiHRSXDhqts6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Vue.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Vue.Model.html",
+          "hash": "L4Hx6O7HHlG5pvpW9aI7SA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/SiCo.Utilities.Web.Vue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SiCo.Utilities.Web.Vue.html",
+          "hash": "ESyO0MuSdEHMr6Bc5OSnzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "vlv9gw+nT8zZ5FVKtNulyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "aHbyurQq28VdZ+UlDOPbyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/compression.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/compression.html",
+          "hash": "Fbs5a3BWjhX1/+Ih/UwPvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/crypto.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/crypto.html",
+          "hash": "Kt6JZM30Uzos6K7+s36xvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/csv.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/csv.html",
+          "hash": "S25qi7gN5Hz91LqAiOrc3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/generics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/generics.html",
+          "hash": "vhc8vcvZFjToLTI+bL/YlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/helper.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/helper.html",
+          "hash": "5GeKalaB2fPHNXQzedNe/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/pgsql.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/pgsql.html",
+          "hash": "aDaHqH89BkO2vpmRq37ueg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "UTf1xNZI0bxR4OkLMC+xBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/web.charts.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/web.charts.html",
+          "hash": "cuIFsYcoBMDaVAbJ/JhSRw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/web.vue.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/web.vue.html",
+          "hash": "lvjfOfLE7uVOLuV/fWDV7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/sico-128px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sico-128px.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/sico-16px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sico-16px.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/sico-24px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sico-24px.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/sico-256px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sico-256px.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/sico-32px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sico-32px.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx/images/sico-64px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sico-64px.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "V1IagFBJDXA2bL6paABoTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "eGT1s5hmbFYyWX5H+CF0Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

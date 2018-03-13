@@ -1,3 +1,5 @@
+![alt text](images/sico-128px.png)
+
 sico-net-utilities 
 ---
 A collection of tools and helpers for C#/.NET

@@ -1,0 +1,326 @@
+### YamlMime:TableOfContent
+- uid: SiCo.Utilities.Compression
+  name: SiCo.Utilities.Compression
+  items:
+  - uid: SiCo.Utilities.Compression.GZip
+    name: GZip
+  - uid: SiCo.Utilities.Compression.Tar
+    name: Tar
+  - uid: SiCo.Utilities.Compression.Zip
+    name: Zip
+- uid: SiCo.Utilities.Crypto
+  name: SiCo.Utilities.Crypto
+  items:
+  - uid: SiCo.Utilities.Crypto.MD5
+    name: MD5
+  - uid: SiCo.Utilities.Crypto.SHA
+    name: SHA
+  - uid: SiCo.Utilities.Crypto.TripleDES
+    name: TripleDES
+  - uid: SiCo.Utilities.Crypto.UpdateExtensions
+    name: UpdateExtensions
+- uid: SiCo.Utilities.CSV
+  name: SiCo.Utilities.CSV
+  items:
+  - uid: SiCo.Utilities.CSV.Common
+    name: Common
+  - uid: SiCo.Utilities.CSV.Formats
+    name: Formats
+  - uid: SiCo.Utilities.CSV.IResult`1
+    name: IResult<TModel>
+    name.vb: IResult(Of TModel)
+  - uid: SiCo.Utilities.CSV.Options
+    name: Options
+  - uid: SiCo.Utilities.CSV.Reader
+    name: Reader
+  - uid: SiCo.Utilities.CSV.Result`1
+    name: Result<TModel>
+    name.vb: Result(Of TModel)
+- uid: SiCo.Utilities.CSV.Transformers
+  name: SiCo.Utilities.CSV.Transformers
+  items:
+  - uid: SiCo.Utilities.CSV.Transformers.BaseModel`1
+    name: BaseModel<TModel>
+    name.vb: BaseModel(Of TModel)
+  - uid: SiCo.Utilities.CSV.Transformers.IBaseModel
+    name: IBaseModel
+  - uid: SiCo.Utilities.CSV.Transformers.Processors
+    name: Processors
+- uid: SiCo.Utilities.Generics
+  name: SiCo.Utilities.Generics
+  items:
+  - uid: SiCo.Utilities.Generics.BooleanExtensions
+    name: BooleanExtensions
+  - uid: SiCo.Utilities.Generics.ByteExtensions
+    name: ByteExtensions
+  - uid: SiCo.Utilities.Generics.DateTimeExtensions
+    name: DateTimeExtensions
+  - uid: SiCo.Utilities.Generics.DirFile
+    name: DirFile
+  - uid: SiCo.Utilities.Generics.DisplayClassExtensions
+    name: DisplayClassExtensions
+  - uid: SiCo.Utilities.Generics.EnumExtensions
+    name: EnumExtensions
+  - uid: SiCo.Utilities.Generics.GZip
+    name: GZip
+  - uid: SiCo.Utilities.Generics.IpHelper
+    name: IpHelper
+  - uid: SiCo.Utilities.Generics.LinqExtensions
+    name: LinqExtensions
+  - uid: SiCo.Utilities.Generics.NumberExtensions
+    name: NumberExtensions
+  - uid: SiCo.Utilities.Generics.OS
+    name: OS
+  - uid: SiCo.Utilities.Generics.ResourcesExtensions
+    name: ResourcesExtensions
+  - uid: SiCo.Utilities.Generics.StringExtensions
+    name: StringExtensions
+  - uid: SiCo.Utilities.Generics.UpdateExtensions
+    name: UpdateExtensions
+- uid: SiCo.Utilities.Generics.Attributes
+  name: SiCo.Utilities.Generics.Attributes
+  items:
+  - uid: SiCo.Utilities.Generics.Attributes.DisplayClassAttribute
+    name: DisplayClassAttribute
+- uid: SiCo.Utilities.Generics.Models
+  name: SiCo.Utilities.Generics.Models
+  items:
+  - uid: SiCo.Utilities.Generics.Models.EnumInfoModel
+    name: EnumInfoModel
+- uid: SiCo.Utilities.Helper
+  name: SiCo.Utilities.Helper
+  items:
+  - uid: SiCo.Utilities.Helper.Countries
+    name: Countries
+  - uid: SiCo.Utilities.Helper.FileLogger
+    name: FileLogger
+  - uid: SiCo.Utilities.Helper.TimeSpanExtensions
+    name: TimeSpanExtensions
+  - uid: SiCo.Utilities.Helper.TimeZones
+    name: TimeZones
+  - uid: SiCo.Utilities.Helper.XmlExtensions
+    name: XmlExtensions
+- uid: SiCo.Utilities.Helper.Attributes
+  name: SiCo.Utilities.Helper.Attributes
+  items:
+  - uid: SiCo.Utilities.Helper.Attributes.LogIgnoreAttribute
+    name: LogIgnoreAttribute
+  - uid: SiCo.Utilities.Helper.Attributes.ValidateCountryIsoAttribute
+    name: ValidateCountryIsoAttribute
+  - uid: SiCo.Utilities.Helper.Attributes.ValidatePhoneAttribute
+    name: ValidatePhoneAttribute
+- uid: SiCo.Utilities.Helper.Models
+  name: SiCo.Utilities.Helper.Models
+  items:
+  - uid: SiCo.Utilities.Helper.Models.CountryInfoModel
+    name: CountryInfoModel
+  - uid: SiCo.Utilities.Helper.Models.CountryModel
+    name: CountryModel
+  - uid: SiCo.Utilities.Helper.Models.TimeZoneModel
+    name: TimeZoneModel
+- uid: SiCo.Utilities.Helper.Xml
+  name: SiCo.Utilities.Helper.Xml
+  items:
+  - uid: SiCo.Utilities.Helper.Xml.TimeZoneItem
+    name: TimeZoneItem
+  - uid: SiCo.Utilities.Helper.Xml.TimeZonesDocument
+    name: TimeZonesDocument
+- uid: SiCo.Utilities.Pgsql
+  name: SiCo.Utilities.Pgsql
+  items:
+  - uid: SiCo.Utilities.Pgsql.Common
+    name: Common
+  - uid: SiCo.Utilities.Pgsql.Function
+    name: Function
+  - uid: SiCo.Utilities.Pgsql.Query
+    name: Query
+  - uid: SiCo.Utilities.Pgsql.Transformers
+    name: Transformers
+- uid: SiCo.Utilities.Pgsql.Attributes
+  name: SiCo.Utilities.Pgsql.Attributes
+  items:
+  - uid: SiCo.Utilities.Pgsql.Attributes.ColumnPositionAttribute
+    name: ColumnPositionAttribute
+- uid: SiCo.Utilities.Pgsql.Builder
+  name: SiCo.Utilities.Pgsql.Builder
+  items:
+  - uid: SiCo.Utilities.Pgsql.Builder.DeclareModel
+    name: DeclareModel
+  - uid: SiCo.Utilities.Pgsql.Builder.InsertModel
+    name: InsertModel
+  - uid: SiCo.Utilities.Pgsql.Builder.IQueryModelModel
+    name: IQueryModelModel
+  - uid: SiCo.Utilities.Pgsql.Builder.QueryModel
+    name: QueryModel
+  - uid: SiCo.Utilities.Pgsql.Builder.ScriptModel
+    name: ScriptModel
+  - uid: SiCo.Utilities.Pgsql.Builder.SelectModel
+    name: SelectModel
+- uid: SiCo.Utilities.Pgsql.Connectors
+  name: SiCo.Utilities.Pgsql.Connectors
+  items:
+  - uid: SiCo.Utilities.Pgsql.Connectors.PgDump
+    name: PgDump
+  - uid: SiCo.Utilities.Pgsql.Connectors.PgRestore
+    name: PgRestore
+  - uid: SiCo.Utilities.Pgsql.Connectors.Psql
+    name: Psql
+- uid: SiCo.Utilities.Pgsql.InformationSchema
+  name: SiCo.Utilities.Pgsql.InformationSchema
+  items:
+  - uid: SiCo.Utilities.Pgsql.InformationSchema.ColumnModel
+    name: ColumnModel
+  - uid: SiCo.Utilities.Pgsql.InformationSchema.ConstraintModel
+    name: ConstraintModel
+  - uid: SiCo.Utilities.Pgsql.InformationSchema.ForeignKeyModel
+    name: ForeignKeyModel
+- uid: SiCo.Utilities.Pgsql.Models.AppConfig
+  name: SiCo.Utilities.Pgsql.Models.AppConfig
+  items:
+  - uid: SiCo.Utilities.Pgsql.Models.AppConfig.AppSettingsModel
+    name: AppSettingsModel
+  - uid: SiCo.Utilities.Pgsql.Models.AppConfig.BinModel
+    name: BinModel
+  - uid: SiCo.Utilities.Pgsql.Models.AppConfig.PathModel
+    name: PathModel
+- uid: SiCo.Utilities.Pgsql.Models.Common
+  name: SiCo.Utilities.Pgsql.Models.Common
+  items:
+  - uid: SiCo.Utilities.Pgsql.Models.Common.PgCommon`1
+    name: PgCommon<TConfig>
+    name.vb: PgCommon(Of TConfig)
+  - uid: SiCo.Utilities.Pgsql.Models.Common.PostgreBaseModel
+    name: PostgreBaseModel
+  - uid: SiCo.Utilities.Pgsql.Models.Common.ProcessResultModel
+    name: ProcessResultModel
+- uid: SiCo.Utilities.Pgsql.Models.Connection
+  name: SiCo.Utilities.Pgsql.Models.Connection
+  items:
+  - uid: SiCo.Utilities.Pgsql.Models.Connection.BaseModel
+    name: BaseModel
+  - uid: SiCo.Utilities.Pgsql.Models.Connection.IBaseModel
+    name: IBaseModel
+- uid: SiCo.Utilities.Pgsql.Models.JobConfig
+  name: SiCo.Utilities.Pgsql.Models.JobConfig
+  items:
+  - uid: SiCo.Utilities.Pgsql.Models.JobConfig.FilesModel
+    name: FilesModel
+  - uid: SiCo.Utilities.Pgsql.Models.JobConfig.FormatCli
+    name: FormatCli
+  - uid: SiCo.Utilities.Pgsql.Models.JobConfig.JobModel
+    name: JobModel
+- uid: SiCo.Utilities.Pgsql.Models.PgConfig
+  name: SiCo.Utilities.Pgsql.Models.PgConfig
+  items:
+  - uid: SiCo.Utilities.Pgsql.Models.PgConfig.BaseModel
+    name: BaseModel
+  - uid: SiCo.Utilities.Pgsql.Models.PgConfig.IBaseModel
+    name: IBaseModel
+  - uid: SiCo.Utilities.Pgsql.Models.PgConfig.PgDumpModel
+    name: PgDumpModel
+  - uid: SiCo.Utilities.Pgsql.Models.PgConfig.PgRestoreModel
+    name: PgRestoreModel
+- uid: SiCo.Utilities.Pgsql.Models.Schema
+  name: SiCo.Utilities.Pgsql.Models.Schema
+  items:
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.BaseModel
+    name: BaseModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.ColumModel
+    name: ColumModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.ConstraintModel
+    name: ConstraintModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.ForeignKeyModel
+    name: ForeignKeyModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.IndexModel
+    name: IndexModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.ReferencedModel
+    name: ReferencedModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.SchemaModel
+    name: SchemaModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.TableModel
+    name: TableModel
+  - uid: SiCo.Utilities.Pgsql.Models.Schema.TriggerModel
+    name: TriggerModel
+- uid: SiCo.Utilities.Web.Charts
+  name: SiCo.Utilities.Web.Charts
+  items:
+  - uid: SiCo.Utilities.Web.Charts.Helper
+    name: Helper
+- uid: SiCo.Utilities.Web.Charts.ChartJs
+  name: SiCo.Utilities.Web.Charts.ChartJs
+  items:
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.ChartXModel`1
+    name: ChartXModel<T>
+    name.vb: ChartXModel(Of T)
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.ChartXYModel`1
+    name: ChartXYModel<T>
+    name.vb: ChartXYModel(Of T)
+- uid: SiCo.Utilities.Web.Charts.ChartJs.Base
+  name: SiCo.Utilities.Web.Charts.ChartJs.Base
+  items:
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Base.DataPointXYModel`2
+    name: DataPointXYModel<TX, TY>
+    name.vb: DataPointXYModel(Of TX, TY)
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Base.DatasetBaseModel`1
+    name: DatasetBaseModel<TData>
+    name.vb: DatasetBaseModel(Of TData)
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Base.IXModel
+    name: IXModel
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Base.IXYModel
+    name: IXYModel
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Base.XModelBase
+    name: XModelBase
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Base.XYModelBase
+    name: XYModelBase
+- uid: SiCo.Utilities.Web.Charts.ChartJs.Dataset
+  name: SiCo.Utilities.Web.Charts.ChartJs.Dataset
+  items:
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Dataset.BarXDataModel
+    name: BarXDataModel
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Dataset.BarXYDataModel
+    name: BarXYDataModel
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Dataset.LineXDataModel
+    name: LineXDataModel
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Dataset.LineXYDataModel
+    name: LineXYDataModel
+  - uid: SiCo.Utilities.Web.Charts.ChartJs.Dataset.RadarDataModel
+    name: RadarDataModel
+- uid: SiCo.Utilities.Web.Charts.Converter
+  name: SiCo.Utilities.Web.Charts.Converter
+  items:
+  - uid: SiCo.Utilities.Web.Charts.Converter.DecimalJsonConverter
+    name: DecimalJsonConverter
+- uid: SiCo.Utilities.Web.Charts.Gauge
+  name: SiCo.Utilities.Web.Charts.Gauge
+  items:
+  - uid: SiCo.Utilities.Web.Charts.Gauge.GaugeDataset
+    name: GaugeDataset
+  - uid: SiCo.Utilities.Web.Charts.Gauge.GaugeModel
+    name: GaugeModel
+- uid: SiCo.Utilities.Web.Charts.Gauge.Enums
+  name: SiCo.Utilities.Web.Charts.Gauge.Enums
+  items:
+  - uid: SiCo.Utilities.Web.Charts.Gauge.Enums.CenterX
+    name: CenterX
+  - uid: SiCo.Utilities.Web.Charts.Gauge.Enums.CenterY
+    name: CenterY
+  - uid: SiCo.Utilities.Web.Charts.Gauge.Enums.LineCap
+    name: LineCap
+- uid: SiCo.Utilities.Web.Vue
+  name: SiCo.Utilities.Web.Vue
+  items:
+  - uid: SiCo.Utilities.Web.Vue.JsonDateTimeConverter
+    name: JsonDateTimeConverter
+  - uid: SiCo.Utilities.Web.Vue.LogLevel
+    name: LogLevel
+- uid: SiCo.Utilities.Web.Vue.Enums
+  name: SiCo.Utilities.Web.Vue.Enums
+  items:
+  - uid: SiCo.Utilities.Web.Vue.Enums.TransactionCode
+    name: TransactionCode
+- uid: SiCo.Utilities.Web.Vue.Model
+  name: SiCo.Utilities.Web.Vue.Model
+  items:
+  - uid: SiCo.Utilities.Web.Vue.Model.TransactionModel`1
+    name: TransactionModel<TModel>
+    name.vb: TransactionModel(Of TModel)

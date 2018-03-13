@@ -1,0 +1,1040 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StringExtensions
+   | Silver Connection Utilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StringExtensions
+   | Silver Connection Utilities ">
+    <meta name="generator" content="docfx 2.32.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SiCo.Utilities.Generics.StringExtensions">
+  
+  
+  <h1 id="SiCo_Utilities_Generics_StringExtensions" data-uid="SiCo.Utilities.Generics.StringExtensions" class="text-break">Class StringExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">StringExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SiCo.Utilities.Generics.html">SiCo.Utilities.Generics</a></h6>
+  <h6><strong>Assembly</strong>: SiCo.Utilities.Generics.dll</h6>
+  <h5 id="SiCo_Utilities_Generics_StringExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class StringExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_CleanPhoneNumber_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.CleanPhoneNumber(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L381">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_CleanPhoneNumber_" data-uid="SiCo.Utilities.Generics.StringExtensions.CleanPhoneNumber*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_CleanPhoneNumber_System_String_System_Boolean_" data-uid="SiCo.Utilities.Generics.StringExtensions.CleanPhoneNumber(System.String,System.Boolean)">CleanPhoneNumber(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Removes leading + and 00, or all leading zeros</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CleanPhoneNumber(this string number, bool all = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Given Number</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">all</span></td>
+        <td><p>Remove all Zeros at beginning</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Clean phone number</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_ConvertNewLine_System_String_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.ConvertNewLine(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L19">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_ConvertNewLine_" data-uid="SiCo.Utilities.Generics.StringExtensions.ConvertNewLine*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_ConvertNewLine_System_String_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.ConvertNewLine(System.String,System.String)">ConvertNewLine(String, String)</h4>
+  <div class="markdown level1 summary"><p>Replace new lines with given one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConvertNewLine(this string inString, string newLine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">newLine</span></td>
+        <td><p>Newline to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Converted string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_Flip_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.Flip(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L80">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_Flip_" data-uid="SiCo.Utilities.Generics.StringExtensions.Flip*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_Flip_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.Flip(System.String)">Flip(String)</h4>
+  <div class="markdown level1 summary"><p>Flip / Revert a given string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Flip(this string inString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>Input String</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_IndexOfAll_System_String_System_Char_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.IndexOfAll(System.String%2CSystem.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L145">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_IndexOfAll_" data-uid="SiCo.Utilities.Generics.StringExtensions.IndexOfAll*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_IndexOfAll_System_String_System_Char_" data-uid="SiCo.Utilities.Generics.StringExtensions.IndexOfAll(System.String,System.Char)">IndexOfAll(String, Char)</h4>
+  <div class="markdown level1 summary"><p>Get all positions for a string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;int&gt; IndexOfAll(this string inString, char find)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">find</span></td>
+        <td><p>String to search for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Array of positions</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_IndexOfAll_System_String_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.IndexOfAll(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L120">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_IndexOfAll_" data-uid="SiCo.Utilities.Generics.StringExtensions.IndexOfAll*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_IndexOfAll_System_String_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.IndexOfAll(System.String,System.String)">IndexOfAll(String, String)</h4>
+  <div class="markdown level1 summary"><p>Get all positions for a string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;int&gt; IndexOfAll(this string inString, string find)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">find</span></td>
+        <td><p>String to search for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Array of positions</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_IsEmpty_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.IsEmpty(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L155">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_IsEmpty_" data-uid="SiCo.Utilities.Generics.StringExtensions.IsEmpty*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_IsEmpty_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.IsEmpty(System.String)">IsEmpty(String)</h4>
+  <div class="markdown level1 summary"><p>Check if string is null, empty or whitespace</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty(string inString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if empty</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_SetTrim_System_String_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.SetTrim(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L215">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_SetTrim_" data-uid="SiCo.Utilities.Generics.StringExtensions.SetTrim*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_SetTrim_System_String_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.SetTrim(System.String,System.String)">SetTrim(String, String)</h4>
+  <div class="markdown level1 summary"><p>Update string with update value if there is a difference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SetTrim(this string inString, string replace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">replace</span></td>
+        <td><p>new string value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_SetTrim_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.SetTrim(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L228">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_SetTrim_" data-uid="SiCo.Utilities.Generics.StringExtensions.SetTrim*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_SetTrim_System_String_System_String_System_Boolean_" data-uid="SiCo.Utilities.Generics.StringExtensions.SetTrim(System.String,System.String,System.Boolean)">SetTrim(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Update string with update value if there is a difference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SetTrim(this string inString, string replace, bool empty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">replace</span></td>
+        <td><p>new string value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">empty</span></td>
+        <td><p>Allow empty string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_SetTrim_System_String_System_String_System_Boolean__.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.SetTrim(System.String%2CSystem.String%2CSystem.Boolean%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L191">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_SetTrim_" data-uid="SiCo.Utilities.Generics.StringExtensions.SetTrim*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_SetTrim_System_String_System_String_System_Boolean__" data-uid="SiCo.Utilities.Generics.StringExtensions.SetTrim(System.String,System.String,System.Boolean@)">SetTrim(String, String, ref Boolean)</h4>
+  <div class="markdown level1 summary"><p>Update string with update value if there is a difference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SetTrim(this string inString, string replace, ref bool save)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">replace</span></td>
+        <td><p>new string value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">save</span></td>
+        <td><p>indicator if a change was done</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_Shorten_System_String_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.Shorten(System.String%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L99">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_Shorten_" data-uid="SiCo.Utilities.Generics.StringExtensions.Shorten*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_Shorten_System_String_System_Int32_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.Shorten(System.String,System.Int32,System.String)">Shorten(String, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Shorten string to given length if input is longer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Shorten(this string inString, int maxLength, string indicator = &quot;...&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>Input String</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxLength</span></td>
+        <td><p>Maximum length</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">indicator</span></td>
+        <td><p>Indicator which is added if input is shorten. Default: &quot;...&quot; </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_ToUpperOnlyFirst_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.ToUpperOnlyFirst(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L170">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_ToUpperOnlyFirst_" data-uid="SiCo.Utilities.Generics.StringExtensions.ToUpperOnlyFirst*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_ToUpperOnlyFirst_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.ToUpperOnlyFirst(System.String)">ToUpperOnlyFirst(String)</h4>
+  <div class="markdown level1 summary"><p>Uppercase for first char in a string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToUpperOnlyFirst(this string inString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_Trim_System_String_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.Trim(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L255">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_Trim_" data-uid="SiCo.Utilities.Generics.StringExtensions.Trim*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_Trim_System_String_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.Trim(System.String,System.String)">Trim(String, String)</h4>
+  <div class="markdown level1 summary"><p>Trim end of string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Trim(this string inString, string match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">match</span></td>
+        <td><p>trim string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_TrimEnd_System_String_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.TrimEnd(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L302">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_TrimEnd_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimEnd*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_TrimEnd_System_String_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimEnd(System.String,System.String)">TrimEnd(String, String)</h4>
+  <div class="markdown level1 summary"><p>Trim end of string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TrimEnd(this string inString, string match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">match</span></td>
+        <td><p>trim string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_TrimFirst_System_String_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.TrimFirst(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L281">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_TrimFirst_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimFirst*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_TrimFirst_System_String_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimFirst(System.String,System.String)">TrimFirst(String, String)</h4>
+  <div class="markdown level1 summary"><p>Trim start of string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TrimFirst(this string inString, string match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">match</span></td>
+        <td><p>trim string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_TrimModel__1___0_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.TrimModel%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L322">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_TrimModel_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimModel*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_TrimModel__1___0_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimModel``1(``0)">TrimModel&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Trim all string members in object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TrimModel&lt;T&gt;(T m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">m</span></td>
+        <td><p>Model</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Model type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions_TrimNotEmpty_System_String_.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions.TrimNotEmpty(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L361">View Source</a>
+  </span>
+  <a id="SiCo_Utilities_Generics_StringExtensions_TrimNotEmpty_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimNotEmpty*"></a>
+  <h4 id="SiCo_Utilities_Generics_StringExtensions_TrimNotEmpty_System_String_" data-uid="SiCo.Utilities.Generics.StringExtensions.TrimNotEmpty(System.String)">TrimNotEmpty(String)</h4>
+  <div class="markdown level1 summary"><p>Trim string if is not empty, else return empty string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TrimNotEmpty(this string inString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inString</span></td>
+        <td><p>this/input string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Result string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Silver-Connection/sico-net-utilities/new/master/apiSpec/new?filename=SiCo_Utilities_Generics_StringExtensions.md&amp;value=---%0Auid%3A%20SiCo.Utilities.Generics.StringExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Silver-Connection/sico-net-utilities/blob/master/src/SiCo.Utilities.Generics/StringExtensions.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 Silver Connection <small>Generated by <strong><a href='https://dotnet.github.io/'>DocFX</a></strong></small>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
