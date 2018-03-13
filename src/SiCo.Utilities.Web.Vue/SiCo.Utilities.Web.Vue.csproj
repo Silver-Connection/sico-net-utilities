@@ -11,7 +11,6 @@
     <Authors>Silver Connection</Authors>
     <Copyright>Copyright © 2018</Copyright>
     <TargetFrameworks>netstandard1.6;netstandard2.0</TargetFrameworks>
-    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.6' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' ">2.0.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyTitleAttribute>true</GenerateAssemblyTitleAttribute>
