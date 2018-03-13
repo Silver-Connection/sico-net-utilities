@@ -149,7 +149,8 @@ publish/*
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
-
+# Visual Studio Code
+.vscode/
 ###############
 #    DocFX   #
 ###############
