@@ -5,6 +5,7 @@ A collection of tools and helpers for C#/.NET
 <!-- TOC -->
 
 - [Installation](#installation)
+- [Documentation](#documentation)
 - [Overview](#overview)
     - [SiCo.Utilities.Compression](#sicoutilitiescompression)
     - [SiCo.Utilities.Crypto](#sicoutilitiescrypto)
@@ -17,10 +18,13 @@ A collection of tools and helpers for C#/.NET
 
 <!-- /TOC -->
 
-
 # Installation
 
 You can install this via [nuget](https://nuget.com)
+
+# Documentation
+
+You can find more help in our [github page](https://silver-connection.github.io/sico-net-utilities)
 
 # Overview
 
@@ -36,7 +40,7 @@ Wrapper and shortcuts for working with archives. The underlying working is done 
 
 > **Documentation**
 >
-> [Read](articles/compression.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/compression.html)
 
 ## SiCo.Utilities.Crypto
 
@@ -48,7 +52,7 @@ Some helpers for working with:
 
 > **Documentation**
 >
-> [Read](articles/crypto.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/crypto.html)
 
 ## SiCo.Utilities.CSV
 
@@ -56,7 +60,7 @@ Parse and generate CSV files
 
 > **Documentation**
 >
-> [Read](articles/csv.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/csv.html)
 
 ## SiCo.Utilities.Generics
 
@@ -64,7 +68,7 @@ Extension methods and common helpers
 
 > **Documentation**
 >
-> [Read](articles/generics.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/generics.html)
 
 ## SiCo.Utilities.Helper
 
@@ -72,7 +76,7 @@ Country and Timezone helpers
 
 > **Documentation**
 >
-> [Read](articles/helper.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/helper.html)
 
 ## SiCo.Utilities.Pgsql
 
@@ -80,7 +84,7 @@ For working with [PostgreSQL](https://www.postgresql.org/) and [npgsql](http://w
 
 > **Documentation**
 >
-> [Read](articles/pgsql.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/pgsql.html)
 
 ## SiCo.Utilities.Web.Charts
 
@@ -88,7 +92,7 @@ Model mapping for working with [Chart.js](https://chartjs.org) and [sico-web-hel
 
 > **Documentation**
 >
-> [Read](articles/web.charts.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/web.charts.html)
 
 ## SiCo.Utilities.Web.Vue
 
@@ -96,4 +100,4 @@ Helper and generic transaction model for wokring with [Vue.js](https://vuejs.org
 
 > **Documentation**
 >
-> [Read](articles/web.vue.md)
+> [Read](https://silver-connection.github.io/sico-net-utilities/articles/web.vue.html)
