@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Title>SiCo.Utilities.Generics</Title>
-    <Version>4.0.0</Version>
+    <Version>4.0.1</Version>
     <Description>Common Utilities. Generics for String, Enum and co.</Description>
     <PackageTags>Silver Connection;Utilities;Generics</PackageTags>
     <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>
@@ -22,8 +22,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <RepositoryUrl>https://github.com/Silver-Connection/sico-net-utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>4.0.0.0</AssemblyVersion>
-    <FileVersion>4.0.0.0</FileVersion>
+    <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <FileVersion>4.0.1.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -35,6 +35,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
     <PackageReference Include="System.Linq" Version="4.3.0" />
     <PackageReference Include="System.IO" Version="4.3.0" />
