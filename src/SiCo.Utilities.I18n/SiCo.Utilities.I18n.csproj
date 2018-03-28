@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <Title>SiCo.Utilities.I18n</Title>
-    <Version>4.0.1</Version>
     <Description>Common Utilities. Translations</Description>
     <PackageTags>Silver Connection;Utilities;I18n;Translations</PackageTags>
     <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>
@@ -20,8 +19,6 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyCopyrightAttribute>true</GenerateAssemblyCopyrightAttribute>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
-    <AssemblyVersion>4.0.1.0</AssemblyVersion>
-    <FileVersion>4.0.1.0</FileVersion>
     <RepositoryUrl>https://github.com/Silver-Connection/sico-net-utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
@@ -36,6 +33,21 @@
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Nouns.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Nouns.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Nouns.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nouns.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

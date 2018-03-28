@@ -11465,6 +11465,24 @@ namespace SiCo.Utilities.I18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Last Action.
+        /// </summary>
+        public static string last_action {
+            get {
+                return ResourceManager.GetString("last_action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last Sign-In.
+        /// </summary>
+        public static string last_signin {
+            get {
+                return ResourceManager.GetString("last_signin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Latency.
         /// </summary>
         public static string latency {
@@ -20447,6 +20465,24 @@ namespace SiCo.Utilities.I18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Supplier.
+        /// </summary>
+        public static string supplier {
+            get {
+                return ResourceManager.GetString("supplier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Suppliers.
+        /// </summary>
+        public static string suppliers {
+            get {
+                return ResourceManager.GetString("suppliers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Support.
         /// </summary>
         public static string support {
@@ -21424,6 +21460,15 @@ namespace SiCo.Utilities.I18n {
         public static string topic {
             get {
                 return ResourceManager.GetString("topic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Topics.
+        /// </summary>
+        public static string topics {
+            get {
+                return ResourceManager.GetString("topics", resourceCulture);
             }
         }
         

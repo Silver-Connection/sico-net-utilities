@@ -432,6 +432,9 @@
   <data name="approved" xml:space="preserve">
     <value>Approved</value>
   </data>
+  <data name="app_user" xml:space="preserve">
+    <value>Application User</value>
+  </data>
   <data name="arch" xml:space="preserve">
     <value>Arch</value>
   </data>
@@ -486,8 +489,17 @@
   <data name="assessment_date" xml:space="preserve">
     <value>Assessment date</value>
   </data>
+  <data name="asset" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="assets" xml:space="preserve">
+    <value>Assets</value>
+  </data>
   <data name="assignment" xml:space="preserve">
     <value>Assignment</value>
+  </data>
+  <data name="assignments" xml:space="preserve">
+    <value>Assignments</value>
   </data>
   <data name="assistance" xml:space="preserve">
     <value>Assistance</value>
@@ -906,6 +918,12 @@
   <data name="cable" xml:space="preserve">
     <value>Cable</value>
   </data>
+  <data name="cache" xml:space="preserve">
+    <value>Cache</value>
+  </data>
+  <data name="cache_status" xml:space="preserve">
+    <value>Cache Status</value>
+  </data>
   <data name="cafe" xml:space="preserve">
     <value>Cafe</value>
   </data>
@@ -945,6 +963,9 @@
   <data name="cancelled_reason" xml:space="preserve">
     <value>Cancellation Reason</value>
   </data>
+  <data name="cancel_reason" xml:space="preserve">
+    <value>Cancellation Reason</value>
+  </data>
   <data name="candidate" xml:space="preserve">
     <value>Candidate</value>
   </data>
@@ -959,6 +980,9 @@
   </data>
   <data name="can_edit" xml:space="preserve">
     <value>Can edit</value>
+  </data>
+  <data name="can_update" xml:space="preserve">
+    <value>Can update</value>
   </data>
   <data name="can_view" xml:space="preserve">
     <value>Can view</value>
@@ -2192,6 +2216,9 @@
   </data>
   <data name="email_new" xml:space="preserve">
     <value>New E-Mail</value>
+  </data>
+  <data name="email_settings" xml:space="preserve">
+    <value>Email Settings</value>
   </data>
   <data name="embossing" xml:space="preserve">
     <value>Embossing</value>
@@ -3837,6 +3864,9 @@
   <data name="lab" xml:space="preserve">
     <value>Lab</value>
   </data>
+  <data name="label" xml:space="preserve">
+    <value>Label</value>
+  </data>
   <data name="labels" xml:space="preserve">
     <value>Labels</value>
   </data>
@@ -3887,6 +3917,12 @@
   </data>
   <data name="last" xml:space="preserve">
     <value>Last</value>
+  </data>
+  <data name="last_action" xml:space="preserve">
+    <value>Last Action</value>
+  </data>
+  <data name="last_signin" xml:space="preserve">
+    <value>Last Sign-In</value>
   </data>
   <data name="latency" xml:space="preserve">
     <value>Latency</value>
@@ -3949,6 +3985,9 @@
     <value>Legal</value>
   </data>
   <data name="legal_term" xml:space="preserve">
+    <value>Legal Information</value>
+  </data>
+  <data name="legal_term_long" xml:space="preserve">
     <value>Legal Information</value>
   </data>
   <data name="legging" xml:space="preserve">
@@ -4208,6 +4247,9 @@
   </data>
   <data name="material" xml:space="preserve">
     <value>Material</value>
+  </data>
+  <data name="materials" xml:space="preserve">
+    <value>Materials</value>
   </data>
   <data name="math" xml:space="preserve">
     <value>Math</value>
@@ -5832,6 +5874,9 @@
   <data name="replies" xml:space="preserve">
     <value>Replies</value>
   </data>
+  <data name="report" xml:space="preserve">
+    <value>Report</value>
+  </data>
   <data name="reports" xml:space="preserve">
     <value>Reports</value>
   </data>
@@ -6873,6 +6918,12 @@
   <data name="supernet" xml:space="preserve">
     <value>Supernet</value>
   </data>
+  <data name="supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="suppliers" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
   <data name="support" xml:space="preserve">
     <value>Support</value>
   </data>
@@ -6936,11 +6987,17 @@
   <data name="system" xml:space="preserve">
     <value>System</value>
   </data>
+  <data name="tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
   <data name="table" xml:space="preserve">
     <value>Table</value>
   </data>
   <data name="tabletop" xml:space="preserve">
     <value>Tabletop</value>
+  </data>
+  <data name="tabs" xml:space="preserve">
+    <value>Tabs</value>
   </data>
   <data name="tachometer" xml:space="preserve">
     <value>Tachometer</value>
@@ -7190,6 +7247,9 @@
   </data>
   <data name="topic" xml:space="preserve">
     <value>Topic</value>
+  </data>
+  <data name="topics" xml:space="preserve">
+    <value>Topics</value>
   </data>
   <data name="total" xml:space="preserve">
     <value>Total</value>
@@ -7733,50 +7793,5 @@
   </data>
   <data name="zoo" xml:space="preserve">
     <value>Zoo</value>
-  </data>
-  <data name="asset" xml:space="preserve">
-    <value>Asset</value>
-  </data>
-  <data name="assets" xml:space="preserve">
-    <value>Assets</value>
-  </data>
-  <data name="label" xml:space="preserve">
-    <value>Label</value>
-  </data>
-  <data name="report" xml:space="preserve">
-    <value>Report</value>
-  </data>
-  <data name="tab" xml:space="preserve">
-    <value>Tab</value>
-  </data>
-  <data name="tabs" xml:space="preserve">
-    <value>Tabs</value>
-  </data>
-  <data name="app_user" xml:space="preserve">
-    <value>Application User</value>
-  </data>
-  <data name="assignments" xml:space="preserve">
-    <value>Assignments</value>
-  </data>
-  <data name="cache" xml:space="preserve">
-    <value>Cache</value>
-  </data>
-  <data name="cache_status" xml:space="preserve">
-    <value>Cache Status</value>
-  </data>
-  <data name="email_settings" xml:space="preserve">
-    <value>Email Settings</value>
-  </data>
-  <data name="cancel_reason" xml:space="preserve">
-    <value>Cancellation Reason</value>
-  </data>
-  <data name="legal_term_long" xml:space="preserve">
-    <value>Legal Information</value>
-  </data>
-  <data name="materials" xml:space="preserve">
-    <value>Materials</value>
-  </data>
-  <data name="can_update" xml:space="preserve">
-    <value>Can update</value>
   </data>
 </root>
