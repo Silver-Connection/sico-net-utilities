@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Title>SiCo.Utilities.Crypto</Title>
-    <Version>4.0.0</Version>
+    <Version>4.0.1</Version>
     <Description>Common Utilities. Crypto Helpers</Description>
     <PackageTags>Silver Connection;Utilities;Crypto</PackageTags>
     <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>
@@ -20,8 +20,8 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyCopyrightAttribute>true</GenerateAssemblyCopyrightAttribute>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyVersion>4.0.0.0</AssemblyVersion>
-    <FileVersion>4.0.0.0</FileVersion>
+    <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <FileVersion>4.0.1.0</FileVersion>
     <RepositoryUrl>https://github.com/Silver-Connection/sico-net-utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>

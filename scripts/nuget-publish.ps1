@@ -6,7 +6,7 @@
 $jobSingle = $TRUE;
 
 ## solution
-$project = "SiCo.Utilities.I18n"
+$project = "SiCo.Utilities.Crypto"
 $projects = @(
     "SiCo.Utilities.Compression",
     "SiCo.Utilities.Crypto",
@@ -32,7 +32,7 @@ function PublishNuget($path) {
     # Build project
     dotnet build --configuration Release --no-incremental
 
-    # Create nuuget package
+    # Create nuget package
     dotnet pack --configuration Release
 
     $subpath =  "$($path)\bin\Release"
