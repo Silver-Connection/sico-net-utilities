@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Title>SiCo.Utilities.Web.Charts</Title>
-    <Version>2.2.0</Version>
+    <Version>2.2.1</Version>
     <Description>Common Web. Generics for Web Charts</Description>
     <PackageTags>Silver Connection;Utilities;Web;Chart</PackageTags>
     <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>

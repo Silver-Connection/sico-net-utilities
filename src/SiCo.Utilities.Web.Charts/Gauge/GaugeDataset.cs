@@ -1,7 +1,7 @@
-﻿using Newtonsoft.Json;
-
-namespace SiCo.Utilities.Web.Charts.Gauge
+﻿namespace SiCo.Utilities.Web.Charts.Gauge
 {
+    using Newtonsoft.Json;
+
     public class GaugeDataset
     {
         public GaugeDataset()
@@ -29,6 +29,9 @@ namespace SiCo.Utilities.Web.Charts.Gauge
 
         [JsonProperty(PropertyName = "labelColor", NullValueHandling = NullValueHandling.Ignore)]
         public string LabelColor { get; set; }
+
+        [JsonProperty(PropertyName = "labelCss", NullValueHandling = NullValueHandling.Ignore)]
+        public string LabelCss { get; set; }
 
         [JsonProperty(PropertyName = "labelFont", NullValueHandling = NullValueHandling.Ignore)]
         public string LabelFont { get; set; }

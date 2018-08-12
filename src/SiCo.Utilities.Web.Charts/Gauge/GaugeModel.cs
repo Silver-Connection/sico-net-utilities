@@ -30,11 +30,23 @@
         [JsonProperty(PropertyName = "centerY", NullValueHandling = NullValueHandling.Ignore)]
         public Enums.CenterY CenterY { get; set; }
 
-        [JsonProperty(PropertyName = "offset", NullValueHandling = NullValueHandling.Ignore)]
+        [JsonProperty(PropertyName = "data", NullValueHandling = NullValueHandling.Ignore)]
         public List<GaugeDataset> Data { get; set; } = new List<GaugeDataset>();
 
         [JsonProperty(PropertyName = "deg", NullValueHandling = NullValueHandling.Ignore)]
         public decimal Deg { get; set; }
+
+        [JsonProperty(PropertyName = "labelCssBase", NullValueHandling = NullValueHandling.Ignore)]
+        public string LabelCssBase { get; set; }
+
+        [JsonProperty(PropertyName = "labelHtml", NullValueHandling = NullValueHandling.Ignore)]
+        public bool LabelHtml { get; set; }
+
+        [JsonProperty(PropertyName = "labelHtmlUseCanvasSize", NullValueHandling = NullValueHandling.Ignore)]
+        public bool LabelHtmlUseCanvasSize { get; set; }
+
+        [JsonProperty(PropertyName = "labelInverse", NullValueHandling = NullValueHandling.Ignore)]
+        public bool LabelInverse { get; set; }
 
         [JsonProperty(PropertyName = "lineCap", NullValueHandling = NullValueHandling.Ignore)]
         public Enums.LineCap LineCap { get; set; }

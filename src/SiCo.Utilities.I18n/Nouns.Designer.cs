@@ -18593,7 +18593,7 @@ namespace SiCo.Utilities.I18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Personal Information&apos;s.
+        ///   Looks up a localized string similar to Personal Information.
         /// </summary>
         public static string settings_personal {
             get {
@@ -18602,7 +18602,7 @@ namespace SiCo.Utilities.I18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Settings saved..
+        ///   Looks up a localized string similar to Settings saved.
         /// </summary>
         public static string settings_saved {
             get {
