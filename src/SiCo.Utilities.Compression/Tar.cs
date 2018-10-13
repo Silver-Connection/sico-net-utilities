@@ -3,6 +3,7 @@
     using System.IO;
     using SharpCompress.Archives;
     using SharpCompress.Archives.Tar;
+    using SharpCompress.Common;
     using SharpCompress.Readers;
 
     /// <summary>

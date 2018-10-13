@@ -69,6 +69,7 @@ namespace Xunit.NetCore.Extensions
                         new ExecutionErrorTestCase(
                             diagnosticMessageSink,
                             discoveryOptions.MethodDisplayOrDefault(),
+                            TestMethodDisplayOptions.ReplaceUnderscoreWithSpace,
                             testMethod,
                             GetFailedLookupString(conditionMemberName))
                     };

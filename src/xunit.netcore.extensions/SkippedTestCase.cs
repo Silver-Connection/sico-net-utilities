@@ -2,6 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,10 +12,14 @@ using Xunit.Sdk;
 namespace Xunit.NetCore.Extensions
 {
     /// <summary>Wraps another test case that should be skipped.</summary>
-    internal sealed class SkippedTestCase : IXunitTestCase
+    internal sealed class SkippedTestCase : LongLivedMarshalByRefObject, IXunitTestCase
     {
-        private readonly IXunitTestCase _testCase;
+        public SkippedTestCase()
+        {
+        }
+
         private readonly string _skippedReason;
+        private readonly IXunitTestCase _testCase;
 
         internal SkippedTestCase(IXunitTestCase testCase, string skippedReason)
         {
@@ -23,6 +28,8 @@ namespace Xunit.NetCore.Extensions
         }
 
         public string DisplayName { get { return _testCase.DisplayName; } }
+
+        public Exception InitializationException => throw new NotImplementedException();
 
         public IMethodInfo Method { get { return _testCase.Method; } }
 
@@ -33,6 +40,8 @@ namespace Xunit.NetCore.Extensions
         public ITestMethod TestMethod { get { return _testCase.TestMethod; } }
 
         public object[] TestMethodArguments { get { return _testCase.TestMethodArguments; } }
+
+        public int Timeout => throw new NotImplementedException();
 
         public Dictionary<string, List<string>> Traits { get { return _testCase.Traits; } }
 

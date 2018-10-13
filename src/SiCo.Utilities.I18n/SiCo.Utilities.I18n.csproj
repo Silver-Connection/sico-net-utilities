@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Title>SiCo.Utilities.I18n</Title>
-    <Version>4.0.4</Version>
+    <Version>4.1.0</Version>
     <Description>Common Utilities. Translations</Description>
     <PackageTags>Silver Connection;Utilities;I18n;Translations</PackageTags>
     <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>
@@ -10,6 +10,7 @@
     <PackageIconUrl>http://si-co.net/imgs/sico/sico-256px.png</PackageIconUrl>
     <Authors>Silver Connection</Authors>
     <Copyright>Copyright © 2018</Copyright>
+    <LangVersion>latest</LangVersion>
     <TargetFrameworks>netstandard1.6;netstandard2.0</TargetFrameworks>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' ">2.0.0</NetStandardImplicitPackageVersion>
@@ -35,7 +36,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>

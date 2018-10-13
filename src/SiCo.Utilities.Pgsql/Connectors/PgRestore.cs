@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using SharpCompress.Common;
 using SharpCompress.Readers;
 
 namespace SiCo.Utilities.Pgsql.Connectors
