@@ -6,7 +6,7 @@
 $jobSingle = $TRUE;
 
 ## solution
-$project = "SiCo.Utilities.Crypto"
+$project = "SiCo.Utilities.Generics"
 $projects = @(
     "SiCo.Utilities.Compression",
     "SiCo.Utilities.Crypto",

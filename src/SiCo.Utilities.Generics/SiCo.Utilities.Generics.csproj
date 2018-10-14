@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Title>SiCo.Utilities.Generics</Title>
-    <Version>4.1.0</Version>
+    <Version>4.2.0</Version>
     <Description>Common Utilities. Generics for String, Enum and co.</Description>
     <PackageTags>Silver Connection;Utilities;Generics</PackageTags>
     <PackageLicenseUrl>https://github.com/Silver-Connection/sico-net-utilities/blob/master/LICENSE</PackageLicenseUrl>
@@ -13,7 +13,6 @@
     <LangVersion>latest</LangVersion>
     <TargetFrameworks>netstandard1.6;netstandard2.0</TargetFrameworks>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
-    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' ">2.0.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyTitleAttribute>true</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>true</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -23,8 +22,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <RepositoryUrl>https://github.com/Silver-Connection/sico-net-utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>4.0.1.0</AssemblyVersion>
-    <FileVersion>4.0.1.0</FileVersion>
+    <AssemblyVersion>4.2.0.0</AssemblyVersion>
+    <FileVersion>4.2.0.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
